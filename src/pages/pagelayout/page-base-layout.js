@@ -13,10 +13,10 @@ import ModalComponent from '../../components/modal'
 import DashboardPage from '../../pages/pim-module-pages/skulist-page/skulist-page'
 import i18n from '../../translate/i18n'
 import AssetListPage from "../../pages/pim-module-pages/assetlist-page/assetlist-page";
-import DockImportData from '../../components/pim-module-component/dock-import-data/dock-import-data'
-import DockAssetImportData from '../../components/pim-module-component/dock-import-data/dock-asset-import-data'
+// import DockImportData from '../../components/pim-module-component/dock-import-data/dock-import-data'
+// import DockAssetImportData from '../../components/pim-module-component/dock-import-data/dock-asset-import-data'
 import "./style.scss"
-import { resetUppy } from '../../components/file-uploader/FileUploader'
+// import { resetUppy } from '../../components/file-uploader/FileUploader'
 import ScrollButton from "../../common/scroll-to-top"
 class PageBaseLayout extends Component {
 	constructor(props) {
@@ -237,7 +237,7 @@ class PageBaseLayout extends Component {
 					timeout={this.state.timeout}
 				/>
 
-<div className={`newdockDesign ${this.state.importdetailhide ?"maxdocisOpen":"mindocisOpen"}`}>
+{/* <div className={`newdockDesign ${this.state.importdetailhide ?"maxdocisOpen":"mindocisOpen"}`}>
 
 
 				<Dock
@@ -252,7 +252,7 @@ class PageBaseLayout extends Component {
 						<div className='import-cancel-container'
 							isVisible={this.state.isVisible}
 							onClick={() => {
-								resetUppy(true)
+								// resetUppy(true)
 								this.setState({ isVisible: false })}}>
 							<img className="import-cancel" src={ImportCancel}  />
 						</div>
@@ -267,7 +267,7 @@ class PageBaseLayout extends Component {
 						</div>
 					</div>
 					{/* {console.log(this.state.importDataProps,"...this.state.importDataProps")} */}
-					{
+					{/* {
 						this.state.importDataProps.pageName && this.state.importDataProps.pageName === 'asset'
 							? <DockAssetImportData 
 							  	{...this.state.importDataProps}
@@ -290,10 +290,10 @@ class PageBaseLayout extends Component {
 								hide={this.state.importdetailhide}
 								hideImportDetailsDock={this.hideImportDetailsDock}
 							  />
-					}
-				</Dock>
+					} */}
+				{/* </Dock> */}
 
-				</div>
+				{/* </div> */} 
 
 				<Modal
 					show={!this.state.online}

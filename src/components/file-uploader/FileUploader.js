@@ -1,5 +1,5 @@
 
-import { Dashboard } from '@uppy/react'
+// import { Dashboard } from '@uppy/react'
 import './DashBoardStyle.scss'
 import './UppyCoreStyle.scss'
 // import '@uppy/core/dist/style.css'
@@ -25,12 +25,12 @@ export function resetUppy(value) {
     uppy = undefined
     isUppyIntialized =  false
 }
-const Uppy = require('@uppy/core')
-const GoogleDrive = require('@uppy/google-drive')
-const Box = require('@uppy/box')
-const OneDrive = require('@uppy/onedrive')
-const XHRUpload = require('@uppy/xhr-upload')
-let uppy 
+// const Uppy = require('@uppy/core')
+// const GoogleDrive = require('@uppy/google-drive')
+// const Box = require('@uppy/box')
+// const OneDrive = require('@uppy/onedrive')
+// const XHRUpload = require('@uppy/xhr-upload')
+// let uppy 
 // =
 //     new Uppy({
 //         id: 'Uppy', restrictions: {
@@ -95,67 +95,67 @@ function FileUploader(props) {
     if(userDetails){
     orgId = userDetails.organizationid
     token = userDetails.token_value.Authorization}
-    if(!isUppyIntialized){
-        uppy = new Uppy({
-        id: 'Uppy', restrictions: {
-            maxNumberOfFiles: props.maxNumberOfFiles,
-            maxFileSize: props.maxFileSize,
-            allowedFileTypes: props.allowedFileTypes
-        },
-        // debug: true, autoProceed: false,
-        onBeforeFileAdded: (currentFile, files) => {
+    // if(!isUppyIntialized){
+    //     uppy = new Uppy({
+    //     id: 'Uppy', restrictions: {
+    //         maxNumberOfFiles: props.maxNumberOfFiles,
+    //         maxFileSize: props.maxFileSize,
+    //         allowedFileTypes: props.allowedFileTypes
+    //     },
+    //     // debug: true, autoProceed: false,
+    //     onBeforeFileAdded: (currentFile, files) => {
 
-            const modifiedFile = {
-                ...currentFile,
-                meta: {
-                    ...currentFile.meta,
-                },
-            }
-            return modifiedFile
-        },
-        onBeforeUpload: (files) => {
-            let finalMetaData = {}
-            Object.keys(files).map((key) => {
-                let fileMetaData = files[key]
-                const modifiedFile = {
-                    ...fileMetaData,
-                    meta: {
-                        ...fileMetaData.meta,
-                        size:files[key].size,
-                        ...props.fileUploadRequest
-                    },
-                    name: fileMetaData.meta.name
-                }
-                finalMetaData[key] = modifiedFile
-            })
-            return finalMetaData
-        }
-    })
-        .use(GoogleDrive, {
-            id: 'GoogleDrive',
-            companionUrl: COMPANION_URL,
-            target: Uppy.Dashboard
-        })
-        .use(OneDrive, {
-            id: 'OneDrive',
-            target: Uppy.Dashboard,
-            companionUrl: COMPANION_URL
-        })
+    //         const modifiedFile = {
+    //             ...currentFile,
+    //             meta: {
+    //                 ...currentFile.meta,
+    //             },
+    //         }
+    //         return modifiedFile
+    //     },
+    //     onBeforeUpload: (files) => {
+    //         let finalMetaData = {}
+    //         Object.keys(files).map((key) => {
+    //             let fileMetaData = files[key]
+    //             const modifiedFile = {
+    //                 ...fileMetaData,
+    //                 meta: {
+    //                     ...fileMetaData.meta,
+    //                     size:files[key].size,
+    //                     ...props.fileUploadRequest
+    //                 },
+    //                 name: fileMetaData.meta.name
+    //             }
+    //             finalMetaData[key] = modifiedFile
+    //         })
+    //         return finalMetaData
+    //     }
+    // })
+    //     .use(GoogleDrive, {
+    //         id: 'GoogleDrive',
+    //         companionUrl: COMPANION_URL,
+    //         target: Uppy.Dashboard
+    //     })
+    //     .use(OneDrive, {
+    //         id: 'OneDrive',
+    //         target: Uppy.Dashboard,
+    //         companionUrl: COMPANION_URL
+    //     })
 
-        .use(Box, {
-            id: 'Box',
-            target: Uppy.Dashboard,
-            companionUrl: COMPANION_URL
-        })
-        uppy.use(XHRUpload, {
-            endpoint:
-                props.fileUploadURL,
-            headers: {
-                Authorization: token,
-            }
-        })
-        isUppyIntialized = true
-    }
+    //     .use(Box, {
+    //         id: 'Box',
+    //         target: Uppy.Dashboard,
+    //         companionUrl: COMPANION_URL
+    //     })
+    //     uppy.use(XHRUpload, {
+    //         endpoint:
+    //             props.fileUploadURL,
+    //         headers: {
+    //             Authorization: token,
+    //         }
+    //     })
+    //     isUppyIntialized = true
+    // }
     
     const onSubmit = (value, FileExtension, id) => {
         if (value) {
@@ -250,7 +250,7 @@ function FileUploader(props) {
 
             {/* {isEditButtonVisible && <div className='uppy-dashboard-edit-name' style={{ marginBottom: "10px", margin: 'auto', height: '22px' }}>
                 <p className='uppy-DashboardContent-back' style={{width:'fit-content',height:'26px', padding:'3px 22px'}} onClick={() => { setIsEditFile(true) }}>{i18n.t('fileuploader.editFileName')}</p></div>} */}
-            <div style={{ textAlign: 'center' }}>
+            {/* <div style={{ textAlign: 'center' }}>
                 <Dashboard
                     proudlyDisplayPoweredByUppy={false}
                     locale={{
@@ -271,7 +271,7 @@ function FileUploader(props) {
                     uppy={uppy}
                     disableLocalFiles={props.disableLocalFiles}
                     plugins={props.plugins}
-                /></div>
+                /></div> */}
         </>
     )
 }

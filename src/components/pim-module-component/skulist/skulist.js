@@ -843,7 +843,7 @@ function Skulist(props) {
                 icon=""
                 style={{ width: "max-content" }}
                 className="p-button-icon asset-dataview btn-active-17 attr-pimbtn exportexcel"
-                onClick={() => { exportProductSku() }}
+                // onClick={() => { exportProductSku() }}
                 disabled={isExportProductSkuDisable}
               />
             </div>
@@ -976,7 +976,7 @@ function Skulist(props) {
         </Col>
         {/* 1 */}
         <Col xl={10} lg={10} md={10} sm={10} xs={10} className="skulist grid-padding-size">
-          <PimerceDataView
+          {/* <PimerceDataView
             data={gridData}
             columns={dataViewColumn}
             totalRecords={totalRecords}
@@ -1028,7 +1028,7 @@ function Skulist(props) {
             // props for dataview content 
             // contentName={PRODUCTNAME}
             contentDesc={GTIN}
-          />
+          /> */}
         </Col>
       </Row>
 
