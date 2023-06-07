@@ -1,0 +1,562 @@
+@import "../../styling/scss/variables";
+
+.mr-auto.navbar-nav {
+	width: -webkit-fill-available;
+	flex-direction: column;
+}
+
+@media (min-width: 320px) {
+	.sidenav {
+		width: 100%;
+	}
+}
+
+.profile {
+	position: absolute;
+	display: inline-flex;
+	top: 79px;
+	right: 0px;
+	cursor: default;
+}
+
+.welcomeFont {
+	font-weight: bold;
+	font-size: $font-md;
+	margin-right: 4px;
+	margin-top: 3px;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: normal;
+	letter-spacing: normal;
+	color: $pimerce_blue_marguerite_color;
+}
+
+.containerContent {
+	background-color: $pimerce_background_white_color;
+	border-bottom: 1px solid $pimerce_white_smoke_color;
+}
+
+.sidenav {
+	height: 673px;
+	width: 0;
+	top: 75px;
+	z-index: 4;
+	display: flex;
+	position: relative;
+	margin-left: 20px;
+	margin-top: -464px;
+	border-radius: 10px;
+	right: 0;
+	background-color: $pimerce_white_color;
+	overflow-x: hidden;
+	transition: 0.5s;
+	padding-top: 14px;
+	box-shadow: rgba(0, 0, 0, 0.4) -4px -3px 30px -2px;
+}
+
+.sidenav a {
+	// padding: 8px 8px 8px 32px;
+	text-decoration: none;
+	font-size: $font-md;
+	color: $pimerce_grey_color;
+	display: block;
+	transition: 0.3s;
+}
+
+.sidenav a:hover {
+	color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+	position: absolute;
+	top: 0;
+	color: $pimerce_blue_marguerite_color;
+	font-size: 36px;
+}
+
+.containerContent ul {
+	padding: 0;
+	list-style: none;
+	background: #f2f2f2;
+	border-left: 5px solid grey;
+}
+
+.containerContent ul li {
+	display: inline-block;
+	position: relative;
+	line-height: 21px;
+	text-align: left;
+}
+
+.containerContent ul li a {
+	display: block;
+	padding: 8px 25px;
+	color: #333;
+	text-decoration: none;
+}
+
+.containerContent ul li ul.dropdown-menu-container {
+	width: 165px;
+	border-radius: 4px;
+	font-size: $font-sm;
+	font-family: $barlow-regular;
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 2;
+	letter-spacing: normal;
+	color: $pimerce_nero_black_color;
+	background: $pimerce_white_color;
+	display: none;
+	border: none;
+	position: absolute;
+	border-left: 5px solid #00bde1;
+	z-index: 999;
+	left: -8px;
+	top: 110%;
+}
+
+.containerContent ul li ul.dropdown-menu-container li {
+	display: block;
+}
+
+.highlight:hover {
+	font-weight: 600;
+}
+
+.navbar-toggler.collapsed {
+	zoom: 0.6;
+}
+
+.blue {
+	color: blue;
+}
+
+.sideNavcontainer {
+	width: 617px;
+	height: 645px;
+}
+
+/* Menu-Navigation tab style code starts here */
+
+.menuTabLink {
+	width: 20%;
+	margin-left: 20px;
+	font-family: $barlow-regular;
+	font-size: $font-md;
+	font-weight: bold;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.43;
+	letter-spacing: -0.04px;
+	color: #7f7f7fbf;
+	margin-top: 15px;
+}
+
+.menuTabLink.active .menuTabSubContent {
+	padding: 0px 15px 20px 0px;
+	border-bottom: 3px solid #007bff;
+	box-shadow: 0px 15px 10px -15px rgba(1, 172, 253, 0.74), rgba(1, 172, 253, 0.74) 0px -8px 8px -10px inset;
+}
+
+.menuTabLink.active .menuTabContent {
+	color: $pimerce_black_color;
+}
+
+.menuTabLink.active .menuTabContent img.menuTabImg {
+	filter: drop-shadow(0 0 0 $pimerce_black_color);
+}
+
+.menuTabContent .expandIcon {
+	margin-right: 30px;
+	float: right;
+}
+
+.menuTabNav {
+	display: contents;
+	height: 60px;
+	background-color: $pimerce_background_white_color;
+}
+
+.subMenuList a.active.menuTabLink {
+	color: $pimerce_black_color;
+}
+
+.menuTabImg {
+	font-size: $font-md;
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.43;
+	letter-spacing: -0.04px;
+	color: $pimerce_vulcan_color;
+	padding-right: 9px;
+	font-family: $barlow-regular;
+}
+
+@media (max-width: 767px) {
+	.menuTabNav {
+		text-align-last: start;
+	}
+
+	.menuTabLink.active .menuTabSubContent {
+		border-bottom: none;
+		box-shadow: none;
+	}
+}
+
+@media (max-width: 875px) {
+	.menuTabLink {
+		font-size: 11px;
+	}
+}
+
+.collapse {
+	padding-bottom: 1px;
+}
+
+.collapse:not(.show) {
+	display: flex !important;
+}
+
+/* Menu-Navigation tab style code ends here */
+
+.menuBaseClass {
+	margin-bottom: 20px;
+}
+
+.menuBaseClass i {
+	float: right;
+	margin-right: 5px;
+	margin-top: 9px;
+	cursor: pointer;
+	font-size: 10px;
+}
+
+.parentContainer {
+	margin: -51px 0px 0px 0px;
+	width: auto;
+	height: auto;
+	overflow: auto;
+}
+
+.wrapper.collapse .sidebar .openSideMenu {
+	display: none;
+}
+
+.wrapper .sidebar .openSideMenu {
+	display: contents;
+}
+
+.wrapper .sidebar .sidemenuCollapsedIconContainer {
+	display: none;
+}
+
+.wrapper.collapse .sidebar .sidemenuCollapsedIconContainer {
+	display: contents;
+}
+
+.wrapper .sidebar .logoImage {
+	margin-left: 15px;
+}
+
+.wrapper.collapse .sidebar .logoImageCollapse {
+	margin-left: 0px;
+}
+
+.menuBaseClass a:hover {
+	font-weight: bolder;
+	color: $pimerce_sidemenu_hover_color;
+	opacity: 1;
+}
+
+.linkNavContent {
+	color: $pimerce_black_color;
+	opacity: 0.5;
+}
+
+.withIcon {
+	font-size: $font-lg;
+	margin-right: 10px;
+	margin-left: 15px;
+	font-family: $barlow-regular;
+	opacity: inherit;
+}
+
+.withoutIcon {
+	font-size: $font-md;
+	margin-right: 10px;
+	font-family: $barlow-regular;
+}
+
+
+.singleLevel {
+	margin: 1px -8px -16px 54px;
+}
+
+.singleLevel:hover img,
+.single:hover img,
+.multiLevel:hover img {
+	filter: opacity(1) drop-shadow(1px 0px 2px $pimerce_sidemenu_withicon_color);
+}
+
+
+.singleLevel:hover i,
+.single:hover i,
+.multiLevel:hover i {
+	filter: opacity(1) drop-shadow(1px 0px 2px $pimerce_sidemenu_hover_color);
+}
+
+img.sidemenuTabMenuIconActive {
+	filter: invert(43%) sepia(33%) saturate(2085%) hue-rotate(171deg) brightness(99%) contrast(96%);
+}
+
+.Active,
+.ActiveTab {
+	font-weight: bold;
+	color: $pimerce_sidemenu_activeTab_color;
+	opacity: 1 !important;
+}
+
+// .In-Active,
+// .InactiveTab {
+// 	opacity: 0.5;
+// }
+
+.wrapper.collapse .menuNavigationDropdown {
+	display: none;
+}
+
+.wrapper .menuNavigationDropdown {
+	margin-left: auto;
+	margin-right: auto;
+	width: 227px;
+	height: 45px;
+	margin-top: 50px;
+	border-radius: 40px;
+	background-color: #ff92215c;
+}
+
+.keyAccountsContent {
+	padding-top: 9px;
+	padding-left: 10px;
+	width: fit-content;
+	position: absolute;
+}
+
+.gridFilterMenuNavigation {
+	max-width: 180px;
+	min-width: 180px;
+	margin-left: 20px;
+	padding-top: 4px;
+}
+
+.sideMenuPimerceHome {
+	margin-bottom: 58px;
+	margin-top: 15px;
+	width: inherit;
+	overflow: hidden;
+}
+
+.toggleArrowIcon {
+	background-color: $pimerce_white_color;
+	display: flex;
+	border-radius: 15px;
+	width: 40px;
+	height: 50px;
+}
+
+.gridFilterMenuNavigation .css-10u4t4s-control {
+	height: 30px;
+	background-color: $pimerce_falu_red_color;
+	box-shadow: none;
+	border: none;
+}
+
+.gridFilterMenuNavigation .css-138e81f-singleValue {
+	width: 100px;
+	color: $pimerce_orange_color;
+	font-size: $font-lg;
+}
+
+.menuNavigationDropdown svg.svg-icon {
+	fill: $pimerce_orange_color;
+}
+
+.gridFilterMenuNavigation .css-51nctc-control {
+	height: 30px;
+	background-color: $pimerce_falu_red_color;
+	box-shadow: none;
+	border: none;
+}
+
+.In-Active:hover,
+.InactiveTab:hover {
+	opacity: 1;
+	cursor: pointer;
+	color: $pimerce_sidemenu_hover_color;
+}
+
+.menuBaseClass:focus {
+	cursor: pointer;
+	filter: opacity(1) drop-shadow(1px 0px 2px #000);
+}
+
+// Side Menu Styles Updated
+
+.menuTabNavbar {
+	display: contents;
+}
+
+.market-flag-container {
+	display: flex;
+	justify-content: start;
+	margin: 1rem 0rem 0rem 1rem;
+}
+
+.market-flag {
+	width: 2.5rem;
+	height: 2.5rem;
+	border: 2px solid $pimerce_orange_color;
+	object-fit: cover;
+	border-radius: 2em;
+}
+
+.menu-logo-block {
+	cursor: pointer;
+}
+
+// SIDE MENU PIMERCE + ORGANIZATION LOGO STYLES
+#app-logo-container {
+	float: left;
+	width: 53.33%;
+	padding: 5px;
+	margin: 0em 1em 0em 1em;
+}
+
+.app-logo-img {
+	width: 51%;
+	position: relative;
+	left: 21px;
+	bottom: 12px;
+	object-fit: contain;
+	mix-blend-mode: multiply;
+}
+
+#brand-logo-container {
+	float: left;
+	width: 30.33%;
+	padding: 5px;
+	position: relative;
+	top: 1em;
+}
+
+.brand-logo-img {
+	object-fit: contain;
+	mix-blend-mode: multiply;
+	width: 80%;
+}
+
+.column-style {
+	float: left;
+	width: 33.33%;
+	padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row-style::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+.horizontal-line {
+	width: 189px;
+	height: 1px;
+	margin: 5.9px 20px 32px 21px;
+	transform: rotate(-360deg);
+	opacity: 0.12;
+	background-color: $pimerce_horizontal_line_color;
+}
+
+.menu-navigation-fa-chevron-left {
+	color: #ff9321;
+	padding: 16px;
+}
+
+.menu-navigation-isKeyAccountPresent {
+	margin-top: -21px;
+	margin-left: 25px;
+	font-size: $font-md;
+	font-family: $barlow-medium;
+	color: #ed8f50;
+}
+
+.navigation-fa-minus {
+	font-size: 0.5rem
+}
+
+#navigation-fa-plus {
+	// opacity: 0.5;
+	font-weight: normal;
+	font-size: 10px;
+}
+
+.page-base-layout-inActiveMessage {
+	text-align: left;
+	margin: 5px 18px 13px;
+}
+
+.multiLevel_style {
+	height: 38px;
+	margin-right: 10px;
+	padding: 7px 2px 7px 20px;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+
+.multiLevel_style:hover {
+	@extend .multiLevel_style;
+	background-Color: $pimerce_alice_blue_color;
+}
+
+.multiLevel_style_active {
+	@extend .multiLevel_style;
+	background: $pimerce_alice_blue_color;
+}
+
+.single-active {
+	margin-right: 10px;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+	background: $pimerce_alice_blue_color;
+}
+
+.single-active {
+	.single {
+		height: 38px;
+		padding-top: 5px;
+		padding-left: 20px;
+	}
+}
+
+.single-inactive-style {
+	background: transparent;
+	margin-right: 10px;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+
+}
+
+.single {
+	padding-top: 5px;
+	padding-left: 20px;
+}
+
+.menu-navigation-placeholder-style {
+	width: 90px;
+	margin: -95px 0px -72px 20px;
+}
+img.sidemenuTabMenuIcon{
+	width: 18px;
+}

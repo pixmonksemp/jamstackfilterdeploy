@@ -1,0 +1,230 @@
+@import "../../../styling/scss/variables";
+
+
+.global-dashboard-container-style {
+	display: flex;
+	justify-content: space-between;
+	margin-left: -20px;
+	margin-right: -20px;
+}
+
+.conent-tile-container-style{
+	margin-top: 0px
+}
+
+.image-box-tile {
+    margin-top: 15px;
+    align-items: inherit;
+    justify-content: center;
+    background: $pim-whitecolor;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-bottom: 10px;
+	height: 170px;
+}
+
+.common-header-section {
+    display: flex;
+	justify-content: right;
+}
+
+.image-box {
+	align-items: inherit;
+	justify-content: center;
+	background: $pim-whitecolor;
+	border-radius: 16px;
+	box-sizing: border-box;
+	box-shadow: 0px 3.5px 5.5px rgba(0, 0, 0, 0.02);
+	// cursor: pointer;
+	margin-bottom: 10px;
+}
+
+.image-box.card {
+	border: 0.5px solid #E2E8F0;
+}
+
+.card-body{
+	padding: 0.75rem;
+}
+.tile-card-style{
+	padding: 0px 10px;
+	min-width: "10em"
+}
+
+.bar-graph-style{
+	padding: 5px;
+}
+
+.graphContainerStyle.card {
+	background: $pim-whitecolor;
+	border: 1px solid #E2E8F0;
+	box-sizing: border-box;
+	box-shadow: 0px 3.5px 5.5px rgba(0, 0, 0, 0.02);
+	border-radius: 15px;
+}
+
+.piechart-image-box.card {
+	margin-top: 15px;
+	background: $pim-whitecolor;
+	border: 1px solid #E2E8F0;
+	box-sizing: border-box;
+	box-shadow: 0px 3.5px 5.5px rgba(0, 0, 0, 0.02);
+	border-radius: 15px;
+}
+
+.apexcharts-xaxis-texts-g > text, .apexcharts-yaxis-texts-g > text {
+    fill: $pim-bargraph-font-color;
+	font-style: normal;
+	font-weight: bold;
+	font-size: $pim-font-vsm;
+}
+
+.piechart-image-box{
+	display: flex;
+	align-items: inherit;
+	justify-content: center;
+	background: $pim-whitecolor;
+	border: none;
+	border-radius: 15px;
+	border: none;
+	cursor: pointer;
+	margin-bottom: 10px;
+	height: 170px;
+}
+
+.tile-heading {
+	height: 16px;
+	font-family: $barlow-bold;
+	font-size: $pim-font-sm;
+	font-weight: bold;
+	font-style: normal;
+	line-height: normal;
+	letter-spacing: normal;
+	color: $pim-title-color;
+	margin-top: 0px;
+	margin-bottom: 10px;
+}
+
+.tile-piechart-heading{
+	height: 16px;
+	font-family: $barlow-bold;
+	font-size: $pim-font-md;
+	font-style: normal;
+	line-height: normal;
+	letter-spacing: normal;
+	color:$pim-header-color;
+	margin-top: 0px;
+	text-align: right;
+	margin-right: 45px;
+	margin-bottom: 7px;
+}
+
+.tile-percentage {
+	height: 30px;
+	font-family: $barlow-medium;
+	font-size: $pim-font-md;
+	font-style: normal;
+	font-weight: bold;
+	display: flex;
+	line-height: 1.14;
+	letter-spacing: normal;
+	color: $pim-header-color;
+	font-weight: 600;
+	justify-content: space-between;
+}
+
+.tile-pie-chart-percentage{
+	line-height: 2.14;
+	letter-spacing: normal;
+	color: $pim-title-color;
+    font-family: $barlow-bold;
+    font-size: $pim-font-ssm;
+    font-weight: normal;
+	font-style: normal;
+	text-align: right;
+	margin-right: 10px;
+}
+
+.tile-trend {
+	height: 30px;
+	font-family: $barlow-regular;
+	font-size: $pim-font-sm;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: normal;
+	letter-spacing: normal;
+	color: $pim-header-color;
+}
+
+.grade-style{
+	height: 16px;
+	font-family: $barlow-bold;
+	font-size: $pim-font-sm;
+	font-weight: bold;
+	font-style: normal;
+	line-height: normal;
+	letter-spacing: normal;
+	margin-top: 5px;
+	margin-right: 25px;
+}
+
+.dashboard-chartStyleClass {
+	margin-left: -22px;
+	margin-bottom: -25px;
+	position: relative;
+	margin-right: -25px;
+}
+
+.tile-content-heading{
+	height: 16px;
+	font-family: sans-serif;
+	font-size: $pim-font-xl;
+	font-style: normal;
+	letter-spacing: normal;
+	color: $pim-header-color;
+	text-align: right;
+	font-weight: bold;
+}
+
+.tile-content-percentage{
+	height: 35px;
+	font-family: $barlow-medium;
+	font-size: $pim-font-ssm;
+	font-stretch: normal;
+	font-style: normal;
+	display: flex;
+	line-height: 1.14;
+	letter-spacing: normal;
+	color: $pim-header-color;
+	margin-top: 80px;
+	margin-left: 3px;
+	font-weight: bold;
+}
+
+.subtitle-style{
+	height: 18px;
+	font-family: $barlow-medium;
+	font-size: $pim-font-sm;
+	line-height: 0.14;
+	letter-spacing: normal;
+	color: $pim-header-color;
+	margin-left: 3px;
+	font-weight: normal;
+}
+
+.card-img-icon{
+	float: left;
+	margin: 5px;
+}
+
+.image-box-tile.card{
+	background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.apexcharts-xaxis-texts-g > text, .apexcharts-yaxis-texts-g > text {
+    fill: #888889;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10px;
+}

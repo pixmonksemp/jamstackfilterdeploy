@@ -1,0 +1,545 @@
+@import '../../styling/scss/variables';
+
+// Common Style for Modal
+.modal-header {
+	border-bottom: none;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+}
+
+.model-close{
+	background-image: url("../../../src/assets/modal-close.svg");
+    background-repeat: no-repeat;
+	height: 25px;
+	width: 25px;
+	cursor: pointer;
+	background-position: center;
+}
+
+.modal-open {
+	margin-right: -11.5px !important;
+	padding-right: 16px !important;
+}
+.modal-header .close {
+	font-size: 28px;
+	font-weight: bold;
+	line-height: 2;
+	color: #000;
+	display: contents;
+}
+
+.modal-title {
+	// font-family: $chivo-medium;
+	font-size: $font-smd;
+	font-weight: 600;
+	color: #050505;
+	width: -webkit-fill-available;
+	// padding-top: 18px;
+}
+
+.modal-body {
+	padding: 0px;
+}
+
+.modal-content {
+	border-radius: 0px;
+	border: 0px;
+	height: -webkit-fill-available;
+}
+
+.modal-footer {
+	border: none;
+	padding: 20px !important;
+	display: flex;
+	justify-content: flex-start;
+}
+
+// Common Style for Button
+.modalButton {
+	width: 105px;
+	height: 32px;
+	color: #e5712a;
+	font-family: $barlow-medium;
+	font-size: 12px;
+	box-shadow: 0 11px 11px 0 rgba(0, 0, 0, 0.11);
+	padding: 1px 11px 1px 11px;
+	border-radius: 19.5px;
+	line-height: 2.14;
+}
+
+// Submit Button styles
+.submitBtn {
+	@extend .modalButton;
+	background-color: #fff2e8;
+	border: none;
+}
+.submitBtnDisbled{
+	@extend .submitBtn ;
+	cursor:no-drop;
+}
+
+button.submitBtnDisbled.btn.btn-primary{
+	background-color: #fff2e8;
+	border: none;
+	color: #e5712a;
+	pointer-events: none;	
+}
+button.submitBtnDisbled.btn.btn-primary:hover {
+	background-color: #fff2e8;
+	border: none;
+	color: #e5712a;
+	pointer-events: none;
+}
+button.btn.submitBtn {
+	border-radius: 19.5px !important;
+}
+
+button.submitBtn.btn.btn-primary:hover {
+	background-color: #fff2e8;
+	border: none;
+	color: #e5712a;
+}
+
+// Cancel Button styles
+.cancelBtn {
+	@extend .modalButton;
+	border: solid 1px #ffebdf;
+	background-color: #ffffff;
+}
+
+button.btn.cancelBtn {
+	border-radius: 19.5px !important;
+}
+
+button.cancelBtn.btn.btn-primary:hover {
+	background-color: #ffffff;
+	border: 1px solid #fff2e8;
+	color: #e5712a;
+}
+
+// ************** Export Modal Styles **************** //
+.modalDropdown {
+	width: 259px;
+	height: 40px;
+	border-radius: 6px;
+	border: solid 1px #bbbbbb;
+	font-size: 14px;
+	font-family: $barlow-regular;
+	line-height: 1.43;
+	color: #3a3b3f;
+	margin: 6px 90px 25px 1px;
+	box-shadow: none;
+}
+
+.exportText {
+	// @extend .modal-title;
+	font-family: $barlow-semibold;
+	font-size: 18px;
+	font-weight: 600;
+	color: #050505;
+	padding: 8px 0px 9px 63px;
+	margin-bottom: 34px;
+	margin-left: -8px;
+}
+
+input.modalInputBox {
+	@extend .modalDropdown;
+	padding: 12px;
+	color: black;
+	background-color: white;
+	width: 89% !important;
+}
+
+input.modalInputBox:focus {
+	border: solid 1px #bbbbbb;
+}
+
+input.preferredEmailInputBox {
+	@extend .modalDropdown;
+	padding: 12px;
+	color: black;
+	background-color: white;
+	width: 71% !important;
+}
+
+.errorBox {
+	@extend input.preferredEmailInputBox;
+	margin-bottom: 0px;
+	border: 1px solid #ff000c;
+	width: 89% !important;
+}
+
+.errorBoxDatePicker .dateRangePickerContainer {
+	justify-content: center;
+	background: white;
+	margin-top: 10px !important;
+	width: 280px;
+	height: 40px;
+	border: solid 1px #e9eff4;
+	background-color: #ffffff;
+}
+
+.errorBoxDatePicker .dateRangePickerContainerClose {
+	justify-content: center;
+	background: white;
+	margin-top: 10px !important;
+	width: 280px;
+	height: 40px;
+	border: solid 1px #e9eff4;
+	background-color: #ffffff;
+}
+
+.errorMessage {
+	height: 11px;
+	width: 320px;
+	font-size: 10px;
+	color: #ff000c;
+	padding-top: 5px;
+}
+
+.notifytext {
+	opacity: 0.5;
+	font-family: $barlow-medium;
+	font-size: 12px;
+	font-weight: bold;
+	color: #000000;
+	padding: 0px 0px 25px 67px;
+}
+
+.noteIcon {
+	padding: 0px 7px 0px 7px;
+}
+
+.footerButton {
+	padding-bottom: 25px;
+}
+.footerButtonDisbled{
+	padding-bottom: 25px;
+	cursor: no-drop;
+	
+}
+
+.modalLine {
+	margin: 42px 60px 11px 60px;
+}
+
+.modalTitleStyles {
+	// @extend .modal-title;
+	font-family: $barlow-semibold;
+	font-size: 18px;
+	font-weight: 600;
+	color: #050505;
+	padding: 0px 0px 9px 77px;
+	margin-top: -49px;
+	margin-bottom: 11px;
+	margin-left: -21px;
+	position: absolute;
+}
+
+.export-selected-supercategory{
+    margin-bottom: 19px;
+    padding: 0px 0px 9px 53px;
+}
+
+.modalText {
+	// font-family: $barlow-medium;
+	// font-size: 16px;
+	// font-weight: 500;
+	// line-height: 1.5;
+	// color: #000000;
+	// padding-left: 78px;
+	// z-index: 0;
+
+	text-transform: capitalize;
+    font-family: Barlow-Medium;
+    font-size: 12px;
+    color: #212529;
+    margin-top: -19px;
+	line-height: 1.5;
+	padding-left: 71px;
+}
+
+@media (min-width: 300px) and (max-width: 1200px) {
+	.modalText {
+		font-family: $barlow-medium;
+		font-size: 16px;
+		font-weight: 500;
+		line-height: 1.5;
+		color: #000000;
+		padding-left: 78px;
+		margin-left: -12px;
+		// z-index: 0;
+	}
+}
+@media (min-width: 300px) and (max-width: 991px) {
+	.modalText {
+		font-family: $barlow-medium;
+		font-size: 16px;
+		font-weight: 500;
+		line-height: 1.5;
+		color: #000000;
+		padding-left: 78px;
+		margin-left: -23px;
+		// z-index: 0;
+	}
+}
+
+.preferredEmail {
+	font-family: $barlow-medium;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 1.5;
+	color: #000000;
+}
+
+.mandatorySymbol {
+	color: #fa042d;
+}
+
+@media (min-width: 300px) and (max-width: 350px) {
+	.modalDropdown {
+		width: 200px;
+	}
+}
+
+// Toast Modal Styles Block
+
+.body-title {
+	padding: 11px;
+}
+
+.body-sku {
+	padding: 11px;
+	pointer-events: none;
+	word-break: break-word;
+}
+
+.modal-promotionHeading {
+	padding-left: 21em;
+}
+
+@media only screen and (max-width: 1199px) {
+	.modal-promotionHeading {
+		padding-left: 14em;
+	}
+}
+
+@media only screen and (max-width: 991px) {
+	.modal-promotionHeading {
+		padding-left: 7em;
+	}
+}
+
+.dropDiv1 .dropdown-toggle::after {
+	content: '';
+	width: 0;
+	height: 0;
+	position: absolute;
+	right: 8%;
+	top: 52%;
+	margin-top: -3px;
+	border: solid black;
+	border-width: 0 2px 2px 0;
+	transform: rotate(45deg);
+	-webkit-transform: rotate(45deg);
+	display: inline-block;
+	padding: 2px;
+}
+
+.dropDiv2 .dropdown-toggle::after {
+	content: '';
+	width: 0;
+	height: 0;
+	position: absolute;
+	right: 8%;
+	top: 52%;
+	margin-top: -3px;
+	border: solid black;
+	border-width: 0 2px 2px 0;
+	transform: rotate(45deg);
+	-webkit-transform: rotate(45deg);
+	display: inline-block;
+	padding: 2px;
+}
+
+.dateRangePickerContainer .dropdown-toggle::after {
+	content: '';
+	width: 7px !important;
+	height: 7px !important;
+	position: absolute;
+	top: 60% !important;
+	margin-top: -3px;
+	border: solid black;
+	border-width: 0 2px 2px 0;
+	transform: rotate(45deg);
+	-webkit-transform: rotate(135deg) !important;
+	display: inline-block;
+	padding: 2px;
+}
+
+.dateRangePickerContainerClose .dropdown-toggle::after {
+	content: '';
+	width: 7px !important;
+	height: 7px !important;
+	position: absolute;
+	top: 70% !important;
+	right:-14% !important;
+	margin-top: -3px;
+	border: solid black;
+	border-width: 0 2px 2px 0;
+	transform: rotate(45deg);
+	-webkit-transform: rotate(-44deg) !important;
+	display: inline-block;
+	padding: 2px;
+}
+
+.picky__input::after {
+	content: '' !important;
+	width: 0 !important;
+	height: 0 !important;
+	position: absolute !important;
+	right: 8% !important;
+	top: 52% !important;
+	margin-top: -3px !important;
+	border: solid black !important;
+	border-width: 0 2px 2px 0 !important;
+	transform: rotate(45deg) !important;
+	-webkit-transform: rotate(45deg) !important;
+	display: inline-block !important;
+	padding: 2px !important;
+}
+
+button:focus {
+	outline: none !important;
+}
+
+.exportLabels {
+	height: 16px;
+	font-family: $barlow-regular;
+	font-size: 14px;
+	letter-spacing: -0.04px;
+	color: #3a3b3f;
+	padding-top: 14px;
+	padding-bottom: 75px;
+}
+
+button.exportSubmitBtn.btn.btn-primary {
+	border-radius: 2px !important;
+}
+
+.exportInput[type='button'] {
+	height: 45px !important;
+	border-radius: 4px 0px 0px 4px !important;
+	border: solid 1px #e9eff4;
+	border-right-width: 0px !important;
+	background-color: #ffffff;
+	width: 280px;
+}
+
+#otherInputs {
+	width: 235px !important;
+}
+
+#dateInputs {
+	width: 89px !important;
+}
+
+.exportdropdown {
+	width: 45px;
+	height: 45px;
+	border-radius: 0px 4px 4px 0px;
+	border: solid 1px #e9eff4;
+	background-color: rgba(244, 247, 249, 0.4);
+}
+
+.modalDateError .dateRangePickerContainer {
+	max-width: 280px;
+	min-width: 280px;
+	border-radius: 4px;
+	border: solid 1px #ff000c;
+	background-color: #ffffff;
+}
+
+.modalDateError .dateRangePickerContainerClose {
+	max-width: 280px;
+	min-width: 280px;
+	border-radius: 4px;
+	border: solid 1px #ff000c;
+	background-color: #ffffff;
+}
+
+.modalDateError .dateRangePickerContainer input.inputfontstyle.form-control {
+	border-right: 1px solid #ff000c !important;
+}
+.modalDateError
+	.dateRangePickerContainerClose
+	input.inputfontstyle.form-control {
+	border-right: 1px solid #ff000c !important;
+}
+
+.exportModalBtnContainer .btn.btn-primary {
+	border-color: transparent;
+}
+
+.modalMandatoryField {
+	font-family: $barlow-regular;
+	font-size: 10px;
+	font-weight: normal;
+	font-style: normal;
+	color: var(--black);
+	display: flex;
+	justify-content: center;
+	padding-top: 6px;
+}
+
+.mandatoryFieldBackground {
+	height: 30px;
+	background-color: #ffbfc2;
+}
+
+.exportModalBody {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.dateRangePickerContainer input.inputfontstyle.form-control,
+.dateRangePickerContainerClose input.inputfontstyle.form-control {
+	text-align: left;
+	width: 208px;
+}
+
+.dateRangePickerContainer input.inputfontstyle.form-control:focus,
+.dateRangePickerContainerClose input.inputfontstyle.form-control:focus {
+	box-shadow: none;
+}
+.selectedDate.input-group.input-group-md {
+	width: 109px;
+}
+
+input.inputfontstyle.form-control {
+	margin: -3px;
+	margin-top: 14px;
+}
+
+.toastModalTitleClass {
+	padding-top: 14px;
+}
+
+.toastModalHeaderClass {
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+.toastModalBodyClass {
+	overflow-wrap: anywhere;
+	padding-left: 16px;
+	padding-top: 16px;
+	padding-bottom: 16px;
+}
+
+.exportDateRange {
+	font-size: 10px;
+	margin-top: 53px;
+	cursor: default;
+	color: #e5712a;
+}

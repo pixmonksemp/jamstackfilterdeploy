@@ -1,0 +1,17 @@
+{
+	"faqtitle": {
+		"title": "Pimerce FAQ (Paano ito gumagana)"
+	},
+	"pimercefaq": [
+		{
+			"id": "FAQ-ONE",
+			"faq": "Ilan ang mga retailer na maaari mong subaybayan?",
+			"answer": "Maaaring subaybayan ang maximum na 50 Retailers batay sa pagiging kasapi ng samahan"
+		},
+		{
+			"id": "FAQ-TWO",
+			"faq": "Ilan ang SKU na maaari mong subaybayan?",
+			"answer": "Ang isang maximum na 500 SKUs ay maaaring subaybayan"
+		}
+	]
+}

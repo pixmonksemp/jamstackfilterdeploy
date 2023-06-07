@@ -1,0 +1,20 @@
+<svg width="17" height="18" viewBox="0 0 17 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <g opacity=".7">
+        <mask id="jqhki0kfia" fill="#fff">
+            <rect y=".055" width="9.999" height="7.953" rx="1.111"/>
+        </mask>
+        <rect y=".055" width="9.999" height="7.953" rx="1.111" fill="#D8D8D8" fill-opacity=".01" stroke="#637280" stroke-width="4" mask="url(#jqhki0kfia)"/>
+        <mask id="49o8cnffpb" fill="#fff">
+            <rect y="10" width="6" height="8" rx="1.111"/>
+        </mask>
+        <rect y="10" width="6" height="8" rx="1.111" stroke="#637280" stroke-width="4" mask="url(#49o8cnffpb)"/>
+        <mask id="1a09dd55vc" fill="#fff">
+            <rect x="7" y="9.992" width="9.999" height="7.953" rx="1.111"/>
+        </mask>
+        <rect x="7" y="9.992" width="9.999" height="7.953" rx="1.111" fill="#D8D8D8" fill-opacity=".01" stroke="#637280" stroke-width="4" mask="url(#1a09dd55vc)"/>
+        <mask id="vpziv844rd" fill="#fff">
+            <rect x="11" width="6" height="8" rx="1.111"/>
+        </mask>
+        <rect x="11" width="6" height="8" rx="1.111" stroke="#637280" stroke-width="4" mask="url(#vpziv844rd)"/>
+    </g>
+</svg>

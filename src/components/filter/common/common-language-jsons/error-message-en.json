@@ -1,0 +1,18 @@
+{
+	"status": {
+		"success": 200,
+		"badRequest": 400,
+		"invalidRequest": 401,
+		"pageNotFound": 404,
+		"serverError": 500,
+		"badGateway": 502
+	},
+	"statusMessage": {
+		"success": "Successfull",
+		"badRequest": "Bad Request",
+		"invalidRequest": "Your session has expired, you will be taken to login page for verification again",
+		"pageNotFound": "Page Not Found",
+		"serverError": "Something went wrong, Please contact support",
+		"badGateway": "Unable reach servers,Please contact support"
+	}
+}

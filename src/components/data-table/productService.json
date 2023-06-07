@@ -1,0 +1,1010 @@
+{
+"mock_data_for_dynamic_table_one" : {
+    "typeArgumentClass": null,
+
+    "gridList": [
+      {
+        "id": 1,
+        "skuId": "UNL-SKU-1",
+        "skuName": "BLOCK&WHITE HBL INTWHT SPF24 PH 200ML",
+        "sapCode": "20270172",
+        "retailerList": [
+          {
+            "retailer": "Watsons",
+            "ratingAverage": "4.900000095367432",
+            "oneStar": null,
+            "twoStar": null,
+            "threeStar": null,
+            "fourStar": null,
+            "fiveStar": null,
+            "reviewsCount": "9.0"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "skuId": "UNL-SKU-11",
+        "skuName": "AXE DEO BODYSPRAY DARK TMPTTN 150ML",
+        "sapCode": "62072034",
+        "retailerList": [
+          {
+            "retailer": "Watsons",
+            "ratingAverage": "4.599999904632568",
+            "oneStar": null,
+            "twoStar": null,
+            "threeStar": null,
+            "fourStar": null,
+            "fiveStar": null,
+            "reviewsCount": "38.0"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "skuId": "UNL-SKU-12",
+        "skuName": "AXE DEO AP RLN DARKTEMP 40ML",
+        "sapCode": "65002405",
+        "retailerList": [
+          {
+            "retailer": "Watsons",
+            "ratingAverage": "4.599999904632568",
+            "oneStar": null,
+            "twoStar": null,
+            "threeStar": null,
+            "fourStar": null,
+            "fiveStar": null,
+            "reviewsCount": "10.0"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "skuId": "UNL-SKU-2",
+        "skuName": "BLOCK&WHITE HBL INTWHT SPF24 PH 350ML",
+        "sapCode": "20270174",
+        "retailerList": [
+          {
+            "retailer": "Watsons",
+            "ratingAverage": "5.0",
+            "oneStar": null,
+            "twoStar": null,
+            "threeStar": null,
+            "fourStar": null,
+            "fiveStar": null,
+            "reviewsCount": "7.0"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "skuId": "UNL-SKU-36",
+        "skuName": "AXE DEO STICK DARKTEMP 40G",
+        "sapCode": "67136168",
+        "retailerList": [
+          {
+            "retailer": "Watsons",
+            "ratingAverage": "5.0",
+            "oneStar": null,
+            "twoStar": null,
+            "threeStar": null,
+            "fourStar": null,
+            "fiveStar": null,
+            "reviewsCount": "4.0"
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "skuId": "UNL-SKU-6",
+        "skuName": "AXE DEO GOLD TEMP 150ML",
+        "sapCode": "21058471",
+        "retailerList": [
+          {
+            "retailer": "Watsons",
+            "ratingAverage": "3.700000047683716",
+            "oneStar": null,
+            "twoStar": null,
+            "threeStar": null,
+            "fourStar": null,
+            "fiveStar": null,
+            "reviewsCount": "3.0"
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "skuId": "UNL-SKU-70",
+        "skuName": "AXE DEO BODYSPRAY ICE CHILL 150ML",
+        "sapCode": "67604474",
+        "retailerList": [
+          {
+            "retailer": "Watsons",
+            "ratingAverage": "4.300000190734863",
+            "oneStar": null,
+            "twoStar": null,
+            "threeStar": null,
+            "fourStar": null,
+            "fiveStar": null,
+            "reviewsCount": "11.0"
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "skuId": "UNL-SKU-74",
+        "skuName": "BABY DOVE HAIR-TOE RICH MST STR 591ML",
+        "sapCode": "67671811",
+        "retailerList": [
+          {
+            "retailer": "Watsons",
+            "ratingAverage": "4.699999809265137",
+            "oneStar": null,
+            "twoStar": null,
+            "threeStar": null,
+            "fourStar": null,
+            "fiveStar": null,
+            "reviewsCount": "123.0"
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "skuId": "UNL-SKU-84",
+        "skuName": "CLEAR SH COOL SPORT MENTHOL MEN 320ML",
+        "sapCode": "67834799",
+        "retailerList": [
+          {
+            "retailer": "Watsons",
+            "ratingAverage": "4.199999809265137",
+            "oneStar": null,
+            "twoStar": null,
+            "threeStar": null,
+            "fourStar": null,
+            "fiveStar": null,
+            "reviewsCount": "5.0"
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "skuId": "UNL-SKU-9",
+        "skuName": "AXE DEO BLACK 150ML",
+        "sapCode": "21116143",
+        "retailerList": [
+          {
+            "retailer": "Watsons",
+            "ratingAverage": "5.0",
+            "oneStar": null,
+            "twoStar": null,
+            "threeStar": null,
+            "fourStar": null,
+            "fiveStar": null,
+            "reviewsCount": "15.0"
+          }
+        ]
+      }
+    ],
+
+    "template": null,
+    "totalSearchResults": 20,
+    "value": null,
+    "url": null,
+    "skuname": null,
+    "baseFilterList": null
+  },
+  "mock_data_for_dynamic_table_two" :{
+    "typeArgumentClass": null,
+    "GridData" : [
+      {
+        "attrName": "Dove11",
+        "attrType": "IMAGE",
+        "attrDescription": "Persistent",
+        "isdelete": false,
+        "locale": "en",
+        "attrGrpName":"Soap"
+    },{
+        "attrName": "Dove12",
+        "attrType": "IMAGE",
+        "attrDescription": "Persistent",
+        "isdelete": false,
+        "locale": "en",
+        "attrGrpName":"Soap"
+    },{
+        "attrName": "Dove13",
+        "attrType": "IMAGE",
+        "attrDescription": "Persistent",
+        "isdelete": false,
+        "locale": "en",
+        "attrGrpName":"Soap"
+    },{
+        "attrName": "Dove14",
+        "attrType": "IMAGE",
+        "attrDescription": "Persistent",
+        "isdelete": false,
+        "locale": "en",
+        "attrGrpName":"Soap"
+    },{
+        "attrName": "Dove15",
+        "attrType": "IMAGE",
+        "attrDescription": "Persistent",
+        "isdelete": false,
+        "locale": "en",
+        "attrGrpName":"Soap"
+    },{
+        "attrName": "Dove16",
+        "attrType": "IMAGE",
+        "attrDescription": "Persistent",
+        "isdelete": false,
+        "locale": "en",
+        "attrGrpName":"Soap"
+    },{
+        "attrName": "Dove17",
+        "attrType": "IMAGE",
+        "attrDescription": "Persistent",
+        "isdelete": false,
+        "locale": "en",
+        "attrGrpName":"Soap"
+    },{
+        "attrName": "Dove18",
+        "attrType": "IMAGE",
+        "attrDescription": "Persistent",
+        "isdelete": false,
+        "locale": "en",
+        "attrGrpName":"Soap"
+    },{
+        "attrName": "Dove19",
+        "attrType": "IMAGE",
+        "attrDescription": "Persistent",
+        "isdelete": false,
+        "locale": "en",
+        "attrGrpName":"Soap"
+    },{
+        "attrName": "Dove20",
+        "attrType": "IMAGE",
+        "attrDescription": "Persistent",
+        "isdelete": false,
+        "locale": "en",
+        "attrGrpName":"Soap"
+    }
+    ],
+    
+    "gridList": [
+      {
+        "id": 11,
+        "skuId": "UNL-SKU-104",
+        "skuName": "CREAM SILK HC MOISTURE RICH ORG 300ML",
+        "sapCode": "68191055",
+        "retailerList": [
+          {
+            "retailer": "Watsons",
+            "ratingAverage": "4.800000190734863",
+            "oneStar": null,
+            "twoStar": null,
+            "threeStar": null,
+            "fourStar": null,
+            "fiveStar": null,
+            "reviewsCount": "115.0"
+          }
+        ]
+      },
+      {
+        "id": 12,
+        "skuId": "UNL-SKU-105",
+        "skuName": "CREAM SILK HC LUSTRE RICH ORG 300ML",
+        "sapCode": "68191059",
+        "retailerList": [
+          {
+            "retailer": "Watsons",
+            "ratingAverage": "4.800000190734863",
+            "oneStar": null,
+            "twoStar": null,
+            "threeStar": null,
+            "fourStar": null,
+            "fiveStar": null,
+            "reviewsCount": "112.0"
+          }
+        ]
+      },
+      {
+        "id": 13,
+        "skuId": "UNL-SKU-30",
+        "skuName": "CREAM SILK RO HAIRFALLDEFENSE 180ML",
+        "sapCode": "67128819",
+        "retailerList": [
+          {
+            "retailer": "Watsons",
+            "ratingAverage": "4.599999904632568",
+            "oneStar": null,
+            "twoStar": null,
+            "threeStar": null,
+            "fourStar": null,
+            "fiveStar": null,
+            "reviewsCount": "195.0"
+          }
+        ]
+      },
+      {
+        "id": 14,
+        "skuId": "UNL-SKU-32",
+        "skuName": "CREAM SILK RO STANDOUTSTRAIGHT 180ML",
+        "sapCode": "67128824",
+        "retailerList": [
+          {
+            "retailer": "Watsons",
+            "ratingAverage": "4.699999809265137",
+            "oneStar": null,
+            "twoStar": null,
+            "threeStar": null,
+            "fourStar": null,
+            "fiveStar": null,
+            "reviewsCount": "215.0"
+          }
+        ]
+      },
+      {
+        "id": 15,
+        "skuId": "UNL-SKU-49",
+        "skuName": "CREAM SILK TRI-KERATIN STRAIGHT 170ML",
+        "sapCode": "67462906",
+        "retailerList": [
+          {
+            "retailer": "Watsons",
+            "ratingAverage": "5.0",
+            "oneStar": null,
+            "twoStar": null,
+            "threeStar": null,
+            "fourStar": null,
+            "fiveStar": null,
+            "reviewsCount": "20.0"
+          }
+        ]
+      },
+      {
+        "id": 16,
+        "skuId": "UNL-SKU-50",
+        "skuName": "CREAM SILK TRI-KERATIN STRAIGHT 340ML",
+        "sapCode": "67462910",
+        "retailerList": [
+          {
+            "retailer": "Watsons",
+            "ratingAverage": "5.0",
+            "oneStar": null,
+            "twoStar": null,
+            "threeStar": null,
+            "fourStar": null,
+            "fiveStar": null,
+            "reviewsCount": "33.0"
+          }
+        ]
+      },
+      {
+        "id": 17,
+        "skuId": "UNL-SKU-52",
+        "skuName": "CREAM SILK TRI-KRATIN REP SHINE 170ML",
+        "sapCode": "67462927",
+        "retailerList": [
+          {
+            "retailer": "Watsons",
+            "ratingAverage": "4.800000190734863",
+            "oneStar": null,
+            "twoStar": null,
+            "threeStar": null,
+            "fourStar": null,
+            "fiveStar": null,
+            "reviewsCount": "20.0"
+          }
+        ]
+      },
+      {
+        "id": 18,
+        "skuId": "UNL-SKU-75",
+        "skuName": "CREAM SILK HC COLOR REVIVE TKR 300ML",
+        "sapCode": "67727062",
+        "retailerList": [
+          {
+            "retailer": "Watsons",
+            "ratingAverage": "4.699999809265137",
+            "oneStar": null,
+            "twoStar": null,
+            "threeStar": null,
+            "fourStar": null,
+            "fiveStar": null,
+            "reviewsCount": "11.0"
+          }
+        ]
+      },
+      {
+        "id": 19,
+        "skuId": "UNL-SKU-82",
+        "skuName": "CREAM SILK HC FRESH & BOUNCY HF 300ML",
+        "sapCode": "67829100",
+        "retailerList": [
+          {
+            "retailer": "Watsons",
+            "ratingAverage": "5.0",
+            "oneStar": null,
+            "twoStar": null,
+            "threeStar": null,
+            "fourStar": null,
+            "fiveStar": null,
+            "reviewsCount": "14.0"
+          }
+        ]
+      },
+      {
+        "id": 20,
+        "skuId": "UNL-SKU-83",
+        "skuName": "CLEAR SH DEEP CLEANSE MEN 170ML",
+        "sapCode": "67834796",
+        "retailerList": [
+          {
+            "retailer": "Watsons",
+            "ratingAverage": "5.0",
+            "oneStar": null,
+            "twoStar": null,
+            "threeStar": null,
+            "fourStar": null,
+            "fiveStar": null,
+            "reviewsCount": "7.0"
+          }
+        ]
+      }
+    ],
+    "template": null,
+    "totalSearchResults": 20,
+    "value": null,
+    "url": null,
+    "skuname": null,
+    "baseFilterList": null
+  },
+
+  "mock_data_for_dynamic_table_sort_asc":{
+    "typeArgumentClass": null,
+      
+    "GridData" : [
+      {
+        "attrName": "Dove1",
+        "attrType": "IMAGE",
+        "attrDescription": "Persistent",
+        "isdelete": false,
+        "locale": "en",
+        "attrGrpName":"Soap"
+    },{
+        "attrName": "Dove2",
+        "attrType": "IMAGE",
+        "attrDescription": "Persistent",
+        "isdelete": false,
+        "locale": "en",
+        "attrGrpName":"Soap"
+    },{
+        "attrName": "Dove3",
+        "attrType": "IMAGE",
+        "attrDescription": "Persistent",
+        "isdelete": false,
+        "locale": "en",
+        "attrGrpName":"Soap"
+    },{
+        "attrName": "Dove4",
+        "attrType": "IMAGE",
+        "attrDescription": "Persistent",
+        "isdelete": false,
+        "locale": "en",
+        "attrGrpName":"Soap"
+    },{
+        "attrName": "Dove5",
+        "attrType": "IMAGE",
+        "attrDescription": "Persistent",
+        "isdelete": false,
+        "locale": "en",
+        "attrGrpName":"Soap"
+    },{
+        "attrName": "Dove6",
+        "attrType": "IMAGE",
+        "attrDescription": "Persistent",
+        "isdelete": false,
+        "locale": "en",
+        "attrGrpName":"Soap"
+    },{
+        "attrName": "Dove7",
+        "attrType": "IMAGE",
+        "attrDescription": "Persistent",
+        "isdelete": false,
+        "locale": "en",
+        "attrGrpName":"Soap"
+    },{
+        "attrName": "Dove8",
+        "attrType": "IMAGE",
+        "attrDescription": "Persistent",
+        "isdelete": false,
+        "locale": "en",
+        "attrGrpName":"Soap"
+    },{
+        "attrName": "Dove9",
+        "attrType": "IMAGE",
+        "attrDescription": "Persistent",
+        "isdelete": false,
+        "locale": "en",
+        "attrGrpName":"Soap"
+    },{
+        "attrName": "Dove10",
+        "attrType": "IMAGE",
+        "attrDescription": "Persistent",
+        "isdelete": false,
+        "locale": "en",
+        "attrGrpName":"Soap"
+    }
+    ],
+    "gridList": [
+      {
+        "id": 1,
+        "skuId": "UNL-SKU-1",
+        "skuName": "BLOCK&WHITE HBL INTWHT SPF24 PH 200ML",
+        "sapCode": "20270172",
+        "retailerList": [
+          {
+            "retailer": "Watsons",
+            "ratingAverage": "4.900000095367432",
+            "oneStar": null,
+            "twoStar": null,
+            "threeStar": null,
+            "fourStar": null,
+            "fiveStar": null,
+            "reviewsCount": "9.0"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "skuId": "UNL-SKU-2",
+        "skuName": "BLOCK&WHITE HBL INTWHT SPF24 PH 350ML",
+        "sapCode": "20270174",
+        "retailerList": [
+          {
+            "retailer": "Watsons",
+            "ratingAverage": "5.0",
+            "oneStar": null,
+            "twoStar": null,
+            "threeStar": null,
+            "fourStar": null,
+            "fiveStar": null,
+            "reviewsCount": "7.0"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "skuId": "UNL-SKU-6",
+        "skuName": "AXE DEO GOLD TEMP 150ML",
+        "sapCode": "21058471",
+        "retailerList": [
+          {
+            "retailer": "Watsons",
+            "ratingAverage": "3.700000047683716",
+            "oneStar": null,
+            "twoStar": null,
+            "threeStar": null,
+            "fourStar": null,
+            "fiveStar": null,
+            "reviewsCount": "3.0"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "skuId": "UNL-SKU-9",
+        "skuName": "AXE DEO BLACK 150ML",
+        "sapCode": "21116143",
+        "retailerList": [
+          {
+            "retailer": "Watsons",
+            "ratingAverage": "5.0",
+            "oneStar": null,
+            "twoStar": null,
+            "threeStar": null,
+            "fourStar": null,
+            "fiveStar": null,
+            "reviewsCount": "15.0"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "skuId": "UNL-SKU-11",
+        "skuName": "AXE DEO BODYSPRAY DARK TMPTTN 150ML",
+        "sapCode": "62072034",
+        "retailerList": [
+          {
+            "retailer": "Watsons",
+            "ratingAverage": "4.599999904632568",
+            "oneStar": null,
+            "twoStar": null,
+            "threeStar": null,
+            "fourStar": null,
+            "fiveStar": null,
+            "reviewsCount": "38.0"
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "skuId": "UNL-SKU-12",
+        "skuName": "AXE DEO AP RLN DARKTEMP 40ML",
+        "sapCode": "65002405",
+        "retailerList": [
+          {
+            "retailer": "Watsons",
+            "ratingAverage": "4.599999904632568",
+            "oneStar": null,
+            "twoStar": null,
+            "threeStar": null,
+            "fourStar": null,
+            "fiveStar": null,
+            "reviewsCount": "10.0"
+          }
+        ]
+      },
+     
+      {
+        "id": 7,
+        "skuId": "UNL-SKU-36",
+        "skuName": "AXE DEO STICK DARKTEMP 40G",
+        "sapCode": "67136168",
+        "retailerList": [
+          {
+            "retailer": "Watsons",
+            "ratingAverage": "5.0",
+            "oneStar": null,
+            "twoStar": null,
+            "threeStar": null,
+            "fourStar": null,
+            "fiveStar": null,
+            "reviewsCount": "4.0"
+          }
+        ]
+      },
+     
+      {
+        "id": 8,
+        "skuId": "UNL-SKU-70",
+        "skuName": "AXE DEO BODYSPRAY ICE CHILL 150ML",
+        "sapCode": "67604474",
+        "retailerList": [
+          {
+            "retailer": "Watsons",
+            "ratingAverage": "4.300000190734863",
+            "oneStar": null,
+            "twoStar": null,
+            "threeStar": null,
+            "fourStar": null,
+            "fiveStar": null,
+            "reviewsCount": "11.0"
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "skuId": "UNL-SKU-74",
+        "skuName": "BABY DOVE HAIR-TOE RICH MST STR 591ML",
+        "sapCode": "67671811",
+        "retailerList": [
+          {
+            "retailer": "Watsons",
+            "ratingAverage": "4.699999809265137",
+            "oneStar": null,
+            "twoStar": null,
+            "threeStar": null,
+            "fourStar": null,
+            "fiveStar": null,
+            "reviewsCount": "123.0"
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "skuId": "UNL-SKU-84",
+        "skuName": "CLEAR SH COOL SPORT MENTHOL MEN 320ML",
+        "sapCode": "67834799",
+        "retailerList": [
+          {
+            "retailer": "Watsons",
+            "ratingAverage": "4.199999809265137",
+            "oneStar": null,
+            "twoStar": null,
+            "threeStar": null,
+            "fourStar": null,
+            "fiveStar": null,
+            "reviewsCount": "5.0"
+          }
+        ]
+      }
+      
+    ],
+    "template": null,
+    "totalSearchResults": 20,
+    "value": null,
+    "url": null,
+    "skuname": null,
+    "baseFilterList": null
+  },
+
+  "mock_data_for_dynamic_table_sort_desc":{
+    "typeArgumentClass": null,
+    "GridData" : [
+      {
+        "attrName": "Dove10",
+        "attrType": "IMAGE",
+        "attrDescription": "Persistent",
+        "isdelete": false,
+        "locale": "en",
+        "attrGrpName":"Soap"
+    },{
+      "attrName": "Dove9",
+      "attrType": "IMAGE",
+      "attrDescription": "Persistent",
+      "isdelete": false,
+      "locale": "en",
+      "attrGrpName":"Soap"
+  },{
+    "attrName": "Dove8",
+    "attrType": "IMAGE",
+    "attrDescription": "Persistent",
+    "isdelete": false,
+    "locale": "en",
+    "attrGrpName":"Soap"
+},{
+        "attrName": "Dove7",
+        "attrType": "IMAGE",
+        "attrDescription": "Persistent",
+        "isdelete": false,
+        "locale": "en",
+        "attrGrpName":"Soap"
+    },{
+      "attrName": "Dove6",
+      "attrType": "IMAGE",
+      "attrDescription": "Persistent",
+      "isdelete": false,
+      "locale": "en",
+      "attrGrpName":"Soap"
+  },{
+      "attrName": "Dove5",
+      "attrType": "IMAGE",
+      "attrDescription": "Persistent",
+      "isdelete": false,
+      "locale": "en",
+      "attrGrpName":"Soap"
+  },{
+    "attrName": "Dove4",
+    "attrType": "IMAGE",
+    "attrDescription": "Persistent",
+    "isdelete": false,
+    "locale": "en",
+    "attrGrpName":"Soap"
+  },{
+    "attrName": "Dove3",
+    "attrType": "IMAGE",
+    "attrDescription": "Persistent",
+    "isdelete": false,
+    "locale": "en",
+    "attrGrpName":"Soap"
+  },{
+    "attrName": "Dove2",
+    "attrType": "IMAGE",
+    "attrDescription": "Persistent",
+    "isdelete": false,
+    "locale": "en",
+    "attrGrpName":"Soap"
+}, {
+      "attrName": "Dove1",
+      "attrType": "IMAGE",
+      "attrDescription": "Persistent",
+      "isdelete": false,
+      "locale": "en",
+      "attrGrpName":"Soap"
+  }
+  
+    ],
+    "gridList": [
+        {
+            "id": 1,
+            "skuId": "UNL-SKU-84",
+            "skuName": "CLEAR SH COOL SPORT MENTHOL MEN 320ML",
+            "sapCode": "67834799",
+            "retailerList": [
+              {
+                "retailer": "Watsons",
+                "ratingAverage": "4.199999809265137",
+                "oneStar": null,
+                "twoStar": null,
+                "threeStar": null,
+                "fourStar": null,
+                "fiveStar": null,
+                "reviewsCount": "5.0"
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "skuId": "UNL-SKU-74",
+            "skuName": "BABY DOVE HAIR-TOE RICH MST STR 591ML",
+            "sapCode": "67671811",
+            "retailerList": [
+              {
+                "retailer": "Watsons",
+                "ratingAverage": "4.699999809265137",
+                "oneStar": null,
+                "twoStar": null,
+                "threeStar": null,
+                "fourStar": null,
+                "fiveStar": null,
+                "reviewsCount": "123.0"
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "skuId": "UNL-SKU-70",
+            "skuName": "AXE DEO BODYSPRAY ICE CHILL 150ML",
+            "sapCode": "67604474",
+            "retailerList": [
+              {
+                "retailer": "Watsons",
+                "ratingAverage": "4.300000190734863",
+                "oneStar": null,
+                "twoStar": null,
+                "threeStar": null,
+                "fourStar": null,
+                "fiveStar": null,
+                "reviewsCount": "11.0"
+              }
+            ]
+          },
+          {
+            "id": 4,
+            "skuId": "UNL-SKU-36",
+            "skuName": "AXE DEO STICK DARKTEMP 40G",
+            "sapCode": "67136168",
+            "retailerList": [
+              {
+                "retailer": "Watsons",
+                "ratingAverage": "5.0",
+                "oneStar": null,
+                "twoStar": null,
+                "threeStar": null,
+                "fourStar": null,
+                "fiveStar": null,
+                "reviewsCount": "4.0"
+              }
+            ]
+          },
+      {
+        "id": 5,
+        "skuId": "UNL-SKU-12",
+        "skuName": "AXE DEO AP RLN DARKTEMP 40ML",
+        "sapCode": "65002405",
+        "retailerList": [
+          {
+            "retailer": "Watsons",
+            "ratingAverage": "4.599999904632568",
+            "oneStar": null,
+            "twoStar": null,
+            "threeStar": null,
+            "fourStar": null,
+            "fiveStar": null,
+            "reviewsCount": "10.0"
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "skuId": "UNL-SKU-11",
+        "skuName": "AXE DEO BODYSPRAY DARK TMPTTN 150ML",
+        "sapCode": "62072034",
+        "retailerList": [
+          {
+            "retailer": "Watsons",
+            "ratingAverage": "4.599999904632568",
+            "oneStar": null,
+            "twoStar": null,
+            "threeStar": null,
+            "fourStar": null,
+            "fiveStar": null,
+            "reviewsCount": "38.0"
+          }
+        ]
+      },
+      {
+        "id":7,
+        "skuId": "UNL-SKU-9",
+        "skuName": "AXE DEO BLACK 150ML",
+        "sapCode": "21116143",
+        "retailerList": [
+          {
+            "retailer": "Watsons",
+            "ratingAverage": "5.0",
+            "oneStar": null,
+            "twoStar": null,
+            "threeStar": null,
+            "fourStar": null,
+            "fiveStar": null,
+            "reviewsCount": "15.0"
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "skuId": "UNL-SKU-6",
+        "skuName": "AXE DEO GOLD TEMP 150ML",
+        "sapCode": "21058471",
+        "retailerList": [
+          {
+            "retailer": "Watsons",
+            "ratingAverage": "3.700000047683716",
+            "oneStar": null,
+            "twoStar": null,
+            "threeStar": null,
+            "fourStar": null,
+            "fiveStar": null,
+            "reviewsCount": "3.0"
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "skuId": "UNL-SKU-2",
+        "skuName": "BLOCK&WHITE HBL INTWHT SPF24 PH 350ML",
+        "sapCode": "20270174",
+        "retailerList": [
+          {
+            "retailer": "Watsons",
+            "ratingAverage": "5.0",
+            "oneStar": null,
+            "twoStar": null,
+            "threeStar": null,
+            "fourStar": null,
+            "fiveStar": null,
+            "reviewsCount": "7.0"
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "skuId": "UNL-SKU-1",
+        "skuName": "BLOCK&WHITE HBL INTWHT SPF24 PH 200ML",
+        "sapCode": "20270172",
+        "retailerList": [
+          {
+            "retailer": "Watsons",
+            "ratingAverage": "4.900000095367432",
+            "oneStar": null,
+            "twoStar": null,
+            "threeStar": null,
+            "fourStar": null,
+            "fiveStar": null,
+            "reviewsCount": "9.0"
+          }
+        ]
+      }
+    ],
+    "template": null,
+    "totalSearchResults": 20,
+    "value": null,
+    "url": null,
+    "skuname": null,
+    "baseFilterList": null
+  },
+
+
+  "mock_skuid":[ 
+  { "label": "UNL-SKU-1","value":0},
+  {  "label": "UNL-SKU-2","value":1},
+  {  "label": "UNL-SKU-6","value":2},
+  {  "label": "UNL-SKU-9","value":3},
+  {  "label": "UNL-SKU-11","value":4},
+  {  "label": "UNL-SKU-12","value":5},
+  {  "label": "UNL-SKU-36","value":6},
+  {  "label": "UNL-SKU-70","value":7},
+  {  "label": "UNL-SKU-74","value":8},
+  {  "label": "UNL-SKU-84","value":9}
+]
+
+}

@@ -1,0 +1,64 @@
+@import "../../styling/scss/variables";
+
+#profileHeader {
+	width: fit-content;
+	transition: margin-left 0.5s;
+	background:transparent;
+	margin-top: 170px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+}
+
+.logoStyle {
+	height: 100px;
+	cursor: pointer;
+}
+
+.userstyle {
+	position: unset;
+	display: -webkit-box;
+	margin-top: -30px;
+	cursor: pointer;
+}
+
+.logoContent {
+	margin-top: 7px;
+	height: 35px;
+	width: 85px;
+}
+
+@media screen and (max-width: 500px) {
+	.logoContent {
+		margin-top: 10px;
+		height: 30px;
+	}
+}
+
+#userCircleIcon {
+	font-size: 27px;
+	color: #2d363f;
+	margin-top: 0.5px;
+}
+
+.angleDownIcon {
+	width: 10px;
+	height: 10px;
+	position: relative;
+	left: 11px;
+}
+
+.profileIcon {
+	margin-top: 11px;
+	margin-right: 32px;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+}
+
+.DropdownControl {
+	padding-top: 10px;
+}
+
+.dropDivCountry {
+	left: 18px;
+}

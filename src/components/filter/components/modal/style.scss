@@ -1,0 +1,653 @@
+@import '../../styling/scss/variables';
+
+// Common Style for Modal
+.modal-header {
+	border-bottom: none;
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;
+	padding: 1rem 2rem 1rem 1rem;
+}
+
+.modal-open {
+	margin-right: -11.5px !important;
+	padding-right: 16px !important;
+}
+
+.modal-header .close {
+	font-size: 28px;
+	font-weight: bold;
+	line-height: 2;
+	color: #000;
+	display: contents;
+}
+
+.modal-md-cus-size-group {
+	width: 800px !important;
+}
+
+.modal-title {
+	// font-family: $barlow-semibold;
+	font-size: $font-md;
+	font-weight: 600;
+	color: $pimerce_modal_title_color;
+	width: -webkit-fill-available;
+}
+
+.modal-body {
+	padding: 0px;
+}
+
+.modal-content {
+	border-radius: 0px;
+}
+
+.modal-footer {
+	border: none;
+	padding: 0px;
+	display: flex;
+	justify-content: flex-start;
+}
+
+.modal-md-cus_size {
+	max-width: 539px !important;
+}
+
+.modal-md-cus_size_group {
+	max-width: 601px !important;
+}
+
+// Common Style for Button
+.modalButton {
+	width: 105px;
+	height: 32px;
+	color: $pimerce_orange_color;
+	font-family: $barlow-medium;
+	font-size: $font-sm;
+	box-shadow: 0 11px 11px 0 rgba(0, 0, 0, 0.11);
+	padding: 1px 11px 1px 11px;
+	border-radius: 19.5px;
+	line-height: 2.14;
+}
+
+// Submit Button styles
+.submitBtn {
+	@extend .modalButton;
+	background-color: $pimerce_button_background_color;
+	border: none;
+}
+
+.submitBtnDisbled {
+	@extend .submitBtn;
+	cursor: no-drop;
+}
+
+button.submitBtnDisbled.btn.btn-primary {
+	background-color: $pimerce_button_background_color;
+	border: none;
+	color: $pimerce_orange_color;
+	pointer-events: none;
+}
+
+button.submitBtnDisbled.btn.btn-primary:hover {
+	background-color: $pimerce_button_background_color;
+	border: none;
+	color: $pimerce_orange_color;
+	pointer-events: none;
+}
+
+button.btn.submitBtn {
+	border-radius: 19.5px !important;
+}
+
+button.submitBtn.btn.btn-primary:hover {
+	background-color: $pimerce_button_background_color;
+	border: none;
+	color: $pimerce_orange_color;
+}
+
+// Cancel Button styles
+.cancelBtn {
+	@extend .modalButton;
+	border: solid 1px $pimerce_cancel_button_border_color;
+	background-color: $pimerce_button_background_color;
+}
+
+button.btn.cancelBtn {
+	border-radius: 19.5px !important;
+}
+
+button.cancelBtn.btn.btn-primary:hover {
+	background-color: $pimerce_background_white_color;
+	border: 1px solid $pimerce_button_background_color;
+	color: $pimerce_orange_color;
+}
+
+// ************** Export Modal Styles **************** //
+.modalDropdown {
+	width: 259px;
+	height: 40px;
+	border-radius: 6px;
+	border: solid 1px #bbbbbb;
+	font-size: $font-md;
+	font-family: $barlow-regular;
+	line-height: 1.43;
+	color: $pimerce_vulcan_color;
+	margin: 6px 90px 25px 1px;
+	box-shadow: none;
+}
+
+.exportText {
+	// @extend .modal-title;
+	font-family: $barlow-semibold;
+	font-size: $font-xl;
+	font-weight: 600;
+	color: $pimerce_title_color;
+	;
+	padding: 8px 0px 9px 63px;
+	margin-bottom: 34px;
+	margin-left: -8px;
+}
+
+input.modalInputBox {
+	@extend .modalDropdown;
+	padding: 12px;
+	color: $pimerce_title_color;
+	background-color: $pimerce_white_color;
+	width: 89% !important;
+}
+
+input.modalInputBox:disabled {
+	@extend .modalDropdown;
+	padding: 12px;
+	color: $pimerce_title_color;
+	background-color: #dddddd;
+	width: 89% !important;
+}
+
+.label-info {
+	display: inline-block;
+	background-color: $pimerce_moda_label_info_color;
+	padding: 0 .4em .15em;
+	border-radius: .25rem;
+	margin-bottom: 0.4em;
+	text-transform: lowercase;
+}
+
+.modal-inputbox-email {
+	margin: 0;
+	width: 100%;
+	padding: 0.5rem 0.75rem 0;
+	font-size: 1rem;
+	line-height: 1.25;
+	transition: border-color 0.15s ease-in-out;
+
+	&.has-focus {
+		background-color: $color-background-white;
+		border-color: $pimerce_model_focus_border_color;
+	}
+}
+.inner-input{
+	border: none;
+	font-size: 13px;
+	font-family: 'Chivo-Regular';
+	width: 130px;
+}
+
+.modal-inputbox-email {
+    margin-top: 8px;
+	background-color: $color-background-white;
+	border: 1px solid $pimerce_chinese_silver;
+	display: inline-block;
+	padding: 5px 6px;
+	margin-bottom: 10px;
+	color: #555;
+	vertical-align: middle;
+	border-radius: 4px;
+	max-width: 100%;
+	line-height: 22px;
+	cursor: text;
+}
+
+.modal-inputbox-email .label-info {
+	display: inline-block;
+	background-color: $pimerce_btn_hover_bg_color;
+	padding: 0 0.4em 0.15em;
+	border-radius: 0.25rem;
+	margin-bottom: 0.4em;
+}
+
+.modal-inputbox-email .tag {
+	margin-right: 2px;
+	color: $color-background-white;
+	font-size: 14px;
+	font-family: 'Chivo-Regular';
+}
+
+input.modalInputBox:focus {
+	border: solid 1px #bbbbbb;
+}
+
+.remove-email-input{
+	padding-left: 12px;
+	cursor: pointer;
+}
+
+.error-Message-Icon{
+	padding-bottom: 3px;
+}
+
+input.preferredEmailInputBox {
+	@extend .modalDropdown;
+	padding: 12px;
+	color: $pimerce_title_color;
+	background-color: $pimerce_white_color;
+	width: 71% !important;
+}
+
+.errorBox {
+	@extend input.preferredEmailInputBox;
+	margin-bottom: 0px;
+	border: 1px solid $pimerce_error_msg_color;
+	width: 89% !important;
+}
+
+.errorBoxDatePicker .dateRangePickerContainer {
+	justify-content: center;
+	background: $pimerce_white_color;
+	margin-top: 10px !important;
+	width: 280px;
+	height: 40px;
+	border: solid 1px $pimerce_solitude_color;
+	background-color: $pimerce_background_white_color;
+}
+
+.errorBoxDatePicker .dateRangePickerContainerClose {
+	justify-content: center;
+	background: $pimerce_white_color;
+	margin-top: 10px !important;
+	width: 280px;
+	height: 40px;
+	border: solid 1px $pimerce_solitude_color;
+	background-color: $pimerce_background_white_color;
+}
+
+.errorMessage {
+	height: 11px;
+	width: 320px;
+	font-size: 10px;
+	color: $pimerce_error_msg_color;
+	padding-top: 5px;
+}
+
+.notifytext {
+	opacity: 0.5;
+	font-family: $barlow-medium;
+	font-size: $font-sm;
+	font-weight: bold;
+	color: $pimerce_title_color;
+	padding: 0px 0px 25px 67px;
+}
+
+.noteIcon {
+	padding: 0px 7px 0px 7px;
+}
+
+.submit-button {
+	padding-bottom: 25px;
+	padding-top: 8px;
+	padding-left: 78px;
+}
+
+.submit-button-disabled {
+	padding-bottom: 25px;
+	padding-top: 8px;
+	padding-left: 78px;
+	cursor: no-drop;
+
+}
+
+.modalLine {
+	margin: 42px 60px 11px 60px;
+}
+
+.modalTitleStyles {
+	// @extend .modal-title;
+	font-family: $barlow-semibold;
+	font-size: $font-xl;
+	font-weight: 600;
+	color: $pimerce_title_color;
+	;
+	padding: 0px 0px 9px 77px;
+	margin-top: -49px;
+	margin-bottom: 11px;
+	margin-left: -21px;
+	position: absolute;
+}
+
+.export-selected-supercategory {
+	margin-bottom: 19px;
+	padding: 0px 0px 9px 53px;
+}
+
+.modalText {
+	// font-family: $barlow-medium;
+	// font-size: $font-lg;
+	// font-weight: 500;
+	// line-height: 1.5;
+	// color: $pimerce_title_color;
+	// padding-left: 78px;
+	// z-index: 0;
+
+	text-transform: capitalize;
+	font-family: $barlow-medium;
+	font-size: $font-sm;
+	color: $pimerce_filter_title_color;
+	margin-top: -19px;
+	line-height: 1.5;
+	padding-left: 68px;
+	padding-bottom: 25px;
+	padding-right: 0;
+}
+
+.email-notifytext{
+	font-size: 8px;
+}
+
+@media (min-width: 300px) and (max-width: 1200px) {
+	.modalText {
+		font-family: $barlow-medium;
+		font-size: $font-lg;
+		font-weight: 500;
+		line-height: 1.5;
+		color: $pimerce_title_color;
+		padding-left: 78px;
+		margin-left: -12px;
+		// z-index: 0;
+	}
+}
+
+@media (min-width: 300px) and (max-width: 991px) {
+	.modalText {
+		font-family: $barlow-medium;
+		font-size: $font-lg;
+		font-weight: 500;
+		line-height: 1.5;
+		color: $pimerce_title_color;
+		padding-left: 78px;
+		margin-left: -23px;
+		// z-index: 0;
+	}
+}
+
+.preferredEmail {
+	font-family: $barlow-medium;
+	font-size: $font-lg;
+	font-weight: 500;
+	line-height: 1.5;
+	color: $pimerce_title_color;
+}
+
+.mandatorySymbol {
+	color: #fa042d;
+}
+
+@media (min-width: 300px) and (max-width: 350px) {
+	.modalDropdown {
+		width: 200px;
+	}
+}
+
+// Toast Modal Styles Block
+
+.body-title {
+	padding: 11px;
+}
+
+.body-sku {
+	padding: 11px;
+	pointer-events: none;
+	word-break: break-word;
+}
+
+.modal-promotionHeading {
+	padding-left: 21em;
+}
+
+@media only screen and (max-width: 1199px) {
+	.modal-promotionHeading {
+		padding-left: 14em;
+	}
+}
+
+@media only screen and (max-width: 991px) {
+	.modal-promotionHeading {
+		padding-left: 7em;
+	}
+}
+
+.dropDiv1 .dropdown-toggle::after {
+	content: '';
+	width: 0;
+	height: 0;
+	position: absolute;
+	right: 8%;
+	top: 52%;
+	margin-top: -3px;
+	border: solid $pimerce_border_black_color;
+	border-width: 0 2px 2px 0;
+	transform: rotate(45deg);
+	-webkit-transform: rotate(45deg);
+	display: inline-block;
+	padding: 2px;
+}
+
+.dropDiv2 .dropdown-toggle::after {
+	content: '';
+	width: 0;
+	height: 0;
+	position: absolute;
+	right: 8%;
+	top: 52%;
+	margin-top: -3px;
+	border: solid $pimerce_border_black_color;
+	border-width: 0 2px 2px 0;
+	transform: rotate(45deg);
+	-webkit-transform: rotate(45deg);
+	display: inline-block;
+	padding: 2px;
+}
+
+.dateRangePickerContainer .dropdown-toggle::after {
+	content: '';
+	width: 7px !important;
+	height: 7px !important;
+	position: absolute;
+	top: 60% !important;
+	margin-top: -3px;
+	border: solid $pimerce_border_black_color;
+	border-width: 0 2px 2px 0;
+	transform: rotate(45deg);
+	-webkit-transform: rotate(135deg) !important;
+	display: inline-block;
+	padding: 2px;
+}
+
+.dateRangePickerContainerClose .dropdown-toggle::after {
+	content: '';
+	width: 7px !important;
+	height: 7px !important;
+	position: absolute;
+	top: 70% !important;
+	right: -14% !important;
+	margin-top: -3px;
+	border: solid $pimerce_border_black_color;
+	border-width: 0 2px 2px 0;
+	transform: rotate(45deg);
+	-webkit-transform: rotate(-44deg) !important;
+	display: inline-block;
+	padding: 2px;
+}
+
+.picky__input::after {
+	content: '' !important;
+	width: 0 !important;
+	height: 0 !important;
+	position: absolute !important;
+	right: 8% !important;
+	top: 52% !important;
+	margin-top: -3px !important;
+	border: solid $pimerce_title_color !important;
+	border-width: 0 2px 2px 0 !important;
+	transform: rotate(45deg) !important;
+	-webkit-transform: rotate(45deg) !important;
+	display: inline-block !important;
+	padding: 2px !important;
+}
+
+button:focus {
+	outline: none !important;
+}
+
+.exportLabels {
+	height: 16px;
+	font-family: $barlow-regular;
+	font-size: $font-md;
+	letter-spacing: -0.04px;
+	color: $pimerce_vulcan_color;
+	padding-top: 14px;
+	padding-bottom: 75px;
+}
+
+button.exportSubmitBtn.btn.btn-primary {
+	border-radius: 2px !important;
+}
+
+.exportInput[type='button'] {
+	height: 45px !important;
+	border-radius: 4px 0px 0px 4px !important;
+	border: solid 1px $pimerce_solitude_color;
+	border-right-width: 0px !important;
+	background-color: $pimerce_background_white_color;
+	width: 280px;
+}
+
+#otherInputs {
+	width: 235px !important;
+}
+
+#dateInputs {
+	width: 89px !important;
+}
+
+.exportdropdown {
+	width: 45px;
+	height: 45px;
+	border-radius: 0px 4px 4px 0px;
+	border: solid 1px $pimerce_solitude_color;
+	background-color: rgba(244, 247, 249, 0.4);
+}
+
+.modalDateError .dateRangePickerContainer {
+	max-width: 280px;
+	min-width: 280px;
+	border-radius: 4px;
+	border: solid 1px $pimerce_error_msg_color;
+	background-color: $pimerce_background_white_color;
+}
+
+.modalDateError .dateRangePickerContainerClose {
+	max-width: 280px;
+	min-width: 280px;
+	border-radius: 4px;
+	border: solid 1px $pimerce_error_msg_color;
+	background-color: $pimerce_background_white_color;
+}
+
+.modalDateError .dateRangePickerContainer input.inputfontstyle.form-control {
+	border-right: 1px solid $pimerce_error_msg_color !important;
+}
+
+.modalDateError .dateRangePickerContainerClose input.inputfontstyle.form-control {
+	border-right: 1px solid $pimerce_error_msg_color !important;
+}
+
+.exportModalBtnContainer .btn.btn-primary {
+	border-color: transparent;
+}
+
+.modalMandatoryField {
+	font-family: $barlow-regular;
+	font-size: 10px;
+	font-weight: normal;
+	font-style: normal;
+	// color: var(--black);
+	color: $pimerce_title_color;
+	display: flex;
+	justify-content: center;
+	padding-top: 6px;
+}
+
+.mandatoryFieldBackground {
+	height: 30px;
+	background-color: #ffbfc2;
+}
+
+.exportModalBody {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.dateRangePickerContainer input.inputfontstyle.form-control,
+.dateRangePickerContainerClose input.inputfontstyle.form-control {
+	text-align: left;
+	width: 208px;
+}
+
+.dateRangePickerContainer input.inputfontstyle.form-control:focus,
+.dateRangePickerContainerClose input.inputfontstyle.form-control:focus {
+	box-shadow: none;
+}
+
+.selectedDate.input-group.input-group-md {
+	width: 109px;
+}
+
+input.inputfontstyle.form-control {
+	margin: -3px;
+	margin-top: 14px;
+}
+
+.toastModalTitleClass {
+	padding-top: 14px;
+}
+
+.toastModalHeaderClass {
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+.toastModalBodyClass {
+	padding-left: 16px;
+	padding-top: 16px;
+	padding-bottom: 16px;
+}
+
+.exportDateRange {
+	font-size: 10px;
+	margin-top: 53px;
+	cursor: default;
+	color: $pimerce_orange_color;
+}
+
+.modalLoading-forLogout1 {
+	justify-content: center;
+	display: flex;
+	color: $pimerce_title_color;
+	font-weight: bolder;
+	border-radius: 15px;
+}
+
+.modalLoading-forLogout2 {
+	width: 50px;
+	margin-top: -20px;
+}

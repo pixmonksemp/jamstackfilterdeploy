@@ -1,0 +1,49 @@
+.panelBackground {
+  background: none;
+}
+
+button.expanderButton.dropdown-toggle.caret-left.btn.btn-primary {
+  background: transparent;
+  border: none;
+}
+
+/* open dropdowns and closed dropups have upward facing arrow */
+
+.dropdown.open>.expanderButton:after {
+  border: solid #0e90e1  !important;
+  border-width: 0 2px 2px 0 !important;
+  top: 15px;
+  transform: rotateX(180deg) rotateZ(45deg);
+  right: 8px;
+}
+
+.expanderButton {
+  padding-left: 0px;
+}
+
+button.expanderButton.dropdown-toggle.caret-left.btn.btn-primary {
+  /* background-color: transparent; */
+
+  padding: 12px;
+  background: #e3f3ff;
+  border-radius: 20px;
+  max-height: 20px;
+}
+
+.dropdown-toggle::after{
+  content: "";
+  width: 0;
+  height: 0;
+  position: absolute;
+  margin-left: 10px !important;
+  /* right: 30%; */
+  top: 48%;
+  margin-top: -5px;
+  border: solid #0e90e1;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  display: inline-block;
+  padding: 3px;
+  right: 8px;
+}

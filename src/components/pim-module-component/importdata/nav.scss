@@ -1,0 +1,74 @@
+@import "../../../styling/scss/variables";
+
+.nav {
+    margin-top: 10px;
+    margin-bottom: -10px;
+    justify-content: center;
+    text-align: center;
+    border: 1px solid $pim-border-radius-color;
+}
+
+.dot {
+    color: black;
+    border: 1px solid rgba(0,0,0,.1);
+    background: #ccecff;
+    padding: 4px 0;
+    height: 20px;
+    border-radius: 50%;
+    width: 20px;
+    font-size: 11px;
+    font-weight: 500;
+    line-height: 1;
+    // opacity: .4;
+    text-shadow: none;
+    margin: 11px 5px;
+}
+
+
+.half-circle{
+    border: 2px solid rgba(14, 144, 225, .7);
+    padding: 20px 0;
+    height: 58px;
+    border-radius: 56px 0 0 56px;
+    width: 29px;
+    font-size: 12px;
+    line-height: 1;
+    margin-right: -27px;
+    margin-top: -1px;
+    text-shadow: none;
+    transition: border 1s ease;
+}
+
+.line {
+    // background-color: black;
+    border: 1px dashed;
+    margin-top: 22px;
+    height: 2px;
+    width: 7vw;
+    font-size: 12px;
+    line-height: 1;
+    opacity: .4;
+    text-shadow: none;
+    background: $pim-submit-btn-color;
+    margin-right: 5px;
+}
+.lineactive{
+    // color: $pim-active-button-BGColor;
+    border: 1px dashed $pim-active-button-BGColor;
+    opacity: .7;
+    transition: color 1s ease-out;
+}
+.dotactive{
+    background: white;
+    border-radius: 50%;
+    border: 1px solid rgba(0,0,0,.1) ;
+    opacity: 1;
+}
+.active {
+    color: var(--white);
+    background: $pim-active-button-BGColor ;
+    border: 1px solid $pim-active-button-BGColor;
+    opacity: 1;
+    text-shadow: 0 0px 1px;
+    transition: background 1s ease;
+}

@@ -1,0 +1,39 @@
+@import "../../../styling/scss/variables";
+
+.thumbnail-image{
+    height: 40px;
+    width: 40px;
+}
+
+.approverActionButtton{
+    display: inline;
+    margin-left: 10px;
+}
+
+.remarkCancelButton{
+    display: inline;
+    width: 50px;
+    height: 24px;
+    background-color: "#EFEFF1";
+}
+
+.remarkCancelSubmit{
+    display: inline;
+    width: 50px;
+    height: 24px;
+    background-color: "##0E90E1";
+}
+
+.pending-approval-style .modal-content .modal-body{
+    padding: 0px 1rem 0rem;
+}
+
+.pending-approval-inputtext{
+    // color: $pim-;
+    border: 1px solid $pim-border-radius-color;
+}
+
+.errorMsg.workflow-error-style{
+    bottom: 14px;
+    right: 22px;
+}

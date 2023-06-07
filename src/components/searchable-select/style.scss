@@ -1,0 +1,459 @@
+@import '../../styling/scss/variables';
+
+.optionStyle {
+	font-weight: 'bold';
+	margin-left: '10px';
+	color: '#556063';
+	font-size: '10px';
+	font-family: $barlow-regular;
+}
+
+.iconStyle {
+	z-index: 0;
+}
+
+.indicatorSeparatorStyle {
+	align-self: 'stretch';
+	background-color: 'none';
+	margin-bottom: 8;
+	margin-top: 8;
+	width: 1;
+}
+
+.contextMenuCardContainer .css-2b097c-container {
+	overflow: scroll;
+}
+
+.css-es53b3-multiValue {
+	background-color: white;
+	display: flex;
+	margin: 0px;
+	min-width: 65px;
+	font-size: 14px;
+	font-family: $barlow-regular;
+	box-sizing: border-box;
+}
+
+.css-1hwfws3 {
+	flex-wrap: initial;
+}
+
+.css-1alnv5e {
+	padding-left: 1px;
+	padding-right: 1px;
+}
+
+.limitStyle {
+	margin: 10px;
+	text-align: center;
+	font-size: 12px;
+	font-family: $barlow-regular;
+	padding: 10px;
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+	.css-1ju5jrz-control {
+		width: 175px;
+	}
+	.css-wrqit4-control {
+		width: 175px;
+	}
+}
+
+@media (min-width: 300px) and (max-width: 350px) {
+	.css-1ju5jrz-control {
+		width: 200px;
+	}
+	.css-wrqit4-control {
+		width: 200px;
+	}
+}
+
+.css-1rhbuit-multiValue {
+	background-color: unset;
+	min-width: 60px;
+}
+
+.css-16629it-option:active {
+	background-color: transparent;
+}
+
+.css-16629it-option {
+	background-color: transparent;
+}
+
+.css-lr915d-option:active {
+	background-color: transparent;
+}
+
+.css-lr915d-option {
+	background-color: transparent;
+}
+
+.css-14xkxcv-option:active {
+	background-color: transparent;
+}
+
+.css-14xkxcv-option {
+	background-color: transparent;
+	color: #000000;
+}
+
+.css-xb97g8 {
+	display: none;
+}
+
+.css-19bqh2r {
+	width: 16px;
+}
+
+.css-10u4t4s-control:hover {
+	border-color: #e5712a;
+}
+
+//======================================//
+// Custom Checkbox Styles - Start NA    //
+//======================================//
+
+// .checkbox {
+//   width: 100%;
+//   margin: 15px auto;
+//   position: relative;
+//   display: block;
+// }
+
+// .checkbox input[type="checkbox"] {
+//   width: auto;
+//   opacity: 0.00000001;
+//   position: absolute;
+//   left: 0;
+//   margin-left: -20px;
+// }
+
+// .checkbox label {
+//   position: relative;
+// }
+
+// .checkbox label:before {
+//   content: "";
+//   position: absolute;
+//   left: 0;
+//   top: 0;
+//   margin: 4px;
+//   width: 12px;
+//   height: 12px;
+//   transition: transform 0.28s ease;
+//   border: 2px solid #e5712a;
+//   background-color: #e5712a;
+// }
+
+// .checkbox label:after {
+//   content: "";
+//   display: block;
+//   width: 5px;
+//   height: 4px;
+//   border-bottom: 2px solid #ffffff;
+//   border-left: 2px solid #ffffff;
+//   -webkit-transform: rotate(-45deg) scale(0);
+//   transform: rotate(-45deg) scale(0);
+//   transition: transform ease 0.25s;
+//   will-change: transform;
+//   position: absolute;
+//   top: 7px;
+//   left: 8px;
+// }
+
+// .checkbox input[type="checkbox"]:checked ~ label::before {
+//   color: #e5712a;
+// }
+
+// .checkbox input[type="checkbox"]:checked ~ label::after {
+//   -webkit-transform: rotate(-45deg) scale(1);
+//   transform: rotate(-45deg) scale(1);
+// }
+
+// .checkbox label {
+//   display: block;
+//   padding-left: 40px;
+//   margin-bottom: 0;
+//   font-weight: normal;
+//   font-size: 14px;
+//   font-family: $barlow-regular;
+//   cursor: pointer;
+// }
+
+// .checkbox label span {
+//   position: absolute;
+//   margin-top: 8px;
+//   left: 18%;
+//   width: max-content;
+//   -webkit-transform: translateY(-50%);
+//   transform: translateY(-50%);
+// }
+//======================================//
+// Custom Checkbox Styles End           //
+//======================================//
+
+.css-6jztv8::-webkit-scrollbar {
+	height: 8px;
+	overflow: visible;
+	width: 5px;
+}
+
+.checkbox input[type='checkbox']:focus + label::before {
+	outline: 0;
+}
+
+.css-qlqwgq-menu {
+	z-index: 2;
+}
+
+// single select
+.css-2df376-option {
+	background-color: #e5712a !important;
+}
+
+// .css-lcbsb6-indicatorContainer {
+// 	margin-top: 3px;
+// 	right: 20px;
+// 	top: 6px;
+// }
+
+.css-1e9x5lc-indicatorContainer {
+	margin-top: 3px;
+	right: 5px !important;
+	top: 6px !important;
+}
+
+// Dropdown Background Styles Added
+
+//Multi Select
+.css-1nqgufb-option {
+	background-color: transparent;
+	color: #050505;
+	cursor: pointer;
+	display: block;
+	font-size: 12px;
+	padding: 8px 12px;
+	width: 100%;
+	user-select: none;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	box-sizing: border-box;
+	font-family: $barlow-regular;
+}
+
+.css-1nqgufb-option:active {
+	background-color: transparent;
+}
+
+.css-1wr21wx-option {
+	background-color: transparent;
+	color: inherit;
+	cursor: pointer;
+	display: block;
+	font-size: 12px;
+	padding: 8px 12px;
+	width: 100%;
+	user-select: none;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	box-sizing: border-box;
+	font-family: $barlow-regular;
+}
+
+.css-1wr21wx-option:active {
+	background-color: transparent;
+}
+
+.css-1wr21wx-option:hover {
+	background-color: transparent;
+}
+
+.css-1puajjh-option {
+	// Unselect Option Styles
+	background-color: transparent;
+	color: inherit;
+	cursor: pointer;
+	display: inline-flex;
+	font-size: 12px;
+	padding: 5px 12px;
+	width: 100%;
+	user-select: none;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	box-sizing: border-box;
+	font-family: $barlow-medium;
+}
+
+.css-1nqgufb-option {
+	// Select Options Styles
+	@extend .css-1puajjh-option;
+	color: #050505;
+}
+
+.css-1puajjh-option:active {
+	background-color: transparent;
+}
+
+.css-1wr21wx-option {
+	@extend .css-1puajjh-option;
+}
+
+// Single Select
+.css-jz4unx-option {
+	background-color: #e5712a;
+	color: rgb(255, 255, 255);
+	cursor: pointer;
+	display: block;
+	font-size: 12px;
+	padding: 8px 12px;
+	width: 100%;
+	user-select: none;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	box-sizing: border-box;
+	font-family: $barlow-regular;
+	outline: none !important;
+	border: none !important;
+	max-height: 47px;
+}
+
+.css-1xnm5y9-option {
+	background-color: transparent;
+	color: inherit;
+	cursor: pointer;
+	display: block;
+	font-size: 12px;
+	padding: 8px 12px;
+	width: 100%;
+	user-select: none;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	box-sizing: border-box;
+	font-family: Chivo-Regular;
+	outline: none !important;
+	border: none !important;
+	white-space: nowrap;
+	word-break: break-word;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
+
+.css-1x0jd2r-option {
+	white-space: nowrap;
+	word-break: break-word;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
+
+// Dropdown Checkbox Styles Block Starts
+input.filterMenuOptionCheckbox {
+	cursor: pointer;
+	-webkit-appearance: none;
+	outline: 0;
+	height: 13px;
+	width: 13px;
+	border: 1px solid #0e90e1;
+	margin: 3px 3px 0px 0px;
+	box-sizing: border-box;
+	padding: 0;
+	background-color: #003353;
+}
+
+input.filterMenuOptionCheckbox:checked:before {
+	position: absolute;
+}
+
+input.filterMenuOptionCheckbox:checked:after {
+	content: '';
+	position: relative;
+	left: 36%;
+	top: 13%;
+	width: 33%;
+	height: 61%;
+	border: solid $color-background-white;
+	border-width: 0 2px 2px 0;
+	transform: rotate(45deg);
+	background-color: #003353 !important;
+}
+
+input.filterMenuOptionCheckbox:checked:after {
+	display: block;
+}
+
+input.filterMenuOptionCheckbox:disabled:after {
+	border-color: #ffffff;
+}
+// Dropdown Checkbox Styles Block Ends
+
+.dropDownLabel {
+	//DropDown label style
+	// overflow-wrap: break-word;
+	// width: 85%;
+	cursor: pointer;
+	font-size: $font-sm;
+	@supports (-webkit-line-clamp: 2) {
+		// overflow: hidden;
+		text-overflow: ellipsis;
+		white-space: initial;
+		// display: -webkit-box;
+		-webkit-line-clamp: 2;
+		-webkit-box-orient: vertical;
+	}
+}
+
+.contexual-filter-title-style {
+	text-transform: capitalize;
+	font-family: Manrope-Bold;
+	font-size: 12px;
+	color: #212529;
+}
+
+// Custom Loading Styles
+.react-select__loading-indicator {
+	display: inline-block;
+	width: 1rem;
+	height: 1rem;
+	vertical-align: text-bottom;
+	border: 0.25em solid;
+	border-right: 0.25em solid transparent;
+	border-radius: 50%;
+	border-width: 0.2em;
+	animation: spinner-border 0.75s linear infinite;
+	color: #e5712a;
+	margin-right: 0.75rem;
+	font-size: unset;
+	padding: 0;
+	& > * {
+		display: none;
+	}
+}
+
+.predictiveSearchLoading {
+	display: inline-flex;
+	padding: 0.8em 2.8em 0.9em 0.8em;
+	justify-items: center;
+	margin-left: 8.6em;
+}
+.searchLoading {
+	display: inline-flex;
+	padding: 0.8em 2.8em 0.9em 0.8em;
+	justify-items: center;
+	margin-left: 2.4em;
+}
+
+.dropdownColor_svg{
+	fill:#0E90E1;
+}
+
+.css-1ubqtzl-singleValue {
+	color: rgb(73, 84, 99);
+	margin-left: 2px;
+	margin-right: 2px;
+	max-width: calc(100% - 8px);
+	overflow: hidden;
+	position: absolute;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	top: 50%;
+	transform: translateY(-50%);
+	box-sizing: border-box;
+	font-size: 14px;
+	width: auto;
+}

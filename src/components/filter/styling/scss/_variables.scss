@@ -1,0 +1,361 @@
+// =============================================================================
+// Settings
+// =============================================================================
+
+// Pimerce Font Sizes
+$font-10: 10px;
+$font-sm: 12px;
+$font-md: 14px;
+$font-lg: 16px;
+$font-xl: 18px;
+$font-xxl:24px;
+
+:export {
+	font_sm: $font-sm;
+	font_md: $font-md;
+	font_lg: $font-lg;
+}
+
+// sizes
+$size-lg: 42px;
+$size-std: 34px;
+$size-sm: 28px;
+$size-small: 26px;
+$size-xs: 22px;
+
+$dropdown-caret-size: 10px;
+
+$navbar-height-desktop: 58px;
+$navbar-height-mobile: 44px;
+
+$thumbnail-spacing: 5px;
+$thumbnail-min-width: 55px;
+
+// media queries
+$breakpoint-values: (extraSmall: 480px,
+	small: 768px,
+	medium: 1024px,
+	large: 1280px);
+$media-queries: get-mq-map($breakpoint-values);
+$page-max-width: 1920px;
+
+$page-gutter-small: 30px;
+$page-gutter-large: 55px;
+
+// borders
+$border-radius-default: 4px;
+$border-radius-color: #ececec;
+
+// spacing
+$spacing-0: 0;
+$spacing-1: 4px;
+$spacing-2: 6px;
+$spacing-3: 10px;
+$spacing-4: 20px;
+$spacing-5: 30px;
+$spacing-6: 45px;
+
+// font weight
+$font-weight-light: 300;
+$font-weight-regular: 400; // normal
+$font-weight-bold: 700; // bold
+
+// shadows
+$shadow-modal: 0 13px 24px 0 rgba(0, 0, 0, 0.15);
+$shadow-navmenu: 0 13px 24px 0 rgba(0, 0, 0, 0.05);
+$shadow-popover: 0 4px 28px 0 rgba(0, 0, 0, 0.2);
+
+// animation
+// (loosely based on material design)
+$duration-long: 375ms;
+$duration-enter: 225ms;
+$duration-leave: 195ms;
+$duration-quick-enter: 165ms;
+$duration-quick-leave: 135ms;
+$ease-standard: cubic-bezier(0.4, 0, 0.2, 1);
+$ease-out: cubic-bezier(0, 0, 0.2, 1);
+$ease-in: cubic-bezier(0.4, 0, 1, 1);
+$ease-in-out: cubic-bezier(0.4, 0, 0.6, 1);
+
+// sliders
+$slider-rail-height: 6px;
+$slider-handle-height: 24px;
+$slider-mark-gap: 4px;
+$slider-mark-size: 10px;
+
+// =============================================================================
+// Colors
+// =============================================================================
+
+$color-background-white: #ffffff;
+$color-background-black:#000000;
+$color-background-violet-blue:#3900a6;
+$color-background-sandal-white:#f4f8f9;
+$color-background-light-blue: #92a6e2;
+$color-background-white-blue:#4360b5;
+$color-background-mineshaft:rgb(51, 51, 51);
+$color-background-cherryred:#fa042d;
+$color-background-cyan-blue:rgb(24, 59, 108);
+$color-background-very-dark-gray:#0d0d0d;
+$color-background-tango:#e5712a;
+$color-background-shark:#212529;
+$color-background-onyx:#3a3b3f;
+$color-background-flamenco:#ea7f41;
+$color-background-vampireblack:#050505;
+$color-background-tuftbush:#ffe0cc;
+
+:export {
+	tuft_bush_color: $color-background-tuftbush;
+}
+
+// Pimerce Font Faces
+$barlow:Chivo;
+$barlow-regular: Chivo-Regular;
+$barlow-medium: Chivo-Medium;
+$barlow-medium-italic: Barlow-Medium-Italic;
+$barlow-semibold: Chivo-Bold;
+$barlow-semibold-italic: Chivo-Italic;
+$barlow-bold: Chivo-Bold;
+$barlow-bold-italic: Chivo-Italic;
+
+:export {
+	barlow_regular: $barlow-regular;
+	barlow_medium: $barlow-medium;
+	barlow_bold: $barlow-bold;
+}
+
+// Pimerce Border Radius
+$border-radius-sm: 14px;
+$border-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.08);
+
+// Pimerce Border Color
+$border-color-white:#ffffff;
+// Pimerce Border Radius
+$box-shadow-default: 0 8px 1px 0 rgba(177, 186, 203, 0.1),
+0 8px 1px 0 rgba(47, 83, 151, 0.1);
+
+
+/**************Pimerce Blue Theme***************/
+
+//Pimerce Blue Theme Color
+$pimerce_orange_color:#0e90e1;
+$pimerce_title_color:#000000;
+$pimerce-dataGrid_heading_color:#000000;
+$pimerce-dataGrid_cellContent_color:#000000;
+$pimerce_white_color:#ffffff;
+$pimerce_dataGrid_activeRow_color:#ffffff;
+$pimerce_emptyMessageBlock:#003353;
+$pimerce_reloadTitleAndButton_color:#003353;
+$pimerce_dashboard_tile_trend_color:#003353;
+$pimerce_horizontal_line_color:#637280;
+$pimerce_logging_out_text_color:#ffffff;
+
+:export {
+	primaryColor: $pimerce_orange_color;
+	blackColor: $pimerce_title_color;
+	whiteColor: $pimerce_white_color;
+
+}
+
+//Pimerce Blue Theme Background Color
+$pimerce_dataGrid_background_tuftbush_color:#e3f3ff;
+$pimerce_dataGrid_non_activeRow_backgroundcolor:#f8fcff;
+$pimerce_background_gray_color:#f7f7f7;
+$pimerce_background_white_color:#ffffff;
+$pimerce_export_style_background_color:#e3f3ff;
+$pimerce_webkit_scrollbar_track_piece_color :#e3f3ff;
+$pimerce_dropdown_toggle_border_color:#280098;
+$pimerce_falu_red_color:#ff922100;
+$pimerce_snow_color:#F9F9F9;
+
+:export {
+	grayColor: $pimerce_background_gray_color;
+	whiteColor: $pimerce_background_white_color;
+	nonActiveRowColor: $pimerce_dataGrid_non_activeRow_backgroundcolor;
+	snow_color: $pimerce_snow_color;
+	datagrid_bg_color: $pimerce_dataGrid_background_tuftbush_color;
+}
+
+//Border Color
+$pimerce_border_white_color:#ffffff;
+$pimerce_border_black_color:#000000;
+$pimerce_border_tuftbush_color:#c2d5e5;
+$pimerce_dataGrid_table_borderLine_color:#c2d5e5;
+$pimerce_dropdown_border_color:#495463;
+$pimerce_dropdown_toggle_border_color:#280098;
+$pimerce_cancel_button_border_color:#c2d5e5;
+
+:export {
+	borderLine_color: $pimerce_dataGrid_table_borderLine_color;
+	donut_border_color: $pimerce_border_tuftbush_color;
+	border_white_color: $pimerce_border_white_color;
+	donut_box_shadow_color: '#e3f3ff';
+}
+
+//Filter Color
+$pimerce_button_background_color:#e3f3ff;
+$pimerce_filter_title_color:#637280;
+$pimerce_dropDown_color:#2e3d4a;
+$pimerce_powerSku_and_datePicker_color:#000000;
+$pimerce_datePicker_selectedDay_color:#edf1f4;
+$pimerce_datePicker_selectedDay_cellContent_color:#0c4475;
+$pimerce_filter_footer_border_color: #000000;
+$pimerce_filter_button_border_color:#c2d5e5;
+
+:export {
+	singleValue_color: $pimerce_dropDown_color;
+}
+
+//Applied Filter Badge Color
+$pimerce_badge_background_color:#e3f3ff;
+$pimerce_badge_text_color:#003353;
+
+//SideMenu
+$pimerce_sidemenu_hover_color:#000000;
+$pimerce_sidemenu_activeTab_color:#000000;
+$pimerce_sidemenu_withicon_color:#637280;
+
+//Toggle
+$pimerce_toggle_availability_color:#0e90e1;
+$pimerce_toggle_notAvailability_color:#637280;
+$pimerce_toggle_notAvailability_tab_color:#637280;
+$pimerce_toggle_verticalLine:#edf1f4;
+
+//Modal
+$pimerce_modal_header_border_color:#c2d5e5;
+$pimerce_modal_header_background_color:#e3f3ff;
+$pimerce_modal_title_color:#000000;
+$pimerce_modal_headerStyle_color:#000000;
+$pimerce_modal_headerStyle_subtext_color:#0e90e1;
+$pimerce_modal_card_border_color:#ffffff;
+$pimerce_modal_headerStyle_content_color:#0e90e1;
+$pimerce_modal_toggleOnClass_color:#0e90e1;
+$pimerce_modal_toggleOffClass_color :#87c5ef;
+$pimerce_modalActiveRow_color:#ffffff;
+$pimerce_modalNon_activeRow_color:#f8fcff;
+$pimerce_modal_footer_link_color:#0e90e1;
+$pimerce_model_focus_border_color: #5cb3fd;
+$pimerce_moda_label_info_color: #636c72;
+
+
+//Common Color
+$pimerce_placeholder_color:#999999;
+$pimerce_dropdown_toggle_color:#280098;
+$pimerce_dropdown_toggle_border_color:#280098;
+$pimerce_btn_color:#280098;
+$pimerce_no_data_style:#363636;
+$pimerce_chinese_silver:#ccc;
+$pimerce_vulcan_color:#3a3b3f;
+$pimerce_amaranth_color:#dc3545;
+$pimerce_white_smoke_color:#f0f0f0;
+$pimerce_pizazz_color:#e77d3b;
+$pimerce_nero_black_color:#292929;
+$pimerce_whisper_color:#e5e5e5;
+$pimerce_pumpkin_color:#ff771d;
+$pimerce_torch_red_color:#FF0004;
+$pimerce_kelly_green_color:#4FA600;
+$pimerce_black_color:#000000;
+$pimerce_link_water_color:#c6cbd4;
+$pimerce_solitude_color:#e9eff4;
+$pimerce_grey_color:#818181;
+$pimerce_yellow_green_color:#7ed321;
+$pimerce_radical_red_color:#fc4967;
+$pimerce_navlink_active_color:#4192ec;
+$pimerce_dark_turquoise_color:#0ecdd8;
+$pimerce_navy_blue_color:#000080;
+$pimerce_ultramarine_color:#30009f;
+$pimerce_error_msg_color:#ff000c;
+$pimerce_night_rider_color:#353535;
+$pimerce_alice_blue_color:#e3f3ff;
+$pimerce_blue_marguerite_color:#6B49B9;
+$pimerce_midnight_blue_color:#0c0053;
+$pimerce_smalt_color:#002384;
+$pim_border_color: #efefef;
+
+:export {
+	vulcan_color: $pimerce_vulcan_color;
+	white_smoke_color: $pimerce_white_smoke_color;
+	nero_black_color: $pimerce_nero_black_color;
+	pumpkin_color: $pimerce_pumpkin_color;
+	torch_red_color: $pimerce_torch_red_color;
+	kelly_green_color: $pimerce_kelly_green_color;
+	yellow_green_color: $pimerce_yellow_green_color;
+	radical_red_color: $pimerce_radical_red_color;
+	dark_turquoise_color: $pimerce_dark_turquoise_color;
+	night_rider_color: $pimerce_night_rider_color;
+	mid_night_blue_color: $pimerce_midnight_blue_color;
+}
+
+//Profile Header
+$pimerce_profile_header_title_color:#003353;
+$pimerce_logoutbtn_text_color:#000000;
+$pimerce_logoutbtn_background_color:#e3f3ff;
+$pimerce_profile_input_border_color:#c2d5e5;
+$pimerce_logoutbtn_hover_text_color:#093549;
+$pimerce_form_control_background_color:#f8fcff;
+$pimerce_profile_input_background_color:#edf1f4;
+$pimerce_change_password_text_color:#003353;
+$pimerce_mandatory_field_text_color:#FF0004;
+$pimerce_save_button_background_color:#e3f3ff;
+$pimerce_save_button_border_color:#c2d5e5;
+$pimerce_profile_header_cancel_button_border_color:#c2d5e5;
+$pimerce_profile_header_cancel_button_background_color:#e3f3ff;
+$pimerce_profile_header_app_version_text:#000000;
+
+//Change password Screen
+$pimerce_change_password_title_text_color:#003353;
+$pimerce_apply_changes_button_background_color:#e3f3ff;
+$pimerce_apply_changes_button_border_color:#c2d5e5;
+$pimerce_cancel_button_background_color:#e3f3ff;
+$pimerce_cancel_button_border_color:#c2d5e5;
+$pimerce_change_password_mandatory_field_text_color:#FF0004;
+$pimerce_change_password_profile_input_background_color:#ffffff;
+$pimerce_change_password_profile_input_border_color:#c2d5e5;
+
+//Toast
+$pimerce_error_background_color:#e3f3ff;
+$pimerce_valid_background_color:#e3f3ff;
+$pimerce_warning_background_color:#e3f3ff;
+
+:export {
+	error_bg_color: $pimerce_error_background_color;
+	warning_bg_color: $pimerce_warning_background_color;
+	valid_bg_color: $pimerce_valid_background_color;
+
+}
+
+//Login Page
+$pimerce_login_block_info:#01337d;
+$pimerce_login_page_heading_color:#003353;
+$pimerce_login_page_login_btn_bg_color:#e3f3ff;
+$pimerce_login_page_input_field_border_color:#c2d5e5;
+$pimerce_login_page_forgot_button_color:#637280;
+$pimerce_login_page_login_btn_text_color:rgb(24, 23, 23);
+
+:export {
+	input_field_border_color: $pimerce_login_page_input_field_border_color;
+}
+
+//Forgot Password
+$pimerce_forgot_showback_btn_color:#000000;
+$pimerce_forgot_text_color:#003353;
+$pimerce_forgot_password_info_color:#000000;
+$pimerce_forgot_confirm_btn_background_color:#e3f3ff;
+$pimerce_forgot_confirm_btn_border_color:#c2d5e5;
+$pimerce_forgot_confirm_btn_text_color:#000000;
+$pimerce_forgot_cancel_btn_text_color:#000000;
+$pimerce_forgot_cancel_btn_bg_color:#ffffff;
+$pimerce_forgot_cancel_btn_border_color:#c2d5e5;
+$pimerce_btn_hover_bg_color:#0e90e1;
+$pimerce_btn_hover_text_color:#ffffff;
+$pimerce_btn_hover_border_color:#637280;
+
+
+//Search Box 
+$pimerce_search_box_placeholder_bg_color:#f8fcff;
+$pimerce_search_bar_box_bg_color:#f8fcff;
+
+//Spinner Color
+$pimerce_spinner_color:#637280;
+$pimerce_violet_spinner_color:#0e90e1;
+$pimerce_login_btn_loading_style:#637280;

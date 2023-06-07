@@ -1,0 +1,231 @@
+@import "../../styling/scss/variables";
+
+.loginBoxLayout {
+	height: 100vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top center;
+	overflow: hidden;
+}
+
+.loginTopContent {
+	display: flex;
+	padding: 40px;
+}
+
+.input-group {
+	position: relative;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: stretch;
+	width: 256px;
+	padding-right: 0em;
+}
+
+.textfield-login {
+	top: 20px;
+	width: 256px;
+	margin-left: 118px;
+}
+
+.login-block-info {
+	color: $pimerce_login_block_info;
+	font-family: $barlow-bold;
+	font-size: $font-lg;
+	line-height: 28px;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: normal;
+	letter-spacing: normal;
+}
+
+.letsGet {
+	line-height: 1.07;
+	font-style: normal;
+	font-stretch: normal;
+	font-size: 60px;
+	letter-spacing: normal;
+	color: $pimerce_white_color;
+	font-family: $barlow-bold;
+}
+
+.needInfo {
+	font-family: $barlow-regular;
+	font-size: $font-xl;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.33;
+	letter-spacing: normal;
+	color: $pimerce_white_color;
+}
+
+.container-login {
+	display: flex;
+	justify-content: center;
+}
+
+.login-box {
+	width: 1000px;
+	z-index: 1;
+	height: 420px;
+	background: $pimerce_background_white_color;
+	display: -webkit-flex;
+	flex-direction: row-reverse;
+	border-top-right-radius: 2em;
+	border-bottom-right-radius: 2em;
+}
+
+/*==================================================================
+[ login more ]*/
+
+.loginBgImage {
+	width: 96%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	z-index: 1;
+	height: 420px;
+	border-top-left-radius: 2em;
+	border-bottom-left-radius: 2em;
+}
+
+/*[ Form Styles]*/
+
+.login-form {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: flex;
+	flex-wrap: wrap;
+	margin: auto;
+	margin-top: 101px;
+}
+
+#loginLeftBlock {
+	display: block;
+}
+
+#loginBtnBlock {
+	border-radius: 2em;
+	position: absolute;
+	margin-top: 195px;
+	margin-left: -55px;
+}
+
+@media (min-width: 320px) and (max-width: 414px) {
+	#loginLeftBlock {
+		display: none;
+	}
+	#loginBtnBlock {
+		border-radius: 2em;
+		position: absolute;
+		margin-top: 195px;
+		margin-left: -44px;
+	}
+	.loginTopContent {
+		justify-content: center;
+	}
+	.forgot {
+		color: #ff656c !important;
+		font-family: $barlow-regular;
+		font-size: $font-sm !important;
+		text-decoration: underline !important;
+		font-weight: normal;
+		display: flex;
+		justify-content: center;
+	}
+	.login-box {
+		width: 949px;
+		height: 378px;
+		background:$pimerce_background_white_color;
+		display: -webkit-flex;
+		flex-direction: row-reverse;
+		z-index: 1;
+		border-top-right-radius: 2em;
+		border-bottom-right-radius: 2em;
+	}
+	.login-block-info {
+		color: $pimerce_login_block_info;
+		font-family: $barlow-bold;
+		font-size: $font-lg;
+		line-height: 28px;
+		position: relative;
+		bottom: 40px;
+		left: 25px;
+		line-height: normal;
+		letter-spacing: normal;
+	}
+}
+
+.login-left-box {
+	width: 115%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	z-index: 1;
+}
+
+.login-left-image-box {
+	z-index: 33;
+	left: 24px;
+	position: absolute;
+	bottom: 47px;
+	color: $pimerce_white_color;
+}
+
+@media (min-width: 650px) {
+	.loginBoxLayout {
+		background-position: center center;
+	}
+	.loginTopContent {
+		align-items: flex-end;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+	.login-form {
+		display: flex;
+		justify-content: center;
+	}
+	.login-block-info {
+		color:$pimerce_login_page_heading_color;
+		font-family: $barlow-bold;
+		font-size: $font-lg;
+		line-height: 28px;
+		font-stretch: normal;
+		font-style: normal;
+		line-height: normal;
+		letter-spacing: normal;
+		position: relative;
+		bottom: 40px;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 3440px) {
+	.loginContentContainer {
+		padding: 15px;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		-ms-transform: translateX(-50%) translateY(-50%);
+		-webkit-transform: translate(-50%, -50%);
+		transform: translate(-50%, -50%);
+	}
+}
+.logout-loading-style1{
+	justify-content: center;
+	display: flex;
+	color: $pimerce_title_color;
+	font-weight: bolder;
+	border-radius: 15px;
+}
+.logout-loading-style2{
+	padding: 4px;
+	padding-right: 8px;
+	font-size: 30px;
+	color: $pimerce_logging_out_text_color;
+}
+.login-btn-loading-style{
+	color: $pimerce_login_btn_loading_style;
+}

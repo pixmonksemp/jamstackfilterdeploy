@@ -1,0 +1,265 @@
+@import "../../styling/scss/_variables.scss";
+
+.profileDummyImage {
+	position: absolute;
+	z-index: 1;
+	display: initial;
+}
+
+.profileContainer {
+	justify-content: center;
+}
+
+.profileCardBody {
+	margin-top: 6%;
+	padding: 10%;
+}
+
+.cardFieldRow {
+	width: 50%;
+}
+
+.LogoutbuttonStyle {
+	position: absolute;
+	right: 2%;
+	width: 125px;
+	height: 52px;
+	padding: 0px;
+	margin-top: -31px;
+	cursor: pointer;
+}
+
+.logoutModal .modal-content {
+	background: $pim-logout-model-bgcolor;
+	border: none;
+}
+
+.screenForm {
+	text-align: center;
+	padding: 8px !important;
+	margin-top: -6px !important;
+}
+
+.formgroup {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	margin-left: 56px;
+}
+
+.form-group-resetpassword {
+	position: relative;
+	display: flex;
+	justify-content: center;
+}
+
+.cardFieldCol {
+	height: 100%;
+	justify-content: center;
+}
+
+.submitButton[type="button"] {
+	border: none;
+	width: 183px;
+	height: 40px;
+	font-size: $pim-font-sm;
+	border-radius: 0px !important;
+	color: $pim-profile-button-color;
+}
+
+// .submitButton[type="button"]:focus,
+// #cancelBtn:focus {
+// 	box-shadow: 0 0 0 0.2rem transparent !important;
+// }
+
+#saveBtn {
+	background-color: $table-wrapperBGcolor;
+	margin-top: 20px;
+	margin-left: 55px;
+	border:$border-radius-datatable ;
+	// box-shadow: $pim-button-boxshadow;
+	color: $pim-submit-btn-color;
+}
+
+#cancelBtn {
+	margin-top: 19px;
+	border: solid 2px $pim-cancel-button-border-color;
+	margin-left: -17px;
+	color: $pim-submit-btn-color;
+	border: $border-radius-datatable ;
+	// box-shadow: $pim-button-boxshadow;
+	background-color: $table-wrapperBGcolor;
+}
+
+.profileInputs input {
+	text-align: left;
+	padding-left: 15px;
+	width: 325px;
+	height: 50px;
+	font-size: 14px;
+	border-radius: 0px !important;
+	border: $border-radius-datatable;
+	background-color: $pim-profile-bgColor;
+}
+
+.profilePlaceholder {
+	font-style: italic;
+	font-size: $pim-font-sm;
+	color: $pim-profile-placeholder;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+	outline: none;
+	// border-color: transparent;
+}
+.currentPasswordValid {
+	// position: absolute;
+	color: $pim-errorMsg-color;
+	font-family: $barlow-regular;
+	font-size: $pim-font-vsm;
+	font-style: italic;
+	text-align: end;
+	top: 38px;
+	right: 3px;
+}
+
+.logoutBtn {
+	width: 107px;
+	border-radius:0px;
+	border: none;
+	// box-shadow: $pim-button-boxshadow;
+	background-color: $pim-logout-background-color;
+	color: $pim-profile-button-color;
+	font-family: $barlow-semibold;
+	font-weight: bold;
+}
+
+.logoutBtn:hover {
+	background: content-box;
+	border: none;
+	color: $pim-profile-button-color;
+}
+
+.confrimPasswordValid {
+	position: absolute;
+	color: $pim-errorMsg-color;
+	font-family: $barlow-regular;
+	font-size: $pim-font-sm;
+	font-style: italic;
+	text-align: end;
+	top: 38px;
+	right: 3px;
+	top: 48px;
+}
+
+.infoIconProfile {
+	width: 24px;
+	height: 24px;
+	margin: 7px -9px 2px 23px;
+	cursor: pointer;
+}
+
+.versioningText {
+	color: $pim-app-version-color;
+	font-weight: 200;
+	font-size: $pim-font-ssm;
+	margin-top: 132px;
+	margin-left: 70px;
+}
+
+.profileInputs input::-webkit-input-placeholder {
+	font-size: $pim-font-sm;
+}
+
+.ChangePasswordStyle {
+	color: $pim-profile-button-color;
+	font-weight: 200;
+	font-size: $pim-font-ssm;
+	margin-top: -19px;
+	margin-left: -158px;
+}
+
+.footerStyle {
+	color: $pim-mandatory-color;
+	font-weight: 200;
+	font-size: $pim-font-ssm;
+	margin-top: -106px;
+	margin-left: 231px;
+}
+
+.supportCardStyle {
+	position: relative;
+	background-color: $color-background-white;
+	background-clip: border-box;
+	border: $pim-support-card-color;
+	border-radius: 0.25rem;
+	margin-left: 22px;
+	padding-top: -2px;
+	width: 91px;
+	height: 65px;
+}
+
+.supportText {
+	font-size: $pim-font-sm;
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1;
+	letter-spacing: normal;
+	color: $pim-app-version-color;
+	cursor: pointer;
+	padding: 16px;
+}
+
+.overlayOpen {
+	margin-top: -65px;
+}
+.overlayOpenLogout {
+	position: absolute;
+	right: 2%;
+	width: 125px;
+	height: 52px;
+	padding: 0px;
+	margin-top: -96px;
+	cursor: pointer;
+}
+
+.logoutBtnIcon {
+	margin: 0px 0px 3px 4px;
+	width: 20px;
+}
+
+.cardDefault {
+	width: fit-content !important;
+}
+
+/* Apply & close button style------------------------------------------------- */
+.applyButton {
+	width: 105px;
+	height: 32px;
+	border-radius: 19.5px;
+	box-shadow: $pim-apply-btn-box-shadow;
+	background-color: $pim-apply-btn-bg-color;
+	color: $pim-profile-button-color;
+	font-family: $barlow-regular;
+}
+
+button.applyButton.btn.btn-primary {
+	background-color: $pim-apply-btn-bg-color;
+	border-radius: 19.5px !important;
+	border: none;
+	color: $pim-profile-button-color;
+	font-size: $pim-font-ssm;
+	font-stretch: normal;
+	font-style: normal;
+	letter-spacing: normal;
+	float: right;
+}
+
+button.applyButton.btn.btn-primary :active {
+	background-color: $pim-apply-btn-bg-color;
+	border-radius: 19.5px !important;
+	border: none;
+}

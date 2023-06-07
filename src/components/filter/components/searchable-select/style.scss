@@ -1,0 +1,532 @@
+@import '../../styling/scss/variables';
+
+.optionStyle {
+	font-weight: 'bold';
+	margin-left: '10px';
+	color: '#556063';
+	font-size: '10px';
+	font-family: $barlow-regular;
+}
+
+.iconStyle {
+	z-index: 0;
+}
+
+.indicatorSeparatorStyle {
+	align-self: 'stretch';
+	background-color: 'none';
+	margin-bottom: 8;
+	margin-top: 8;
+	width: 1;
+}
+
+.contextMenuCardContainer .css-2b097c-container {
+	overflow: scroll;
+}
+
+.css-es53b3-multiValue {
+	background-color: $pimerce_white_color;
+	display: flex;
+	margin: 0px;
+	min-width: 65px;
+	font-size: $font-md;
+	font-family: $barlow-regular;
+	box-sizing: border-box;
+}
+
+.css-1hwfws3 {
+	flex-wrap: initial;
+}
+
+.css-1alnv5e {
+	padding-left: 1px;
+	padding-right: 1px;
+}
+
+.limitStyle {
+	margin: 10px;
+	text-align: center;
+	font-size: $font-sm;
+	font-family: $barlow-regular;
+	padding: 10px;
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+	.css-1ju5jrz-control {
+		width: 175px;
+	}
+
+	.css-wrqit4-control {
+		width: 175px;
+	}
+}
+
+@media (min-width: 300px) and (max-width: 350px) {
+	.css-1ju5jrz-control {
+		width: 200px;
+	}
+
+	.css-wrqit4-control {
+		width: 200px;
+	}
+}
+
+.css-1rhbuit-multiValue {
+	background-color: unset;
+	min-width: 50px;
+}
+
+.css-1rhbuit-multiValue .css-12jo7m5 {
+	color: $pimerce_dropDown_color;
+    padding-left: 0px;
+    font-family: $barlow-regular;
+}
+
+.css-16629it-option:active {
+	background-color: transparent;
+}
+
+.css-16629it-option {
+	background-color: transparent;
+}
+
+.css-lr915d-option:active {
+	background-color: transparent;
+}
+
+.css-lr915d-option {
+	background-color: transparent;
+}
+
+.css-14xkxcv-option:active {
+	background-color: transparent;
+}
+
+.css-14xkxcv-option {
+	background-color: transparent;
+	color: $pimerce_dropDown_color;
+}
+
+.css-xb97g8 {
+	display: none;
+}
+
+.css-19bqh2r {
+	width: 16px;
+}
+
+.css-10u4t4s-control:hover {
+	border-color: $pimerce_orange_color;
+}
+
+//======================================//
+// Custom Checkbox Styles - Start NA    //
+//======================================//
+
+// .checkbox {
+//   width: 100%;
+//   margin: 15px auto;
+//   position: relative;
+//   display: block;
+// }
+
+// .checkbox input[type="checkbox"] {
+//   width: auto;
+//   opacity: 0.00000001;
+//   position: absolute;
+//   left: 0;
+//   margin-left: -20px;
+// }
+
+// .checkbox label {
+//   position: relative;
+// }
+
+// .checkbox label:before {
+//   content: "";
+//   position: absolute;
+//   left: 0;
+//   top: 0;
+//   margin: 4px;
+//   width: 12px;
+//   height: 12px;
+//   transition: transform 0.28s ease;
+//   border: 2px solid $pimerce_orange_color;
+//   background-color: $pimerce_orange_color;
+// }
+
+// .checkbox label:after {
+//   content: "";
+//   display: block;
+//   width: 5px;
+//   height: 4px;
+//   border-bottom: 2px solid #ffffff;
+//   border-left: 2px solid #ffffff;
+//   -webkit-transform: rotate(-45deg) scale(0);
+//   transform: rotate(-45deg) scale(0);
+//   transition: transform ease 0.25s;
+//   will-change: transform;
+//   position: absolute;
+//   top: 7px;
+//   left: 8px;
+// }
+
+// .checkbox input[type="checkbox"]:checked ~ label::before {
+//   color: $pimerce_orange_color;
+// }
+
+// .checkbox input[type="checkbox"]:checked ~ label::after {
+//   -webkit-transform: rotate(-45deg) scale(1);
+//   transform: rotate(-45deg) scale(1);
+// }
+
+// .checkbox label {
+//   display: block;
+//   padding-left: 40px;
+//   margin-bottom: 0;
+//   font-weight: normal;
+//   font-size: $font-md;
+//   font-family: $barlow-regular;
+//   cursor: pointer;
+// }
+
+// .checkbox label span {
+//   position: absolute;
+//   margin-top: 8px;
+//   left: 18%;
+//   width: max-content;
+//   -webkit-transform: translateY(-50%);
+//   transform: translateY(-50%);
+// }
+//======================================//
+// Custom Checkbox Styles End           //
+//======================================//
+
+.css-6jztv8::-webkit-scrollbar {
+	height: 8px;
+	overflow: visible;
+	width: 5px;
+}
+
+.checkbox input[type='checkbox']:focus+label::before {
+	outline: 0;
+}
+
+.css-qlqwgq-menu {
+	z-index: 2;
+}
+
+// single select
+.css-1jea7q0-singleValue.css-2df376-option {
+	background-color: $pimerce_dropDown_color !important;
+}
+
+// .css-lcbsb6-indicatorContainer {
+// 	margin-top: 3px;
+// 	right: 20px;
+// 	top: 6px;
+// }
+
+.css-1e9x5lc-indicatorContainer {
+	margin-top: 3px;
+	right: 5px !important;
+	top: 6px !important;
+}
+
+// Dropdown Background Styles Added
+
+//Multi Select
+.css-1nqgufb-option {
+	background-color: transparent;
+	color: $pimerce_dropDown_color;
+	cursor: pointer;
+	display: block;
+	font-size: $font-sm;
+	padding: 8px 12px;
+	width: 100%;
+	user-select: none;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	box-sizing: border-box;
+	font-family: $barlow-regular;
+}
+
+.css-1nqgufb-option:active {
+	background-color: transparent;
+}
+
+.css-1wr21wx-option {
+	background-color: transparent;
+	color: inherit;
+	cursor: pointer;
+	display: block;
+	font-size: $font-sm;
+	padding: 8px 12px;
+	width: 100%;
+	user-select: none;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	box-sizing: border-box;
+	font-family: $barlow-regular;
+}
+
+.css-1wr21wx-option:active {
+	background-color: transparent;
+}
+
+.css-1wr21wx-option:hover {
+	background-color: transparent;
+}
+
+.css-1puajjh-option {
+	// Unselect Option Styles
+	background-color: transparent;
+	color: inherit;
+	cursor: pointer;
+	display: inline-flex;
+	font-size: $font-sm;
+	padding: 5px 12px;
+	width: 100%;
+	user-select: none;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	box-sizing: border-box;
+	font-family: $barlow-medium;
+}
+
+.css-1nqgufb-option {
+	// Select Options Styles
+	@extend .css-1puajjh-option;
+	color: $pimerce_dropDown_color;
+}
+
+.css-1sx5vg2-option {
+	@extend .css-1nqgufb-option;
+}
+
+.css-1puajjh-option:active {
+	background-color: transparent;
+}
+
+.css-1wr21wx-option {
+	@extend .css-1puajjh-option;
+}
+
+.css-1e0mtz0-option {
+	@extend .css-1puajjh-option;
+}
+
+.css-17os4r0-option {
+	@extend .css-1puajjh-option;
+}
+
+// Single Select
+.css-jz4unx-option {
+	background-color: $pimerce_orange_color;
+	color: rgb(255, 255, 255);
+	cursor: pointer;
+	display: block;
+	font-size: $font-sm;
+	padding: 8px 12px;
+	width: 100%;
+	user-select: none;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	box-sizing: border-box;
+	font-family: $barlow-regular;
+	outline: none !important;
+	border: none !important;
+	max-height: 47px;
+}
+
+.css-1xnm5y9-option {
+	background-color: transparent;
+	color: inherit;
+	cursor: pointer;
+	display: block;
+	font-size: $font-sm;
+	padding: 9px 12px;
+	min-height: 40px;
+	width: 100%;
+	user-select: none;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	box-sizing: border-box;
+	font-family: Barlow-Regular;
+	outline: none !important;
+	border: none !important;
+	// white-space: nowrap;
+	word-break: break-word;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	color: $pimerce_dropDown_color;
+}
+
+.css-1x0jd2r-option {
+	// white-space: nowrap;
+	word-break: break-word;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	padding: 9px 12px;
+	min-height: 40px;
+}
+
+// Dropdown Checkbox Styles Block Starts
+input.filterMenuOptionCheckbox {
+	cursor: pointer;
+	-webkit-appearance: none;
+	outline: 0;
+	height: 13px;
+	width: 13px;
+	border: 0px solid $pimerce_orange_color;
+	margin: 3px 3px 0px 0px;
+	box-sizing: border-box;
+	padding: 0;
+	background-color: $pimerce_badge_text_color;
+}
+
+input.filterMenuOptionCheckbox:checked:before {
+	position: absolute;
+}
+
+input.filterMenuOptionCheckbox:checked:after {
+	content: '';
+	position: relative;
+	left: 36%;
+	top: 13%;
+	width: 33%;
+	height: 61%;
+	border: solid $color-background-white;
+	border-width: 0 2px 2px 0;
+	transform: rotate(45deg);
+	background-color: $pimerce_badge_text_color !important;
+}
+
+input.filterMenuOptionCheckbox:checked:after {
+	display: block;
+}
+
+input.filterMenuOptionCheckbox:disabled:after {
+	border-color: $pimerce_border_white_color;
+}
+
+// Dropdown Checkbox Styles Block Ends
+
+.dropDownLabel {
+	//DropDown label style
+	// overflow-wrap: break-word;
+	// width: 85%;
+	cursor: pointer;
+
+	@supports (-webkit-line-clamp: 2) {
+		// overflow: hidden;
+		text-overflow: ellipsis;
+		white-space: initial;
+		// display: -webkit-box;
+		-webkit-line-clamp: 2;
+		-webkit-box-orient: vertical;
+		font-family: $barlow-regular;
+	}
+}
+
+.contexual-filter-title-style {
+	text-transform: capitalize;
+	font-family: $barlow-medium;
+	font-size: $font-sm;
+	color: $pimerce_filter_title_color;
+}
+
+// Custom Loading Styles
+.react-select__loading-indicator {
+	display: inline-block;
+	width: 1rem;
+	height: 1rem;
+	vertical-align: text-bottom;
+	border: 0.25em solid;
+	border-right: 0.25em solid transparent;
+	border-radius: 50%;
+	border-width: 0.2em;
+	animation: spinner-border 0.75s linear infinite;
+	color: $pimerce_orange_color;
+	margin-right: 0.75rem;
+	font-size: unset;
+	padding: 0;
+
+	&>* {
+		display: none;
+	}
+}
+
+.predictiveSearchLoading {
+	display: inline-flex;
+	padding: 0.8em 2.8em 0.9em 0.8em;
+	justify-items: center;
+	margin-left: 8.6em;
+}
+
+.searchLoading {
+	display: inline-flex;
+	padding: 0.8em 2.8em 0.9em 0.8em;
+	justify-items: center;
+	margin-left: 2.4em;
+}
+
+.no-option-title-style {
+	height: 60px;
+	text-align: center;
+	padding: 8px 12px;
+	color: rgb(153, 153, 153);
+	cursor: context-menu
+}
+
+.spinnerr {
+	margin: 0 auto 0;
+	width: 70px;
+	text-align: center;
+	color: $pimerce_spinner_color;
+}
+
+.spinnerr>div {
+	width: 12px;
+	height: 12px;
+	background-color: $pimerce_spinner_color;
+	margin: 2px;
+
+	border-radius: 100%;
+	display: inline-block;
+	-webkit-animation: sk-bouncedelay 1.4s infinite ease-in-out both;
+	animation: sk-bouncedelay 1.4s infinite ease-in-out both;
+}
+
+.spinnerr .bounce1 {
+	-webkit-animation-delay: -0.32s;
+	animation-delay: -0.32s;
+}
+
+.spinnerr .bounce2 {
+	-webkit-animation-delay: -0.16s;
+	animation-delay: -0.16s;
+}
+
+@-webkit-keyframes sk-bouncedelay {
+
+	0%,
+	80%,
+	100% {
+		-webkit-transform: scale(0);
+	}
+
+	40% {
+		-webkit-transform: scale(1);
+	}
+}
+
+@keyframes sk-bouncedelay {
+
+	0%,
+	80%,
+	100% {
+		-webkit-transform: scale(0);
+		transform: scale(0);
+	}
+
+	40% {
+		-webkit-transform: scale(1);
+		transform: scale(1);
+	}
+}

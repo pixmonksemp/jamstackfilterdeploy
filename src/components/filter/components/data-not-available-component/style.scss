@@ -1,0 +1,37 @@
+@import '../../styling/scss/variables';
+
+.emptyContentContainer {
+	text-align: center;
+	position: initial;
+	// height: 20.8em;
+	padding: 90px;
+	background-color: $color-background-white;
+	border: none;
+}
+
+.gridgradeSku {
+	.emptyContentContainer {
+		text-align: center;
+		position: initial;
+		padding: 1px;
+		height: 8.8em;
+		border: none;
+	}
+}
+
+.emptyImageBlock {
+	width: fit-content !important;
+}
+
+.emptyMessageBlock {
+	height: 40px;
+	font-family: $barlow-semibold;
+	font-size: $border-radius-sm;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.43;
+	letter-spacing: normal;
+	color: $pimerce_emptyMessageBlock;
+	margin-top: 10px;
+	text-align: center;
+}

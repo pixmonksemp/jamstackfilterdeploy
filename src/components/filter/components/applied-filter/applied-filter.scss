@@ -1,0 +1,24 @@
+@import'../../styling/scss/variables';
+
+.applied-filter-cardBody-style {
+    display: contents;
+}
+
+.applied-filter-cardBody-row {
+    display: inline-flex;
+    justify-content: center;
+}
+
+.applied-filter-placeholder {
+    object-fit: cover;
+}
+
+.applied-filter-grid-modalTitle {
+    margin-left: 10px;
+    margin-top: 16px;
+}
+
+.applied-filter-badge-style {
+    color: $pimerce_badge_text_color;
+    background-color: $pimerce_badge_background_color;
+}

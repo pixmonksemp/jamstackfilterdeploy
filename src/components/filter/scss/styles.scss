@@ -1,0 +1,135 @@
+@import "../styling/scss/variables";
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: $barlow-regular;
+  height: 100% !important;
+  background: $pimerce_white_smoke_color !important;
+}
+
+.spinnerDivCommon {
+  text-align: center;
+  position: initial;
+  padding: 30px;
+  color: $pimerce_violet_spinner_color;
+}
+
+.p-datatable .p-column-header-content {
+  font-family: $barlow-bold;
+}
+.gridcontainer .p-datatable .p-datatable-tbody > tr > td {
+  font-family: $barlow-regular;
+}
+
+/**********************************/
+/* TAB CONTENT STYLE BLOCK STARTS */
+/**********************************/
+a.nav-link.active {
+  font-family: $barlow-regular;
+  font-size: $font-lg !important;
+  font-weight: bold !important;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: $pimerce_navlink_active_color;
+}
+
+a.nav-link {
+  color: $pimerce_link_water_color;
+  font-family: $barlow-regular;
+  font-size: $font-lg !important;
+  font-weight: normal !important;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+}
+
+.tabContainerStyle {
+  background-color: $pimerce_white_color;
+  margin: 30px 49px 30px 54px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.08);
+  min-height: 60px;
+}
+
+.searchBarRowStyle {
+  width: 100%;
+}
+
+/**********************************/
+/* PIMERCE FONT ADDED BLOCK STARTS*/
+/**********************************/
+@font-face {
+  font-family: "Barlow-Regular";
+  src: url("../assets/fonts/Barlow/Barlow-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Barlow-Medium";
+  src: url("../assets/fonts/Barlow/Barlow-Medium.ttf");
+}
+
+@font-face {
+  font-family: "Barlow-Medium-Italic";
+  src: url("../assets/fonts/Barlow/Barlow-MediumItalic.ttf");
+}
+
+@font-face {
+  font-family: "Barlow-SemiBold";
+  src: url("../assets/fonts/Barlow/Barlow-SemiBold.ttf");
+}
+
+@font-face {
+  font-family: "Barlow-SemiBold-Italic";
+  src: url("../assets/fonts/Barlow/Barlow-SemiBoldItalic.ttf");
+}
+
+@font-face {
+  font-family: "Barlow-Bold";
+  src: url("../assets/fonts/Barlow/Barlow-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Barlow-Bold-Italic";
+  src: url("../assets/fonts/Barlow/Barlow-BoldItalic.ttf");
+}
+
+//Font Family Chivo
+
+@font-face {
+  font-family: "Chivo-Regular";
+  src: url("../assets/fonts/Chivo/Chivo-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Chivo-Black";
+  src: url("../assets/fonts/Chivo/Chivo-Black.ttf");
+}
+
+@font-face {
+  font-family: "Chivo-Italic";
+  src: url("../assets/fonts/Chivo/Chivo-Italic.ttf");
+}
+
+@font-face {
+  font-family: "Chivo-Bold";
+  src: url("../assets/fonts/Chivo/Chivo-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Chivo-BlackItalic";
+  src: url("../assets/fonts/Chivo/Chivo-BlackItalic.ttf");
+}
+
+@font-face {
+  font-family: "Chivo-Light";
+  src: url("../assets/fonts/Chivo/Chivo-Light.ttf");
+}
+
+@font-face {
+  font-family: "Chivo-Medium";
+  src: url("../assets/fonts/Chivo/chivo-medium.ttf");
+}

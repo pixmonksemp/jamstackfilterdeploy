@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="9px" height="14px" viewBox="0 0 9 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>Shape</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Web-Application" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Forgot-Password_Error-Message@2x" transform="translate(-151.000000, -131.000000)" fill="#292929" fill-rule="nonzero">
+            <path d="M155.499129,141.470338 C155.246331,141.473382 155.00244,141.377068 154.819932,141.20212 L149.286851,135.656061 C149.041105,135.412634 148.943894,135.056595 149.031835,134.72206 C149.119777,134.387525 149.37951,134.125318 149.713196,134.03421 C150.046882,133.943102 150.403827,134.036934 150.649572,134.280361 L155.499129,139.147223 L160.348687,134.280361 C160.729786,133.93449 161.315279,133.948668 161.67919,134.312579 C162.043102,134.67649 162.057279,135.261984 161.711408,135.643082 L156.178327,141.20212 C155.995819,141.377068 155.751928,141.473382 155.499129,141.470338 Z" id="Shape" transform="translate(155.480876, 137.735204) rotate(-270.000000) translate(-155.480876, -137.735204) "></path>
+        </g>
+    </g>
+</svg>

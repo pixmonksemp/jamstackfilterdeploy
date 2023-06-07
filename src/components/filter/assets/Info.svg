@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Info</title>
+    <g id="Assets" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-256.000000, -641.000000)">
+            <g id="Group-6-Copy" transform="translate(256.000000, 641.000000)">
+                <circle id="selector-active" fill="#FEE600" cx="9.91470722" cy="9.91470722" r="9.91470722"></circle>
+                <g id="Group" transform="translate(9.000000, 3.000000)" fill="#FFFFFF">
+                    <path d="M2.52,1.26 L2.52,8.26896 C2.52,8.96448 1.95552,9.52896 1.26,9.52896 C0.56448,9.52896 0,8.96448 0,8.26896 L0,1.26 C0,0.56448 0.56448,2.18847163e-14 1.26,2.18847163e-14 C1.95552,2.18847163e-14 2.52,0.56448 2.52,1.26 Z" id="Path"></path>
+                    <path d="M1.26,10.788792 C1.95552,10.788792 2.52,11.351592 2.52,12.048792 C2.52,12.744312 1.95552,13.308792 1.26,13.308792 C0.56448,13.308792 0,12.744312 0,12.048792 C0,11.351592 0.56448,10.788792 1.26,10.788792 Z" id="Path"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,77 @@
+@import '../../styling/scss/variables';
+
+.region-Button,
+.region-Button:hover {
+    background: $pimerce_white_color;
+    color: $pimerce_title_color;
+    border-color: $pimerce_orange_color;
+    border-radius: 5em;
+    font-weight: bold;
+    min-width: 170px;
+    max-width: fit-content;
+    text-align: center;
+    font-size: $font-md;
+    font-family: $barlow-semibold;
+    box-shadow: none !important;
+    min-height: 48px;
+}
+
+// When clicking region button
+button.region-Button.btn-primary:not(:disabled):not(.disabled):active {
+    background-color: $pimerce_white_color;
+    border-radius: 20px;
+    color: $pimerce_title_color;
+    border-color: $pimerce_orange_color;
+}
+
+// When region button click to highlight to active
+button.region-Button-active.btn.btn-primary {
+    background-color: $pimerce_button_background_color !important;
+    color: $pimerce_title_color !important;
+    border-color: $pimerce_orange_color;
+    border-radius: 5em;
+    font-weight: bold;
+    min-width: 170px;
+    max-width: fit-content;
+    text-align: center;
+    font-size: $font-md;
+    font-family: $barlow-semibold;
+    box-shadow: none !important;
+    min-height: 48px;
+}
+
+.btn-label {
+    margin-top: 7px;
+    font-size: $font-sm;
+    cursor: pointer;
+}
+
+.market-labels {
+    margin-top: 2px;
+    font-size: 11px;
+    cursor: pointer;
+    font-family: $barlow-medium;
+}
+
+.market-labels-active {
+    @extend .market-labels;
+    color: $pimerce_orange_color;
+}
+
+.dashboardFilter-card {
+    margin-top: -10px;
+    min-height: 270px;
+    min-width: fit-content;
+    max-width: 796px;
+    // left: -38px;
+    max-height: max-content;
+    border-radius: 14px;
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.04);
+    border: solid 1px $pimerce_white_smoke_color;
+    background-color: $pimerce_background_white_color;
+    padding: 0 10px 10px 10px;
+}
+
+.dashboardFilter-container {
+    padding: 14px 0px 0px 0px;
+}

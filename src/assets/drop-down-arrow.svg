@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="10" height="6" viewBox="0 0 10 6">
+    <defs>
+        <path id="hcswf24w1a" d="M2 2.998L5 8 7.875 8 4.856 2.998 8 -2 5 -2z"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <use fill="#2D363F" transform="rotate(-90 5 3)" xlink:href="#hcswf24w1a"/>
+    </g>
+</svg>

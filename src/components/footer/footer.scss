@@ -1,0 +1,23 @@
+@import "../../styling/scss/variables";
+
+.execution-module-footer {
+	position: fixed;
+	left: 0;
+	bottom: -2px;
+	width: 100%;
+	color: #A0AEC0;
+	text-align: center;
+	font-size: 12px;
+	font-weight: normal;
+	font-family: $barlow-regular;
+	z-index: -1;
+}
+
+.authentication-module-footer {
+	@extend .execution-module-footer;
+	background-color: transparent;
+	color: #ffffff;
+	opacity: 0.5;
+	bottom: 0 !important;
+	z-index: 1;
+}

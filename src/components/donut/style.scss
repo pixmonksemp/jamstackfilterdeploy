@@ -1,0 +1,93 @@
+@import "../../styling/scss/variables";
+
+.donutchart-track {
+  fill: transparent;
+  stroke: #f6f6f6db;
+  stroke-width: 12;
+}
+
+.donutchart-track-true {
+  fill: transparent;
+  stroke: #f3f5f8;
+  stroke-width: 12;
+}
+
+.donutchart-indicator {
+  fill: transparent;
+  stroke-width: 12;
+  stroke-dasharray: 0 10000;
+  stroke-linecap: round;
+  transition: stroke-dasharray 0.3s ease;
+}
+
+.donutchart-indicator-true {
+  fill: transparent;
+  stroke: #60d4ee;
+  stroke-width: 12;
+  stroke-dasharray: 0 10000;
+  transition: stroke-dasharray 0.3s ease;
+}
+
+.donutchart-contentQuality-true {
+  fill: transparent;
+  stroke: #2d99ff;
+  stroke-width: 12;
+  stroke-dasharray: 0 10000;
+  transition: stroke-dasharray 0.3s ease;
+}
+
+.donut-text-percent {
+  font-size: 22px;
+}
+
+.donutchart-text-star {
+  font-size: 0.7em;
+  fill: gold;
+}
+.donut-text-percent {
+  font-size: 22px;
+}
+
+.donutchart-text-label {
+  font-size: 9px;
+}
+
+.star {
+  font-size: 12px;
+  background: green;
+}
+
+.donutchart-textsize-contentQuality {
+  font-family: $barlow-regular;
+  fill: #3a3b3f;
+}
+
+.donutchart-textsize-val-contentQuality {
+  font-family: $barlow-medium;
+  font-size: 26px;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.77;
+  letter-spacing: -0.08px;
+  color: #3a3b3f;
+}
+
+.donutchart-textsize-val {
+  font-family: $barlow-medium;
+  font-size: 26px;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.77;
+  letter-spacing: -0.08px;
+  color: #3a3b3f;
+}
+
+.donutchart-textsize-label-contentQuality {
+  font-family: $barlow-medium;
+  font-size: 26px;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.77;
+  letter-spacing: -0.08px;
+  color: #3a3b3f;
+}

@@ -1,0 +1,729 @@
+{
+    "graphSeriesPricing" : [
+        {
+          "name": "Compliant",
+          "currencySymbol": null,
+          "data": [350, 250, 45, 90, 65, 0, 0, 0, 0, 0, 0, 0],
+          "customTooltipDetails": null,
+          "id": null,
+          "displayid": null,
+          "category": null,
+          "categoryId": null,
+          "brand": null,
+          "brandId": null,
+          "brandElement": null,
+          "brandElementId": null
+        },
+        {
+          "name": "Non Compliant",
+          "currencySymbol": null,
+          "data": [100, 100, 23, 65, 33, 0, 0, 0, 0, 0, 0, 0],
+          "customTooltipDetails": null,
+          "id": null,
+          "displayid": null,
+          "category": null,
+          "categoryId": null,
+          "brand": null,
+          "brandId": null,
+          "brandElement": null,
+          "brandElementId": null
+        }
+      ],
+      "xaxisDataPricing" : [
+        "Jan",
+        "Feb",
+        "Mar",
+        "Apr",
+        "May",
+        "Jun",
+        "Jul",
+        "Aug",
+        "Sep",
+        "Oct",
+        "Nov",
+        "Dec"
+      ],
+      "pieCharttilesdata" :["Content Analysis", "Lorem ipsum dolor sit amet"],
+      "pieChartLabels" : [],
+      "pieChartSeries" : ["44", "56"]
+      ,
+      "chartOneOptions":{
+        "annotations": {
+            "position": "front",
+            "yaxis": [
+                {
+                    "y": 100,
+                    "y2": null,
+                    "strokeDashArray": 5,
+                    "fillColor": "#ff0000",
+                    "borderColor": "#ff0000",
+                    "borderWidth": 1,
+                    "opacity": 0.3,
+                    "offsetX": 0,
+                    "offsetY": 0,
+                    "width": "0%",
+                    "yAxisIndex": 0,
+                    "label": {
+                        "borderColor": "#c2c2c2",
+                        "borderWidth": 1,
+                        "borderRadius": 2,
+                        "textAnchor": "end",
+                        "position": "right",
+                        "offsetX": 0,
+                        "offsetY": -3,
+                        "style": {
+                            "background": "#fff",
+                            "fontSize": "11px",
+                            "fontWeight": 400,
+                            "cssClass": "",
+                            "padding": {
+                                "left": 5,
+                                "right": 5,
+                                "top": 2,
+                                "bottom": 2
+                            }
+                        }
+                    }
+                }
+            ],
+            "xaxis": [],
+            "points": []
+        },
+        "chart": {
+            "stacked": true,
+            "height": 170,
+            "type": "bar",
+            "toolbar": {
+                "show": false
+            },
+            "zoom": {
+                "enabled": false
+            },
+            "animations": {
+                "enabled": false
+            }
+        },
+        "markers": {
+            "size": 4,
+            "strokeWidth": 2,
+            "fillOpacity": 0,
+            "strokeOpacity": 1,
+            "hover": {
+                "size": 6
+            },
+            "discrete": false
+        },
+        "plotOptions": {
+            "bar": {
+                "horizontal": false,
+                "columnWidth": "25",
+                "startingShape": "flat",
+                "endingShape": "flat",
+                "distributed": false,
+                "dataLabels": {
+                    "position": "center",
+                    "maxItems": "vertical",
+                    "hideOverflowingLabels": true
+                },
+                "colors": {
+                    "backgroundBarColors": []
+                }
+            },
+            "treemap": {
+                "enableShades": false,
+                "useFillColorAsStroke": false
+            }
+        },
+        "dataLabels": {
+            "enabled": false,
+            "textAnchor": "middle",
+            "offsetX": 0,
+            "offsetY": 2,
+            "style": {
+                "fontSize": "12px",
+                "colors": [
+                    "#ffffff"
+                ]
+            }
+        },
+        "legend": {
+            "show": false,
+            "fontSize": "12px",
+            "showForSingleSeries": true,
+            "showForNullSeries": true,
+            "showForZeroSeries": true,
+            "position": "bottom",
+            "height": 0,
+            "horizontalAlign": "left",
+            "offsetX": -35,
+            "itemMargin": {
+                "horizontal": 15,
+                "vertical": 10
+            },
+            "onItemClick": {
+                "toggleDataSeries": true
+            },
+            "onItemHover": {
+                "highlightDataSeries": true
+            },
+            "markers": {
+                "width": "10px",
+                "height": "10px",
+                "fillColors": [],
+                "radius": "15px"
+            }
+        },
+        "stroke": {
+            "width": 0,
+            "curve": "straight",
+            "colors": []
+        },
+        "grid": {
+            "show": false,
+            "borderColor": "#e0e0e0",
+            "strokeDashArray": 4,
+            "row": {
+                "colors": [],
+                "opacity": 0.5
+            },
+            "column": {
+                "colors": [],
+                "opacity": 0.2
+            }
+        },
+        "colors": [
+            "#232323",
+            "#4E4E4E",
+            "#AAAAAA",
+            "#FE6347"
+        ],
+        "xaxis": {
+            "categories": [
+                "Grade A",
+                "Grade B",
+                "Grade C",
+                "Grade D"
+            ],
+            "tooltip": {
+                "enabled": false
+            },
+            "labels": {
+                "show": true,
+                "trim": false,
+                "rotate": -45,
+                "rotateAlways": false,
+                "style": {
+                    "fontSize": "12px",
+                    "fontWeight": 500,
+                    "color": "#353535"
+                }
+            },
+            "title": {
+                "text": "",
+                "offsetX": 1,
+                "offsetY": 1,
+                "style": {
+                    "fontSize": "12px",
+                    "fontWeight": "normal",
+                    "color": "#979797"
+                }
+            },
+            "axisBorder": {
+                "show": true
+            },
+            "axisTicks": {
+                "show": false
+            },
+            "convertedCatToNumeric": false
+        },
+        "tooltip": {
+            "enabled": true,
+            "shared": false,
+            "followCursor": true,
+            "intersect": true,
+            "style": {
+                "fontSize": "12px"
+            },
+            "x": {
+                "show": true
+            },
+            "y": {}
+        },
+        "yaxis": {
+            "labels": {
+                "style": {
+                    "fontSize": "12px",
+                    "fontWeight": 500,
+                    "color": "#353535",
+                    "fill":"black"
+                },
+                "align": "right"
+            },
+            "axisBorder": {
+              "show": true
+          },
+            "title": {
+                "style": {
+                    "fontSize": "12px",
+                    "fontWeight": "normal",
+                    "color": "#979797"
+                }
+            },
+            "tickAmount": 3,
+            "min": 0
+        },
+        "noData": {
+            "text": "No data available",
+            "align": "center",
+            "verticalAlign": "middle",
+            "offsetX": 0,
+            "offsetY": 0,
+            "style": {
+                "color": "#e5712a",
+                "fontSize": "14px"
+            }
+        },
+        "states": {
+            "normal": {
+                "filter": {
+                    "type": "none",
+                    "value": 0
+                }
+            },
+            "hover": {
+                "filter": {
+                    "type": "none",
+                    "value": 0
+                }
+            },
+            "active": {
+                "filter": {
+                    "type": "none",
+                    "value": 0
+                }
+            }
+        }
+    },
+    "options":{
+      "chart": {
+        "height": 350,
+        "type": "line",
+        "toolbar": {
+          "show": false
+      },
+        "zoom": {
+          "enabled": false
+        }
+      },
+      "dataLabels": {
+        "enabled": false
+      },
+      "stroke": {
+        "curve": "straight"
+      },
+      "title": {
+        "show":false,
+        "text": "",
+        "align": "left"
+      },
+      "grid": {
+        "show":false,
+        "row": {
+          "colors": ["#f3f3f3", "transparent"
+          ], 
+          "opacity": 0.5
+        }
+      },
+      "legend": {
+        "show": false
+      },
+      "colors":[
+        "#85C2C8",
+        "#8A77B0",
+        "#F3D27A",
+        "#A9C492",
+        "#FEBCC2"
+      ],
+      "xaxis": {
+        "categories": ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep"
+        ],
+        "axisTicks": {
+          "show": false
+      }
+      }
+    },
+    "lineChartSeries":[{
+      "name": "Amazon",
+      "currencySymbol": null,
+      "data": [50, 34, 22, 12,45,24,65,11],
+      "customTooltipDetails": null,
+      "id": null,
+      "displayid": null,
+      "category": null,
+      "categoryId": null,
+      "brand": null,
+      "brandId": null,
+      "brandElement": null,
+      "brandElementId": null
+    },
+    {
+      "name": "Target",
+      "currencySymbol": null,
+      "data": [23, 34, 11, 97,54,34,66,44],
+      "customTooltipDetails": null,
+      "id": null,
+      "displayid": null,
+      "category": null,
+      "categoryId": null,
+      "brand": null,
+      "brandId": null,
+      "brandElement": null,
+      "brandElementId": null
+    },
+    {
+      "name": "Walmart",
+      "currencySymbol": null,
+      "data": [54, 23, 10, 80,33,21,43,44],
+      "customTooltipDetails": null,
+      "id": null,
+      "displayid": null,
+      "category": null,
+      "categoryId": null,
+      "brand": null,
+      "brandId": null,
+      "brandElement": null,
+      "brandElementId": null
+    },
+    {
+      "name": "Instacart",
+      "currencySymbol": null,
+      "data": [64, 32, 94, 14,9,23,44,21],
+      "customTooltipDetails": null,
+      "id": null,
+      "displayid": null,
+      "category": null,
+      "categoryId": null,
+      "brand": null,
+      "brandId": null,
+      "brandElement": null,
+      "brandElementId": null
+    }
+  ],
+  "chartTwoOptions":{
+    "annotations": {
+        "position": "front",
+        "yaxis": [
+            {
+                "y": 100,
+                "y2": null,
+                "strokeDashArray": 5,
+                "fillColor": "#ff0000",
+                "borderColor": "#ff0000",
+                "borderWidth": 1,
+                "opacity": 0.3,
+                "offsetX": 0,
+                "offsetY": 0,
+                "width": "0%",
+                "yAxisIndex": 0,
+                "label": {
+                    "borderColor": "#c2c2c2",
+                    "borderWidth": 1,
+                    "borderRadius": 2,
+                    "textAnchor": "end",
+                    "position": "right",
+                    "offsetX": 0,
+                    "offsetY": -3,
+                    "style": {
+                        "background": "#fff",
+                        "fontSize": "11px",
+                        "fontWeight": 400,
+                        "cssClass": "",
+                        "padding": {
+                            "left": 5,
+                            "right": 5,
+                            "top": 2,
+                            "bottom": 2
+                        }
+                    }
+                }
+            }
+        ],
+        "xaxis": [],
+        "points": []
+    },
+    "colors":[
+        "#85C2C8",
+        "#8A77B0",
+        "#F3D27A",
+        "#A9C492",
+        "#FEBCC2"
+      ],
+    "chart": {
+        "stacked": false,
+        "height": 170,
+        "type": "bar",
+        "toolbar": {
+            "show": false
+        },
+        "zoom": {
+            "enabled": false
+        },
+        "animations": {
+            "enabled": false
+        }
+    },
+    "markers": {
+        "size": 4,
+        "strokeWidth": 2,
+        "fillOpacity": 0,
+        "strokeOpacity": 1,
+        "hover": {
+            "size": 6
+        },
+        "discrete": false
+    },
+    "plotOptions": {
+        "bar": {
+            "horizontal": false,
+            "columnWidth": "25",
+            "startingShape": "flat",
+            "endingShape": "flat",
+            "distributed": false,
+            "dataLabels": {
+                "position": "center",
+                "maxItems": "vertical",
+                "hideOverflowingLabels": true
+            },
+            "colors": {
+                "backgroundBarColors": []
+            }
+        },
+        "treemap": {
+            "enableShades": false,
+            "useFillColorAsStroke": false
+        }
+    },
+    "dataLabels": {
+        "enabled": false,
+        "textAnchor": "middle",
+        "offsetX": 0,
+        "offsetY": 2,
+        "style": {
+            "fontSize": "12px",
+            "colors": [
+                "#ffffff"
+            ]
+        }
+    },
+    "legend": {
+        "show": false,
+        "fontSize": "12px",
+        "showForSingleSeries": true,
+        "showForNullSeries": true,
+        "showForZeroSeries": true,
+        "position": "bottom",
+        "height": 0,
+        "horizontalAlign": "left",
+        "offsetX": -35,
+        "itemMargin": {
+            "horizontal": 15,
+            "vertical": 10
+        },
+        "onItemClick": {
+            "toggleDataSeries": true
+        },
+        "onItemHover": {
+            "highlightDataSeries": true
+        },
+        "markers": {
+            "width": "10px",
+            "height": "10px",
+            "fillColors": [],
+            "radius": "15px"
+        }
+    },
+    "stroke": {
+        "width": 0,
+        "curve": "straight",
+        "colors": []
+    },
+    "grid": {
+        "show": false,
+        "borderColor": "#e0e0e0",
+        "strokeDashArray": 4,
+        "row": {
+            "colors": [],
+            "opacity": 0.5
+        },
+        "column": {
+            "colors": [],
+            "opacity": 0.2
+        }
+    },
+    
+    "xaxis": {
+        "categories": [
+            "Amazon",
+            "Instacart",
+            "Target",
+            "Walmart"
+        ],
+        "tooltip": {
+            "enabled": false
+        },
+        "labels": {
+            "show": true,
+            "trim": false,
+            "rotate": -45,
+            "rotateAlways": false,
+            "style": {
+                "fontSize": "12px",
+                "fontWeight": 500,
+                "color": "#353535"
+            }
+        },
+        "title": {
+            "text": "",
+            "offsetX": 1,
+            "offsetY": 1,
+            "style": {
+                "fontSize": "12px",
+                "fontWeight": "normal",
+                "color": "#979797"
+            }
+        },
+        "axisBorder": {
+            "show": true
+        },
+        "axisTicks": {
+            "show": false
+        },
+        "convertedCatToNumeric": false
+    },
+    "tooltip": {
+        "enabled": true,
+        "shared": true,
+        "followCursor": true,
+        "intersect": false,
+        "style": {
+            "fontSize": "12px"
+        },
+        "x": {
+            "show": true
+        },
+        "y": {}
+    },
+    "yaxis": {
+        "labels": {
+            "style": {
+                "fontSize": "12px",
+                "fontWeight": 500,
+                "color": "#353535",
+                "fill":"black"
+            },
+            "align": "right"
+        },
+        "axisBorder": {
+          "show": true
+      },
+        "title": {
+            "style": {
+                "fontSize": "12px",
+                "fontWeight": "normal",
+                "color": "#979797"
+            }
+        },
+        "tickAmount": 3,
+        "min": 0
+    },
+    "noData": {
+        "text": "No data available",
+        "align": "center",
+        "verticalAlign": "middle",
+        "offsetX": 0,
+        "offsetY": 0,
+        "style": {
+            "color": "#e5712a",
+            "fontSize": "14px"
+        }
+    },
+    "states": {
+        "normal": {
+            "filter": {
+                "type": "none",
+                "value": 0
+            }
+        },
+        "hover": {
+            "filter": {
+                "type": "none",
+                "value": 0
+            }
+        },
+        "active": {
+            "filter": {
+                "type": "none",
+                "value": 0
+            }
+        }
+    }
+},
+"chartTwoSeries":[{
+  "name": "Grade A",
+  "currencySymbol": null,
+  "data": [50, 34, 22, 12],
+  "customTooltipDetails": null,
+  "id": null,
+  "displayid": null,
+  "category": null,
+  "categoryId": null,
+  "brand": null,
+  "brandId": null,
+  "brandElement": null,
+  "brandElementId": null
+},
+{
+  "name": "Grade B",
+  "currencySymbol": null,
+  "data": [23, 34, 11, 97],
+  "customTooltipDetails": null,
+  "id": null,
+  "displayid": null,
+  "category": null,
+  "categoryId": null,
+  "brand": null,
+  "brandId": null,
+  "brandElement": null,
+  "brandElementId": null
+},
+{
+  "name": "Grade C",
+  "currencySymbol": null,
+  "data": [54, 23, 10, 80],
+  "customTooltipDetails": null,
+  "id": null,
+  "displayid": null,
+  "category": null,
+  "categoryId": null,
+  "brand": null,
+  "brandId": null,
+  "brandElement": null,
+  "brandElementId": null
+},
+{
+  "name": "Grade D",
+  "currencySymbol": null,
+  "data": [64, 32, 94, 14],
+  "customTooltipDetails": null,
+  "id": null,
+  "displayid": null,
+  "category": null,
+  "categoryId": null,
+  "brand": null,
+  "brandId": null,
+  "brandElement": null,
+  "brandElementId": null
+}
+]
+    
+}

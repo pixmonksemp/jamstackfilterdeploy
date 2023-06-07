@@ -1,0 +1,390 @@
+@import '../../styling/scss/variables';
+
+/* New styles add for Datepicker */
+.datePickerMain {
+	position: absolute;
+}
+
+#calendarIcon {
+	justify-content: center;
+	display: flex;
+	font-size: 40px;
+}
+
+.dateRangePickerContainer {
+	width: 260px;
+	height: 42px;
+	border-radius: 8px;
+	background-color: $pimerce_background_white_color;
+
+	.dropdown-toggle {
+		&::after {
+			content: '';
+			width: 7px !important;
+			height: 7px !important;
+			position: absolute;
+			right: 4% !important;
+			top: 60% !important;
+			margin-top: -6px;
+			border: solid $pimerce_border_black_color;
+			border-width: 0 2px 2px 0;
+			transform: rotate(45deg);
+			-webkit-transform: rotate(45deg);
+			display: inline-block;
+			padding: 2px;
+		}
+	}
+
+	input.inputfontstyle.form-control {
+		margin-top: 5px;
+	}
+}
+
+.dateRangePickerContainerClose {
+	width: 310px;
+	height: 47px;
+	border-radius: 8px;
+	border: solid 1px $pimerce_solitude_color;
+	background-color: $pimerce_background_white_color;
+	position: absolute;
+	box-shadow: 0 -4px 24px 0 rgba(236, 236, 236, 0.5) !important;
+
+	.dropdown-toggle {
+		&::after {
+			content: '';
+			width: 7px !important;
+			height: 7px !important;
+			position: absolute;
+			right: 4% !important;
+			top: 60% !important;
+			margin-top: -6px;
+			border: solid $pimerce_border_black_color;
+			border-width: 0 2px 2px 0;
+			transform: rotate(45deg);
+			-webkit-transform: rotate(45deg);
+			display: inline-block;
+			padding: 2px;
+		}
+	}
+
+	input.inputfontstyle.form-control {
+		margin-top: 5px;
+	}
+}
+
+.gridDayPickerdropdown {
+	justify-content: center;
+	box-shadow: 4px 6px 21px 4px #8080801c;
+	z-index: 100;
+	background: $pimerce_background_white_color;
+	position: absolute;
+	// bottom: 25em;
+	border: 1px solid #8080801c;
+    left: -19.8em;
+}
+
+.gridDayPickerdropdownDown {
+	justify-content: center;
+	box-shadow: 0px -2px 2px -2px $pimerce_pizazz_color;
+	z-index: 100;
+	background: $pimerce_background_white_color;
+	bottom: 25em;
+	position: sticky;
+}
+
+.dateRangeDownPosition {
+	position: sticky;
+	z-index: 1000;
+	background: $pimerce_white_color;
+
+	.DayPicker-Day {
+		border-radius: 0 !important;
+	}
+
+	.DayPicker-Day--start {
+		border-top-left-radius: 50% !important;
+		border-bottom-left-radius: 50% !important;
+	}
+
+	.DayPicker-Day--end {
+		border-top-right-radius: 50% !important;
+		border-bottom-right-radius: 50% !important;
+	}
+}
+
+.gridDate {
+	.dropdown-toggle {
+		&::after {
+			content: '';
+			width: 0;
+			height: 0;
+			right: 50%;
+			top: 58%;
+			border: solid $pimerce_dropdown_toggle_border_color;
+			border-width: 0 2px 2px 0;
+			transform: rotate(45deg);
+			-webkit-transform: rotate(45deg);
+			display: none !important;
+			padding: 2px;
+		}
+	}
+}
+
+.btn-outline-dark {
+	color: $pimerce_whisper_color !important;
+
+	&:hover {
+		background: none !important;
+	}
+}
+
+.inputfontstyle {
+	font-size: $font-sm !important;
+	border: none !important;
+	background: none !important;
+	color: $pimerce_title_color !important;
+	cursor: pointer;
+	margin-top: 10px;
+}
+
+.dropdownDateField {
+	padding-right: 0px;
+	border: none !important;
+	font-family: $barlow-bold;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: normal;
+	letter-spacing: normal;
+	width: 110px !important;
+	background: none !important;
+	color: $pimerce_powerSku_and_datePicker_color !important;
+	margin-top: 12px;
+	cursor: pointer;
+	font-size: $font-sm !important;
+
+	&:focus {
+		box-shadow: none !important;
+	}
+}
+
+.DayPicker-Day {
+	display: table-cell;
+	padding-top: 0.6em;
+	padding-bottom: 0.6em;
+	border-radius: 60%;
+	vertical-align: middle;
+	text-align: center;
+	color: $pimerce_night_rider_color;
+	cursor: pointer;
+}
+
+.DayPicker-Day.DayPicker-Day--start.DayPicker-Day--selected {
+	&:focus {
+		outline: aliceblue !important;
+	}
+}
+
+.DayPicker-Day--disabled {
+	color: #dce0e0 !important;
+	cursor: default;
+}
+
+.DayPicker-NavButton,
+.DayPicker-wrapper {
+	outline: none !important;
+}
+
+.DayPicker-TodayButton {
+	width: 20%;
+	background-color: $pimerce_button_background_color;
+	border-radius: 19.5px !important;
+	border: none;
+	color: $pimerce_orange_color;
+	font-size: $font-md;
+	font-stretch: normal;
+	font-style: normal;
+	font-family: $barlow-semibold;
+	margin-left: 1em;
+	letter-spacing: inherit;
+	margin-top: -13px;
+	margin-right: 28px;
+	float: right;
+}
+
+.datePickerCalenderIcon {
+	cursor: pointer;
+	margin-right: -6px;
+	margin-top: 23px;
+}
+
+.DayPicker-Month {
+	width: -webkit-fill-available;
+}
+
+.DayPicker-Caption {
+	text-align: center;
+	color: $pimerce_filter_title_color;
+
+	>div {
+		font-weight: 500;
+		font-size: 0.8em;
+	}
+}
+
+.DayPicker-Day--selected {
+	&:not(.DayPicker-Day--disabled) {
+		&:not(.DayPicker-Day--outside) {
+			position: relative;
+			background-color: $pimerce_datePicker_selectedDay_color;
+			color: $pimerce_datePicker_selectedDay_cellContent_color;
+
+			&:hover {
+				background-color: $pimerce_datePicker_selectedDay_color;
+			}
+		}
+	}
+}
+
+.DayPicker-NavButton--prev {
+	left: 1em;
+}
+
+.DayPicker-NavButton--next {
+	right: 1em;
+}
+
+.DayPicker-Weekdays {
+	display: table-caption;
+	background-color: $pimerce_button_background_color;
+	border-radius: 2em;
+	margin-bottom: 10px;
+}
+
+.DayPicker-Weekday {
+	display: table-cell;
+	padding: 0.5em;
+	padding-right: 0.91em;
+	padding-left: 1em;
+	color: $pimerce_night_rider_color;
+	text-align: center;
+	font-size: $font-md;
+}
+
+.selectable {
+	.DayPicker-Day {
+		border-radius: 0 !important;
+	}
+
+	.DayPicker-Day--start {
+		border-top-left-radius: 50% !important;
+		border-bottom-left-radius: 50% !important;
+	}
+
+	.DayPicker-Day--end {
+		border-top-right-radius: 50% !important;
+		border-bottom-right-radius: 50% !important;
+	}
+
+	justify-content: center;
+	box-shadow: 0px -2px 2px -2px $pimerce_pizazz_color;
+	z-index: 100;
+	background:$pimerce_background_white_color;
+	position: relative;
+	bottom: 7em;
+	margin-left: 20em;
+	box-shadow: 4px 6px 21px 4px #8080801c;
+	border: 1px solid #8080801c;
+}
+
+//@media (min-width: 300px) and (max-width: 787px) {
+
+@media screen and (max-width: 787px) {
+	.selectable {
+		.DayPicker-Day {
+			border-radius: 0 !important;
+		}
+
+		.DayPicker-Day--start {
+			border-top-left-radius: 50% !important;
+			border-bottom-left-radius: 50% !important;
+		}
+
+		.DayPicker-Day--end {
+			border-top-right-radius: 50% !important;
+			border-bottom-right-radius: 50% !important;
+		}
+
+		justify-content: center;
+		box-shadow: 0px -2px 2px -2px $pimerce_pizazz_color;
+		z-index: 100;
+		background:$pimerce_background_white_color;
+		position: relative;
+		bottom: -2em;
+		margin-left: 0px;
+		box-shadow: 4px 6px 21px 4px #8080801c;
+		border: 1px solid #8080801c;
+	}
+}
+
+.gridDate.input-group.input-group-md {
+	flex-wrap: inherit;
+	width: 150px;
+	cursor: pointer;
+	margin-top: -8px;
+}
+
+.highlightsWeeks {
+	color: #f04848;
+}
+
+.modalDatepicker {
+	margin-top: 7px;
+	margin-bottom: 40px;
+}
+
+.datePickerDropButton {
+	border: none !important;
+	padding-bottom: 15px !important;
+	margin-right: -5px;
+}
+
+@media screen and (max-width: 991px) {
+	.datePickerDropButton {
+		border: none !important;
+		padding-bottom: 0px !important;
+		margin-right: -5px;
+		margin-left: -47px;
+	}
+}
+
+.datePickerDropButton:hover {
+	border: none !important;
+	background: none !important;
+	color: $pimerce_whisper_color !important;
+}
+
+.datePickerDropButton:active {
+	border: none !important;
+	background: none !important;
+	color: $pimerce_whisper_color !important;
+}
+
+.datePickerDropButton:focus {
+	box-shadow: none !important;
+	outline: none !important;
+}
+
+button.dateRangePickerDropButton.dropdown-toggle.dropdown-toggle-split.btn.btn-outline-dark.btn-sm {
+	border: none;
+	box-shadow: none;
+}
+
+.gridDayPickerdropdown .DayPicker-Footer {
+	padding-top: 21px;
+	padding-bottom: 15px;
+	margin-top: 15px;
+}
+
+.selectable .DayPicker-Footer {
+	padding-top: 21px;
+}

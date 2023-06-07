@@ -1,0 +1,130 @@
+@import "../../styling/scss/variables";
+
+.chartContainer {
+  width: 1150px;
+  height: 349px;
+  border-radius: 14px;
+  background-color: #ffffff;
+}
+
+.chartContainerDashboard {
+  width: 100%;
+}
+
+.noDataFound_Position {
+  text-align: center;
+  position: initial;
+  height: 21.8em;
+  padding: 150px;
+}
+.apexcharts-legend-marker {
+  background: none !important;
+  border: 1px solid !important;
+}
+
+.apexcharts-legend {
+  flex-wrap: wrap !important;
+  overflow: auto;
+  padding: 0 10px;
+}
+
+.graphContainerStyle {
+  border: none;
+  border-radius: 15px;
+  background-color: #ffffff;
+  padding: 5px;
+}
+
+.graphComponentTitle {
+  font-family: $barlow-medium;
+  font-size: $pim-font-md;
+  font-weight: bold;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: $pim-header-color;
+  margin-left: 1px;
+}
+
+.graphComponentRatingTitle {
+  font-family: $barlow-medium;
+  font-size: 12px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #050505;
+  margin-left: 1px;
+}
+
+.nationalLegendMsgText {
+  color: #e5712a;
+  margin-top: -20px;
+  font-family: $barlow-medium;
+  font-size: smaller;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.graphComponentHeader {
+  padding-top: 3px;
+  padding-right: 28px;
+}
+
+.graphToggle {
+  float: right;
+}
+
+.customTooltip {
+  font-family: $barlow-regular;
+  text-align: center;
+  padding: 5px;
+  word-wrap: break-word;
+}
+
+.customToolTipHeader {
+  font-family: $barlow-bold;
+  text-align: center;
+  background: gray;
+  padding: 5px;
+}
+
+.chartInfoIconStyle {
+  display: flex;
+  justify-content: flex-end;
+  bottom: 20px;
+}
+
+.graph-staticLegendStyle {
+  padding-left: 8px;
+  margin-top: -6px;
+  margin-bottom: 10px;
+  cursor: context-menu;
+  display: flex;
+}
+
+.graph-HeadingStyle {
+  margin-bottom: -22px;
+  display: flex;
+  justify-content: center;
+  font-size: 14px;
+  font-family: $barlow-regular;
+  font-weight: 500;
+}
+//For retailer sos chart tooltip
+.custom-apexchart-tooltip
+{
+    width: 90%;
+    white-space: break-spaces;
+    position: absolute;
+    left: 50%!important;
+}
+//For chart sub heading 
+.graphSubTitle{
+  color: $pim-title-color;
+  font-family: $barlow-bold;
+	font-size: $pim-font-ssm;
+  font-weight: normal;
+  font-style: normal;
+}

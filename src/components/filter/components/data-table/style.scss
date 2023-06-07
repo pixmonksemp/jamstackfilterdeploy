@@ -1,0 +1,753 @@
+@import "../../styling/scss/variables";
+
+.page-link {
+	position: relative;
+	display: block;
+	padding: 0.5rem 0.75rem;
+	margin-left: -1px;
+	line-height: 1.25;
+	color: $pimerce_title_color;
+	border: none !important;
+}
+
+.page-item.active .page-link {
+	z-index: 0 !important;
+	cursor: default;
+	color: white !important;
+	background-color: $pimerce_violet_spinner_color !important;
+	border-color: $pimerce_whisper_color !important;
+	border: none !important;
+}
+
+.page-link:hover {
+	background-color: transparent !important;
+	text-decoration: none;
+}
+
+a:hover {
+	color: $pimerce_title_color;
+	text-decoration: none;
+}
+
+.page-link:focus {
+	z-index: 2;
+	outline: 0;
+	box-shadow: none !important;
+}
+
+tbody {
+	font-family: $barlow-regular;
+	font-size: $font-sm;
+	font-style: normal;
+}
+
+.table td,
+.table th {
+	padding: 0.75rem;
+	vertical-align: baseline;
+	border: none;
+	border-bottom: none;
+	border-top: none;
+}
+
+.table td {
+	color: $pimerce-dataGrid_cellContent_color;
+}
+
+ul.pagination.react-bootstrap-table-page-btns-ul {
+	background-color: #e5e5e5;
+	font-size: 10px;
+	font-weight: 600;
+	float: right;
+	margin-bottom: 65px !important;
+}
+
+a.page-link {
+	background-color: $pimerce_white_smoke_color;
+	color: $pimerce_title_color;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+	background-color: $pimerce_snow_color;
+}
+
+.table-responsive {
+	border-radius: 10px;
+}
+
+table.table {
+	margin-bottom: 0% !important;
+	border: $pimerce_border_tuftbush_color 2px solid;
+}
+
+.react-bootstrap-table {
+	margin-bottom: 40px;
+}
+
+.pagination>li>a {
+	position: relative;
+	float: left;
+	padding: 6px 7.7px;
+	margin-left: -1px;
+	line-height: 1.42857143;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.pagination>.active>a,
+.pagination>.active>a:focus,
+.pagination>.active>a:hover,
+.pagination>.active>span,
+.pagination>.active>span:focus,
+.pagination>.active>span:hover {
+	z-index: 0;
+	//  color: #000;
+	//  background-color:#3900a6;
+	cursor: pointer;
+	//  border-color: #e5e5e5;
+	// border: 1px solid #d7d7d7;
+	// border-radius: 50%;
+	// width: 20px;
+	height: 20px;
+	margin: 2px 0px 0px 19px;
+	padding: 3px 6px;
+	border-radius: 10px;
+	border: solid 1px #c6c6c6;
+	background-color: $pimerce_background_white_color;
+
+	margin-left: -1px;
+	line-height: 1.42857143;
+	margin-top: 2px;
+}
+
+.pagination {
+	font-size: 10px;
+	font-weight: 600;
+	float: right;
+	margin-bottom: 65px !important;
+	margin-top: -23px;
+}
+
+.pagination>li {
+	color: #000 !important;
+}
+
+input.inputstyle.form-control {
+	border-radius: 3px !important;
+	box-shadow: 0 2px 4px 0 rgba(73, 73, 73, 0.08);
+	border: solid 1px #f3f3f3;
+	text-align: left;
+	z-index: 0 !important;
+	padding-right: 40px;
+	height: 42px;
+}
+
+.mb-7.input-group {
+	width: 70%;
+}
+
+.activeRow {
+	background: $pimerce_white_color;
+	height: 60px;
+}
+
+.non-activeRow {
+	background: $pimerce_dataGrid_non_activeRow_backgroundcolor;
+	height: 60px;
+}
+
+input.inputstyle::placeholder {
+	color: $pimerce_link_water_color;
+}
+
+.pimerceGrid {
+	background-color: $pimerce_dataGrid_background_tuftbush_color;
+	font-family: $barlow-bold;
+	font-size: $font-md;
+	font-weight: 600;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: normal;
+	letter-spacing: normal;
+	color: $pimerce_title_color;
+	text-align: center;
+	padding: 19px !important;
+}
+
+.image-column {
+	object-fit: scale-down;
+	max-width: 70%;
+	height: 60px;
+	cursor: grabbing;
+	transition: all 0.2s ease-in-out;
+}
+
+.image-column:hover {
+	transform: scale(2);
+}
+
+.gridNoDataBackground {
+	background-color: $pimerce_white_color;
+}
+
+.gridCard {
+	display: block;
+	border: $pimerce_white_color;
+	border-radius: 15px;
+	box-shadow: $border-shadow;
+}
+
+.gridCardHeader {
+	background-color: $pimerce_white_color;
+	border: $pimerce_white_color;
+	border-radius: 14px !important;
+	padding-top: 26px;
+	padding-left: 21px;
+	padding-bottom: 12px;
+	padding-right: 35px;
+}
+
+.gridCardBody {
+	padding-top: 4px;
+	padding-left: 21px;
+	padding-right: 26px;
+}
+
+.gridCardFooter {
+	background-color: $pimerce_white_color;
+	border: $pimerce_white_color;
+	border-radius: 15px !important;
+	padding: 13px;
+}
+
+.sortIcon {
+	margin-left: 10px;
+	filter: invert(43%) sepia(37%) saturate(2829%) hue-rotate(178deg) brightness(94%) contrast(89%);
+}
+
+//TOGGLE GRID HEADER STYLES
+.switch {
+	position: relative;
+	display: inline-block;
+	width: 60px;
+	height: 34px;
+}
+
+.switch input {
+	opacity: 0;
+	width: 0;
+	height: 0;
+}
+
+.switch {
+	position: relative;
+	display: inline-block;
+	width: 26px;
+	height: 16px;
+}
+
+.switch input {
+	opacity: 0;
+	width: 0;
+	height: 0;
+}
+
+/* toggle introduction*/
+.sliderToggle {
+	position: absolute;
+	cursor: pointer;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: $pimerce_chinese_silver;
+	-webkit-transition: 0.4s;
+	transition: 0.4s;
+}
+
+/*toggle button introduction*/
+.sliderToggle:before {
+	position: absolute;
+	content: "";
+	height: 15px;
+	width: 15px;
+	left: 2px;
+	bottom: 1px;
+	background-color: $pimerce_white_color;
+	-webkit-transition: 0.4s;
+	transition: 0.4s;
+}
+
+/*toggle ON color*/
+input:checked+.sliderToggle {
+	background-color: #2196f3;
+}
+
+/*togle button moving*/
+input:checked+.sliderToggle:before {
+	transform: translateX(8px);
+}
+
+/* Rounded outside sliders */
+.sliderToggle.round {
+	border-radius: 34px;
+}
+
+/*toggle inside circle button*/
+.sliderToggle.round:before {
+	border-radius: 50%;
+}
+
+.nextStyle {
+	height: 14px;
+	margin: 2px 0 4px 18px;
+	font-family: $barlow-medium;
+	font-size: $font-sm;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: normal;
+	letter-spacing: normal;
+	color: $pimerce_orange_color !important;
+	margin-top: -1px;
+}
+
+.disabledPrev {
+	height: 14px;
+	margin: -2px 0px 4px 0;
+	opacity: 0.5;
+	font-family: $barlow-medium;
+	font-size: $font-sm;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: normal;
+	letter-spacing: normal;
+	color: $pimerce_placeholder_color;
+}
+
+.prevStyle {
+	height: 14px;
+	margin: -2px 0px 4px 0;
+	font-family: $barlow-medium;
+	font-size: $font-sm;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: normal;
+	letter-spacing: normal;
+	color: $pimerce_orange_color !important;
+}
+
+.gridLegend {
+	padding-left: 8px;
+	margin-top: -9px;
+	margin-bottom: 10px;
+	cursor: context-menu;
+	display: flex;
+}
+
+.grid-info {
+	cursor: context-menu;
+	font-size: 13px;
+	margin-top: -5px;
+	text-align: right;
+	font-family: $barlow-bold;
+	display: flex;
+	color: $pimerce_orange_color;
+	float: left;
+}
+
+.grid-legend-info {
+	padding-left: 420px;
+	margin-top: -17px;
+	margin-bottom: 10px;
+	cursor: context-menu;
+	display: flex;
+	float: right;
+	right: 10%;
+}
+
+.gridPagination {
+	padding-right: 12px;
+	margin-top: -9px;
+	margin-bottom: 20px;
+}
+
+.gridLegendVariance {
+	width: auto;
+	height: 14px;
+	margin: -2px 30px 0 10px;
+	font-family: $barlow-regular;
+	font-size: $font-sm;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: normal;
+	letter-spacing: normal;
+	color: $pimerce_title_color;
+}
+
+.togglePosition {
+	display: inline;
+}
+
+.headerContainStyle {
+	display: inline-flex;
+}
+
+.tile-container-dataTable {
+	display: flex;
+	padding-right: 78px;
+}
+
+.gridHeaderSearchBar {
+	margin-top: -4px;
+	margin-left: 29px;
+}
+
+.verticalLine {
+	border-left: 2px solid $pimerce_toggle_verticalLine;
+	height: 15px;
+	margin-bottom: -2px;
+	padding: 5px;
+	margin-left: 13px;
+	display: inline-flex;
+}
+
+.toggle {
+	float: right;
+}
+
+.exportCol {
+	margin-left: -17px;
+	margin-bottom: 4px;
+}
+
+.exportBlockOne {
+	margin-top: -1px;
+    margin-left: 20px;
+	padding-right: 40px;
+}
+
+.exportBlockTwo {
+	margin-right: 7px;
+	margin-top: 1px;
+}
+
+.exportBtnIcon {
+	margin: 0px 0px 3px 4px;
+}
+
+.gridCardContainer {
+	border: 1px solid $pimerce_border_tuftbush_color;
+	background-color: $pimerce_dataGrid_background_tuftbush_color;
+	border-radius: 7px;
+}
+
+.gridCardModalContainer {
+	@extend .gridCardContainer;
+	border-bottom: 2px solid $pimerce_border_tuftbush_color;
+	overflow-y: scroll;
+	max-height: 180px;
+	display: flex;
+}
+
+.pageNumberColor {
+	color: $pimerce_orange_color;
+}
+
+.noDataCol {
+	text-align: center;
+}
+
+.headingStyle-ContentAnalysisId {
+	width: 5em;
+	@extend .pimerceGrid;
+}
+
+.headingStyle-ContentAnalysisImage {
+	width: 2em;
+	@extend .pimerceGrid;
+}
+
+.headingStyle-ContentAnalysis {
+	width: 8em;
+	@extend .pimerceGrid;
+}
+
+.headingStyle-ContentAnalysis-skuName {
+	width: 25em;
+	@extend .pimerceGrid;
+}
+
+.toggleStyle {
+	margin-left: 8%;
+}
+
+.modalActiveRow {
+	background: $pimerce_modalActiveRow_color;
+	height: 33px;
+}
+
+.modalNon-activeRow {
+	background: $pimerce_modalNon_activeRow_color;
+	height: 33px;
+}
+
+.table thead th {
+	vertical-align: middle;
+	user-select: none;
+	border-bottom: transparent;
+	color: $pimerce-dataGrid_heading_color;
+}
+
+// Grid Header Styles Updated With Tab Menu UI
+
+.gridHeaderLeftBlock {
+	display: inline-flex;
+	justify-content: flex-start;
+}
+
+.gridCardHeaderTitle {
+	color: $pimerce_title_color;
+	;
+	font-size: $font-xl;
+	margin-left: -15px;
+	font-family: $barlow-bold;
+	margin-top: -6px;
+}
+
+.gridHeaderRightBlock {
+	display: inline-flex;
+	justify-content: flex-end;
+	padding-right: 0px;
+}
+
+.gridSubHeaderContainer {
+	margin-top: 1em !important;
+}
+
+.exportBtn {
+	// width: 105px;
+	// height: 32px;
+	// border-radius: 19.5px;
+	// box-shadow: 0 11px 11px 0 rgba(0, 0, 0, 0.11);
+	// background-color: $pimerce_button_background_color;
+	cursor: pointer;
+	font-size: $font-md;
+	text-decoration: underline;
+	color: $pimerce_orange_color;
+	font-family: $barlow-regular;
+}
+
+button.exportBtn.btn.btn-primary {
+	background-color: $pimerce_button_background_color;
+	border-radius: 19.5px !important;
+	border: none;
+	color: $pimerce_orange_color;
+	font-size: $font-md;
+	font-stretch: normal;
+	font-style: normal;
+	letter-spacing: normal;
+	float: right;
+}
+
+// button.exportBtn.btn.btn-primary :active {
+// 	background-color: $pimerce_button_background_color;
+// 	border-radius: 19.5px !important;
+// 	border: none;
+// }
+
+// When clicking export button
+button.exportBtn.btn-primary:not(:disabled):not(.disabled):active {
+	background-color: $pimerce_button_background_color;
+	border-radius: 14px !important;
+	border: none;
+	color: $pimerce_orange_color;
+}
+
+.doughnut {
+	border-radius: 100px;
+	height: 12px;
+	width: 12px;
+	border: 3px solid;
+	display: inline-block;
+}
+
+.table-wrapper {
+	overflow-y: scroll;
+	background: $pimerce_dataGrid_background_tuftbush_color;
+}
+
+.table-wrapper th {
+	position: sticky;
+	top: 0;
+}
+
+th {
+	background: $pimerce_dataGrid_background_tuftbush_color;
+}
+
+.gridCardHeaderToggleNamesClassName {
+	color: $pimerce_title_color;
+	font-size: $font-md;
+	margin-left: -43px;
+	font-family: $barlow-semibold;
+	margin-top: -4px;
+	padding-right: 0px;
+}
+
+.gridHeaderSearchBarTwo {
+	margin-right: 27px;
+	margin-top: -8px;
+}
+
+.legendTextStyle {
+	margin-top: -4px;
+	margin-right: 15px;
+	font-family: $barlow-bold;
+	font-size: $font-md;
+	font-weight: 600;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: normal;
+	letter-spacing: normal;
+	color: $pimerce_title_color;
+}
+
+.subtextStyle {
+	font-weight: 400;
+}
+
+.expandNoDataCardStyle {
+	text-align: center;
+	position: initial;
+	height: 11.8em;
+	padding: 15px;
+	background-color: $pimerce_background_white_color;
+	border: none;
+}
+
+// Common Scroll Bar Cutom Styles Block
+
+/* Handle on scroll */
+::-webkit-scrollbar {
+	height: 6px;
+	/* height of horizontal scrollbar ← You're missing this */
+	width: 5px;
+}
+
+/* Handle on thumb */
+::-webkit-scrollbar-thumb {
+	border-radius: 1em;
+	background: $pimerce_orange_color;
+}
+
+/* Handle on track piece */
+::-webkit-scrollbar-track-piece {
+	height: 10px;
+	background: $pimerce_webkit_scrollbar_track_piece_color !important;
+}
+
+.header-format {
+	display: flex;
+	margin-right: 9px;
+	justify-content: flex-end;
+}
+
+.checkbox input {
+	cursor: pointer;
+	-webkit-appearance: none;
+	outline: 0;
+	height: 12px;
+	width: 13px;
+	border: 1px solid $pimerce_badge_text_color;
+	margin-top: 15px;
+	margin-left: 2px;
+	box-sizing: borderbox;
+	padding: 0;
+	background-color: $pimerce_badge_text_color;
+}
+
+.checkbox label {
+	margin-top: 10px;
+	margin-left: 19px;
+	width: max-content;
+	font-size: $barlow-medium;
+	font-size: 13px;
+	font-weight: 600;
+	color: $pimerce_title_color;
+	display: inline-block;
+}
+
+.checkbox input:checked:after {
+	display: block;
+}
+
+.checkbox input:checked:after {
+	content: "";
+	position: relative;
+	left: 36%;
+	top: 13%;
+	width: 33%;
+	height: 61%;
+	border: solid $pimerce_border_white_color;
+	border-width: 0 2px 2px 0;
+	transform: rotate(45deg);
+	background-color: $pimerce_badge_text_color !important;
+}
+
+.innerTable-img {
+	margin-left: 10px
+}
+
+.innerTable-expandKey {
+	text-align: center;
+}
+
+.search-box-overAll-style {
+	padding-top: 1%;
+	display: flex;
+}
+
+.search-box-inputGroup {
+	width: 19em;
+}
+
+#search-box-fa-close {
+	box-sizing: border-box;
+	color: $pimerce_ultramarine_color;
+	height: 18px;
+	width: 25px;
+	margin-top: 10px;
+	margin-left: -28px;
+	z-index: 1;
+	cursor: pointer;
+}
+
+#search-box-fa-search {
+	box-sizing: border-box;
+	color: $pimerce_ultramarine_color;
+	height: 18px;
+	width: 25px;
+	margin-top: 14px;
+	margin-left: -28px;
+	z-index: 1;
+	cursor: pointer
+}
+
+.search-datatable-image {
+	height: 7px;
+	width: 11px;
+	margin-top: 2px;
+	margin-left: 3px;
+}
+
+.search-datatable-toggle-col {
+	display: inline-flex;
+	align-items: baseline;
+}
+
+.search-datatable-Info-style {
+	height: fit-content;
+	margin-left: 11px;
+	margin-right: 13px;
+	margin-top: 2px
+}

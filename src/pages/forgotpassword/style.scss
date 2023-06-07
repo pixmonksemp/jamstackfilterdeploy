@@ -1,0 +1,249 @@
+@import "../../styling/scss/variables";
+
+.forgotBoxLayout {
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+  overflow: hidden;
+}
+
+.forgotTopContent {
+  display: flex;
+  padding: 40px;
+}
+
+.forgot-block-info {
+  color: #272727;
+  font-family: $barlow-bold;
+  font-size: 16px;
+  line-height: 28px;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+}
+
+.letsGet {
+  line-height: 1.07;
+  font-style: normal;
+  font-stretch: normal;
+  font-size: 60px;
+  letter-spacing: normal;
+  color: #ffffff;
+  font-family: $barlow-bold;
+}
+
+.needInfo {
+  font-family: $barlow-regular;
+  font-size: 18px;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+
+.container-forgot {
+  display: flex;
+  justify-content: center;
+}
+
+.forgot-box {
+  width: 1000px;
+  height: 420px;
+  background: #fff;
+  display: -webkit-flex;
+  flex-direction: row-reverse;
+  z-index: 1;
+  border-top-right-radius: 2em;
+  border-bottom-right-radius: 2em;
+}
+
+/*==================================================================
+[ login more ]*/
+
+.forgotBgImage {
+  width: 96%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  z-index: 1;
+  height: 420px;
+  border-top-left-radius: 2em;
+  border-bottom-left-radius: 2em;
+}
+
+/*[ Form Styles]*/
+
+.forgot-form {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  margin-top: 50px;
+}
+
+#forgotLeftBlock {
+  display: block;
+}
+
+@media (min-width: 320px) and (max-width: 414px) {
+  #forgotLeftBlock {
+    display: none;
+  }
+  .forgotTopContent {
+    justify-content: center;
+  }
+  .forgot {
+    color: #ff656c !important;
+    font-family: $barlow-regular;
+    font-size: 12px !important;
+    text-decoration: underline !important;
+    font-weight: normal;
+    display: flex;
+    justify-content: center;
+  }
+  .forgot-box {
+    width: 1000px;
+    height: 378px;
+    background: #fff;
+    display: -webkit-flex;
+    flex-direction: row-reverse;
+    z-index: 1;
+    border-top-right-radius: 2em;
+    border-bottom-right-radius: 2em;
+  }
+  .forgot-block-info {
+    color: #272727;
+    font-family: $barlow-bold;
+    font-size: 16px;
+    line-height: 28px;
+    position: relative;
+    bottom: 40px;
+    left: 25px;
+    line-height: normal;
+    letter-spacing: normal;
+  }
+}
+
+.forgot-left-box {
+  width: 115%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.forgot-left-image-box {
+  z-index: 33;
+  left: 24px;
+  position: absolute;
+  bottom: 47px;
+  color: white;
+}
+
+@media (min-width: 650px) {
+  .forgotBoxLayout {
+    background-position: center center;
+  }
+  .forgotTopContent {
+    align-items: flex-end;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .forgot-form {
+    display: flex;
+    justify-content: center;
+  }
+  .forgot-block-info {
+    color: #272727;
+    font-family: $barlow-bold;
+    font-size: 16px;
+    line-height: 28px;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    position: relative;
+    bottom: 40px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 3440px) {
+  .forgotContentContainer {
+    padding: 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+}
+
+.forgot-password-info {
+  width: fit-content;
+  color: #292929;
+  font-family: $barlow-regular;
+  font-size: 14px;
+  line-height: 20px;
+  padding-bottom: 2em;
+  margin-top: -42px;
+}
+
+.password-link-sent {
+  width: fit-content;
+  color: green;
+  font-family: $barlow-regular;
+  font-size: 14px;
+  line-height: 20px;
+  padding-bottom: 2em;
+  margin-top: -42px;
+}
+
+.forgot-password-disableButtons{
+  padding: 1.5em;
+  background-color: #e3f3ff;
+  width: 80px;
+  height: 38px;
+  border-radius: 2em;
+  border-color: #c2d5e5;
+  color: #000000;
+  font-family:$barlow-bold;
+  font-size: 12px;
+  line-height: 0px;
+  cursor: pointer;
+}
+
+.forgot-password-cancelButton{
+    padding: 1.5em;
+    background-color: #ffffff;
+    border-radius: 2em;
+    border-color: #c2d5e5;
+    color: #000000;
+    font-family: $barlow-bold;
+    font-size: 12px;
+    line-height: 0px;
+    cursor: pointer;
+}
+
+.forgot-password-style{
+  color: #003353;
+    font-family: $barlow-bold;
+    font-size: 24px;
+    line-height: 28px;
+    cursor: context-menu;
+    padding-bottom: 2em;
+}
+
+.forgot-btn{
+  text-align: right;
+}
+
+.forgot-back-icon{
+  vertical-align: baseline;
+}

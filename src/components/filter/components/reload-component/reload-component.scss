@@ -1,0 +1,30 @@
+@import '../../styling/scss/variables';
+
+.reload {
+	text-align: center;
+	padding: 145px;
+	font-family: $barlow-medium;
+	font-size: medium;
+	color: $pimerce_reloadTitleAndButton_color;
+}
+
+.reloadButton {
+	font-size: 42px;
+	position: relative;
+	padding: 15px;
+	cursor: pointer;
+}
+
+.rotate {
+	animation: rotation 2s infinite linear;
+}
+
+@keyframes rotation {
+	from {
+		transform: rotate(0deg);
+	}
+
+	to {
+		transform: rotate(360deg);
+	}
+}

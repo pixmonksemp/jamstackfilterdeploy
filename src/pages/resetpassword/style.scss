@@ -1,0 +1,163 @@
+@import '../../styling/scss/variables';
+
+.changePasswordCard {
+	text-align: center;
+	display: grid !important;
+	border: none !important;
+}
+
+.resetPasswordCard {
+	text-align: center;
+	justify-content: center;
+	height: 625px;
+}
+
+.screenForm {
+	background: $color-background-white;
+	padding: 30px;
+	border-radius: 2em;
+}
+
+.resetPageLink {
+	font-size: medium;
+	font-family: $barlow-regular;
+}
+
+.resetPageLink:hover {
+	color: $pim-reset-pageLink-color;
+}
+
+.reset-text {
+	font-size: $pim-font-lg;
+	font-weight: bolder;
+	padding-bottom: 2rem;
+}
+
+.reset-link-text {
+	font-size: small;
+	color: $pim-reset-link-text-color;
+	margin-top: -31px;
+	padding-bottom: 35px;
+}
+
+.logo {
+	width: 130px;
+	height: 95px;
+	justify-content: center;
+	margin-left: 294px;
+	margin-top: -97px;
+}
+
+.inputField input {
+	text-align: left;
+	padding-left: 15px;
+	width: 296px;
+	height: 40px;
+	font-size: $pim-font-ssm;
+	border-radius: 20px !important;
+}
+
+.inputField input::-webkit-input-placeholder {
+	font-size: $pim-font-sm;
+}
+
+.submitButtonStyle[type='submit'] {
+	border: none;
+	width: 183px;
+	height: 40px;
+	font-size: $pim-font-sm;
+	border-radius: 0px !important;
+	color: $pim-submit-btn-color;
+}
+
+.submitButtonStyle:focus {
+	border: $pim-submit-style-border-color;
+	box-shadow: $pim-submit-box-shadow;
+}
+
+.cancelButtonStyle[type='button'] {
+	border: none;
+	width: 183px;
+	height: 40px;
+	font-size: $pim-font-sm;
+	border-radius: 0px !important;
+	color: $pim-cancel-btn-color;
+}
+
+.cancelButtonStyle[type='button']:focus .submitButtonStyle[type='button']:focus,
+#cancelButton:focus {
+	box-shadow: $pim-cancel-btn-style;
+}
+
+.form-group{
+    margin-bottom: 1rem;
+}
+#saveButton {
+	background-color: $table-wrapperBGcolor;
+	// box-shadow: $pim-apply-btn-box-shadow;
+	margin-top: 20px;
+    margin-left: -194px;
+    border: $border-radius-datatable;
+  }
+
+#save-button {
+	background-color: $pim-submit-btn-color;
+	width: 300px;
+    height: 40px;
+	border-radius: 0px;
+}
+.confrim-password-validation {
+	color: $pim-errorMsg-color;
+	font-family: $barlow-regular;
+	font-size: $pim-font-sm;
+	font-style: italic;
+	text-align: end;
+}
+
+#cancelButton {
+
+	// box-shadow: $pim-cancel-btn-box-shadow;
+	margin-top: -103px;
+    border: solid 2px $pim-cancel-button-border-color;
+    margin-left: 199px;
+    color: $pim-submit-btn-color;
+    border: $border-radius-datatable;
+    background-color: $table-wrapperBGcolor;
+}
+
+.formgroupStyle {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	margin-left: 56px;
+}
+
+.profileInputStyle input {
+	text-align: left;
+	padding-left: 15px;
+	width: 325px;
+	height: 50px;
+	font-size: $pim-font-ssm;
+	border-radius: 0px !important;
+	border: $pim-profile-btn-border-style;
+	background-color: $color-background-white;
+}
+
+.profileInputStyle input::-webkit-input-placeholder {
+	font-size: $pim-font-sm;
+}
+
+.ProfileBoxStyle {
+	width: 325px;
+	height: 50px;
+	margin-left: -54px;
+	padding-top: 2px;
+}
+.card-style-div {
+	padding: 4% 31% 0px 30%;
+	border-radius: 25px;
+}
+.card-style {
+	border-radius: 25px;
+	box-shadow: $pim-card-box-shadow-style;
+}

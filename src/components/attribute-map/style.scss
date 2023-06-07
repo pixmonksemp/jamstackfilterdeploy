@@ -1,0 +1,97 @@
+@import "../../styling/scss/_variables.scss";
+
+.map-field-table-header .p-datatable .p-datatable-header {
+  border-width: 0;
+  background: none;
+}
+
+.map-field-table-header .p-datatable .p-datatable-footer {
+  background: none;
+  border-width: 0;
+  padding: 1rem 0;
+}
+
+.map-field-table-header .p-button {
+  width: 90px;
+  height: 35px;
+}
+
+.adjust-import-cancel-button .p-button {
+  background-color: $pim-whitecolor;
+  color: $pim-blackcolor;
+  border: none !important;
+}
+
+.adjust-import-cancel-button .p-button:enabled:hover,
+.p-button:not(button):not(a):not(.p-disabled):hover {
+  background-color: transparent;
+  color: $pim-blackcolor;
+  border: none !important;
+}
+
+.adjust-import-next-button .p-button {
+  background-color: $pim-active-button-BGColor;
+  border: none;
+}
+
+.adjust-import-next-button .p-button:enabled:hover,
+.p-button:not(button):not(a):not(.p-disabled):hover {
+  background-color: $pim-active-button-BGColor;
+  border: none;
+}
+
+.map-attribute {
+  height: 24px !important;
+  border-radius: 0px;
+  font-size: $pim-font-sm;
+  font-family: $barlow-regular;
+}
+
+.map-field-table-header .p-datatable-responsive-scroll > .p-datatable-wrapper {
+  border: 1px solid #f5f3ed;
+  border-radius: 8px;
+  height: 325px;
+}
+
+.map-field-table-header .p-datatable .p-datatable-thead > tr > th {
+  background: $table-backgroundColor;
+  font-size: smaller;
+  font-weight: bolder;
+}
+
+.map-field-table-header .p-dropdown {
+  width: -webkit-fill-available;
+  height: 35px;
+  width: 200px;
+}
+
+.map-field-table-header .p-dropdown .p-dropdown-label {
+  padding-top: 8px;
+}
+
+.attribute-table-dropdown {
+  padding-left: 0px;
+}
+
+.map-field-table-header
+  .p-datatable.p-datatable-striped
+  .p-datatable-tbody
+  > tr.p-row-odd {
+  background: $row-evencolor;
+}
+
+.map-attribute-parent .css-yk16xz-control,.map-attribute-parent .css-1pahdxg-control{
+border-radius: 0px;
+height: 26px;
+min-height: 26px;
+font-size: 12px;
+}
+
+.map-attribute-parent .css-1hwfws3{
+  height: 26px;
+}
+
+.map-attribute-parent .css-1g6gooi{
+margin: 0px;
+padding: 0px;
+}

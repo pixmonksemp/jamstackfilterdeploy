@@ -1,0 +1,17 @@
+{
+	"faqtitle": {
+		"title": "Pimerce FAQ (How it works)"
+	},
+	"pimercefaq": [
+		{
+			"id": "FAQ-ONE",
+			"faq": "How many retailers you can track?",
+			"answer": "Maximum 50 Retailers can be tracked based on membership of organization"
+		},
+		{
+			"id": "FAQ-TWO",
+			"faq": "How many SKU you can monitor?",
+			"answer": "Maximum of 500 SKUs can be monitored"
+		}
+	]
+}

@@ -1,0 +1,110 @@
+@import "../styling/scss/variables";
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100% !important;
+  background: #f0f0f0 !important;
+}
+
+.spinnerDivCommon {
+  text-align: center;
+  position: initial;
+  padding: 30px;
+  color: #3900a6;
+}
+
+/**********************************/
+/* TAB CONTENT STYLE BLOCK STARTS */
+/**********************************/
+a.nav-link.active {
+  font-family: $barlow-regular;
+  font-size: 16px !important;
+  font-weight: bold !important;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #4192ec;
+}
+
+a.nav-link {
+  color: #c6cbd4;
+  font-family: $barlow-regular;
+  font-size: 16px !important;
+  font-weight: normal !important;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+}
+
+.tabContainerStyle {
+  background-color: white;
+  margin: 30px 49px 30px 54px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.08);
+  min-height: 60px;
+}
+
+.searchBarRowStyle {
+  width: 100%;
+}
+
+/**********************************/
+/* PIMERCE FONT ADDED BLOCK STARTS*/
+/**********************************/
+@font-face {
+  font-family: "Chivo-Regular";
+  src: url("../assets/fonts/Chivo-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Manrope-Bold";
+  src: url("../assets/fonts/Manrope-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Chivo-Italic";
+  src: url("../assets/fonts/Chivo-Italic.ttf");
+}
+
+@font-face {
+  font-family: "Chivo-Bold";
+  src: url("../assets/fonts/Chivo-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Chivo-SemiBold-Italic";
+  src: url("../assets/fonts/Chivo-BoldItalic.ttf");
+}
+
+@font-face {
+  font-family: "Chivo-Bold";
+  src: url("../assets/fonts/Chivo-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Chivo-BoldItalic";
+  src: url("../assets/fonts/Chivo-BoldItalic.ttf");
+}
+
+
+/**********************************/
+/* PIMERCE PIM FONT ADDED BLOCK STARTS*/
+/**********************************/
+
+@font-face {
+  font-family: "Helvetica";
+  src: url("../assets/fonts/Helvetica.ttf");
+}
+
+@font-face {
+  font-family: "Helvetica-Bold";
+  src: url("../assets/fonts/Helvetica-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Helvetica-Light";
+  src: url("../assets/fonts/helvetica-light.ttf");
+}

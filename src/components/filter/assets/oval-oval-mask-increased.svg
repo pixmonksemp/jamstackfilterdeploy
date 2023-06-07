@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="241" height="166" viewBox="0 0 241 166">
+    <defs>
+        <linearGradient id="oawc83vctd" x1="16.411%" x2="132.275%" y1="11.875%" y2="195.937%">
+            <stop offset="0%" stop-color="#5FDEFF"/>
+            <stop offset="45.635%" stop-color="#3054E6"/>
+            <stop offset="63.294%" stop-color="#A5E0E9"/>
+            <stop offset="100%" stop-color="#2A4FE2"/>
+        </linearGradient>
+        <filter id="kj3lubp7tb" width="139.3%" height="165.1%" x="-19.7%" y="-32.6%" filterUnits="objectBoundingBox">
+            <feOffset dx="6" dy="6" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="9.5"/>
+            <feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0.682352941 0 0 0 0 0.682352941 0 0 0 0 0.752941176 0 0 0 0.4 0"/>
+            <feOffset dx="-6" dy="-6" in="SourceAlpha" result="shadowOffsetOuter2"/>
+            <feGaussianBlur in="shadowOffsetOuter2" result="shadowBlurOuter2" stdDeviation="9.5"/>
+            <feColorMatrix in="shadowBlurOuter2" result="shadowMatrixOuter2" values="0 0 0 0 0.950133384 0 0 0 0 0.990026677 0 0 0 0 1 0 0 0 1 0"/>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"/>
+                <feMergeNode in="shadowMatrixOuter2"/>
+            </feMerge>
+        </filter>
+        <path id="wfhwxjfnwa" d="M6.4 0h177.92c3.535 0 6.4 2.865 6.4 6.4v102.4c0 3.535-2.865 6.4-6.4 6.4H6.4c-3.535 0-6.4-2.865-6.4-6.4V6.4C0 2.865 2.865 0 6.4 0z"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd" transform="translate(25 25)">
+        <mask id="y99hstgcfc" fill="#fff">
+            <use xlink:href="#wfhwxjfnwa"/>
+        </mask>
+        <use fill="#000" filter="url(#kj3lubp7tb)" xlink:href="#wfhwxjfnwa"/>
+        <use fill="#71DB6D" xlink:href="#wfhwxjfnwa"/>
+        <g opacity=".5" style="mix-blend-mode:color-burn" mask="url(#y99hstgcfc)">
+            <g transform="translate(65.92 -67.2)">
+                <ellipse cx="75.84" cy="72.32" fill="url(#oawc83vctd)" rx="75.84" ry="72.32"/>
+                <ellipse cx="98.88" cy="160" fill="#FFF" fill-opacity=".78" rx="73.28" ry="80.64"/>
+            </g>
+        </g>
+    </g>
+</svg>

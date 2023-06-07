@@ -1,0 +1,44 @@
+@import "../../../styling/scss/variables";
+
+
+.admin-card-border-radius{
+    border-radius: 10px;
+}
+
+.admin-form-font-weight{
+    font-weight: 600;
+}
+
+.admin-submit-button-size{
+    height: 24px;
+}
+
+.admin-row-height {
+    height: auto;
+}
+
+.admin-checkbox-size {
+    width: 16px;
+    height: 16px;
+}
+
+.admin-errorMsg-style {
+    position: initial;
+    text-align: right;
+}
+
+.admin-label-left-space {
+   margin-left: 2px;
+}
+
+.admin-padding-alignment-rolename{
+    padding-right: 78%;
+}
+
+.admin-padding-alignment-roledesc{
+    padding-left: 8px;
+}
+
+.role-description .attributeLabel{
+  width: auto;
+}

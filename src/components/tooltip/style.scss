@@ -1,0 +1,119 @@
+.tooltip {
+	position: relative;
+	display: inline-block;
+}
+
+.tooltip .tooltip-text {
+	visibility: hidden;
+	width: 120px;
+	background-color: #555;
+	color: #fff;
+	text-align: center;
+	border-radius: 6px;
+	padding: 5px 0;
+	position: absolute;
+	z-index: 1;
+	opacity: 0;
+	transition: opacity 0.3s;
+}
+
+/* Tooltip top content */
+.top .tooltip-text {
+	bottom: 100%;
+	left: 50%;
+	margin-left: -60px; /* 120/2 = 60 */
+}
+
+/* Tooltip right content */
+.right .tooltip-text {
+	top: -5px;
+	left: 110%;
+}
+
+/* Tooltip bottom content */
+.bottom .tooltip-text {
+	top: 100%;
+	left: 50%;
+	margin-left: -60px; /* 120/2 = 60 */
+}
+
+/* Tooltip left content */
+.left .tooltip-text {
+	top: -5px;
+	right: 110%;
+}
+
+.tooltip .tooltip-text::after {
+	content: "";
+	position: absolute;
+	border-width: 5px;
+	border-style: solid;
+}
+
+/* Tooltip top arrow */
+.top .tooltip-text::after {
+	margin-left: -5px;
+	left: 50%;
+	top: 100%;
+	border-color: #555 transparent transparent transparent;
+}
+
+/* Tooltip bottom arrow */
+.bottom .tooltip-text::after {
+	margin-left: -5px;
+	bottom: 100%;
+	left: 50%;
+	border-color: transparent transparent #555 transparent;
+}
+
+/* Tooltip left arrow */
+.left .tooltip-text::after {
+	top: 50%;
+	margin-top: -5px;
+	left: 100%;
+	border-color: transparent transparent transparent #555;
+}
+
+/* Tooltip right arrow */
+.right .tooltip-text::after {
+	top: 50%;
+	margin-top: -5px;
+	right: 100%;
+	border-color: transparent #555 transparent transparent;
+}
+
+.tooltip:hover .tooltip-text {
+	visibility: visible;
+	opacity: 1;
+}
+
+.tooltip-inner {
+	max-width: 500px;
+	padding: 0.25rem 0.5rem;
+	color: #ffffff;
+	text-align: center;
+	background-color: #0e90e1;
+	border-radius: 0.25rem;
+	overflow-wrap: break-word;
+	hyphens: auto;
+}
+
+.bs-tooltip-auto[x-placement^="bottom"] .arrow::before,
+.bs-tooltip-bottom .arrow::before {
+	border-bottom-color: #0e90e1;
+}
+
+.bs-tooltip-auto[x-placement^="top"] .arrow::before,
+.bs-tooltip-top .arrow::before {
+	border-top-color: #0e90e1;
+}
+
+.bs-tooltip-auto[x-placement^="left"] .arrow::before,
+.bs-tooltip-left .arrow::before {
+	border-left-color: #0e90e1;
+}
+
+.bs-tooltip-auto[x-placement^="right"] .arrow::before,
+.bs-tooltip-right .arrow::before {
+	border-right-color: #0e90e1;
+}

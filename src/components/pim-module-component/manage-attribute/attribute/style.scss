@@ -1,0 +1,505 @@
+@import "../../../../styling/scss/variables";
+
+.gridcontainer .exportbtn .pimbtn.exportpdf .p-button-icon {
+  background-image: url("../../../../assets/PDf.png");
+  background-repeat: no-repeat;
+}
+// .gridcontainer .exportbtn .attr-pimbtn.exportexcel .p-button-icon {
+//   background-image: url("../../../../assets/download-icon.svg");
+//   background-repeat: no-repeat;
+// }
+
+.gridcontainer .exportbtn .pimbtn.exportemail .p-button-icon {
+  background-image: url("../../../../assets/Email.png");
+  background-repeat: no-repeat;
+}
+
+.pim-btn .customize-style{
+  background-color: #ffffff !important;
+}
+
+.attr-group-icon {
+  width: 24px;
+  height: 24px;
+  background: url("../../../../assets/attr-group.svg?height=24") center no-repeat;
+}
+
+.attr-list-style{
+  max-height: '280px';
+  min-height: '260px' 
+}
+.attr-list .p-listbox-item{
+  cursor: context-menu;
+}
+.attr-list .p-listbox:not(.p-disabled) .p-listbox-item:not(.p-highlight):not(.p-disabled):hover {
+  color: #495057;
+  background: #ffffff;
+}
+.attr-list .p-listbox .p-listbox-list .p-listbox-item{
+  border: 1px solid #E2E8F0;
+  padding: 0.5rem 1.25rem;
+}
+.attr-list .p-listbox .p-listbox-list {
+  padding: 0 0;
+}
+.attr-list .p-listbox{
+  border-radius: 2px;
+}
+.attr-group-list .p-listbox{
+  border-radius: 2px;
+}
+.attr-group-list .p-listbox .p-listbox-header{
+  padding: 0 0;
+}
+.attr-group-list .p-inputtext{
+  border-radius: 0px;
+  border: solid 0px #bbbbbb;
+}
+
+.attr-group-list .p-listbox .p-listbox-list .p-listbox-item.p-highlight {
+  color: #000000;
+  background: #E3F3FF;
+}
+
+.p-listbox .p-listbox-list .p-listbox-item:focus {
+  outline: 0 none;
+  outline-offset: 0;
+  box-shadow: inset 0 0 0 0.15rem transparent;
+}
+.attr-group-list .p-inputtext {
+  font-size: 12px;
+  height: 30px;
+}
+.attr-group-list .p-listbox .p-listbox-list {
+  padding: 0 0;
+}
+#attr-list-container {
+  width: 100%;
+  display: flex;
+}
+
+#attr-list-container .attribute-group {flex-grow: 1;}
+.attr-footer{
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.p-dialog-header-close-icon {
+  font-size: 1.3rem;
+  color: $pim-blackcolor;
+  font-weight: bold;
+}
+.form-style {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0px;
+}
+
+.errorMsg {
+  padding: 5px 0px;
+  margin-right: 3px;
+  color: $pim-errorMsg-color;
+  display: block;
+  font-style: italic;
+  font-size: 10px;
+  position: absolute;
+  white-space: nowrap;
+  line-height: 20px;
+  bottom: -17px;
+  right: 10px;
+  font-weight: 400;
+}
+
+.error-validation,
+.error-validation.p-inputtext:enabled:hover {
+  border-color: $pim-errorMsg-color;
+}
+
+.attribute-dropdown .css-1g6gooi {
+  margin: 0px;
+  padding-bottom: 0px;
+  padding-top: 0px;
+  visibility: visible;
+  color: $pim-dropdown-text-color;
+  box-sizing: border-box;
+}
+
+.attribute-dropdown{
+  background: $color-background-white;
+  border: $pim-textbox-boxshadow ;
+  border-radius: 4px;
+}
+
+.user-role-dropdown{
+  background: #ffffff;
+  border: 1px solid #D9D9D9 ;
+  border-radius: 6px;
+}
+
+.p-button-text.custom-button.btn-yes{
+    background-color: $checkbox-BGcolor-after !important;
+    color: $color-border !important;
+}
+
+.add-new-attr-type {
+  padding-left: 40px;
+}
+.delete-new-attr-type{
+  padding-left: 22px;
+}
+
+.attribute-dropdown > div:not(.error-validation):first-child:hover {
+  border-color: $pim-edit-fontcolor;
+}
+
+.attribute-dropdown .css-1hwfws3 {
+  align-items: center;
+  display: flex;
+  flex: 1 1 0%;
+  flex-wrap: wrap;
+  padding: 0px 8px;
+  position: relative;
+}
+
+.attribute-dropdown .css-1uccc91-singleValue {
+  font-size: $pim-font-smd;
+}
+
+.attribute-dropdown .pim-dropdown__control{
+  height: 26px;
+  min-height: 26px;
+  font-size: 12px;
+  border-radius: 0px;
+}
+
+.p-dialog .p-dialog-footer {
+  border-top: 0 none;
+  background: $pim-dialog-footer-bg-color;
+  color: $pim-dialog-footer-color;
+  padding: 0 0px 0.5rem 0.5rem;
+  text-align: right;
+  border-bottom-right-radius: 6px;
+  border-bottom-left-radius: 6px;
+}
+
+.desc-textarea-style {
+  font-size: $pim-font-sm;
+  width: 210px;
+  height: 85px;
+}
+
+.attr-group {
+  font-size: $pim-font-sm;
+  width: -webkit-fill-available;
+}
+
+.attr-type {
+  font-size: $pim-font-sm;
+  width: -webkit-fill-available;
+}
+
+.exclamation-triangle{
+  background-image: url("../../../../assets/exclamation-triangle.svg");
+  background-repeat: no-repeat;
+  width: 25px;
+  height: 28px;
+  align-self: center;
+}
+
+.dialogue-box-style {
+  width: 650px;
+}
+
+.attribute-body .modal-body{
+  padding: 0px 1.5rem 0.7rem !important;
+}
+
+.attribute-footer .modal-footer{
+  padding: 0px !important;
+}
+
+.attribute-header .modal-header {
+	border-bottom: none;
+	border-top-left-radius: 18px;
+	border-top-right-radius: 18px;
+	padding: 1rem 1rem;
+}
+
+.attribute-group-header .modal-header {
+	border-bottom: none;
+	border-top-left-radius: 18px;
+	border-top-right-radius: 18px;
+	padding: 1rem 1.5rem;
+}
+
+.attribute-group-header .modal-body {
+    margin: 0px 25px;
+}
+
+.attr-header .modal-header {
+	border-bottom: none;
+	border-top-left-radius: 18px;
+	border-top-right-radius: 18px;
+	padding: 1rem 1.6rem 1rem 2rem;
+}
+
+.user-header .modal-header {
+	border-bottom: none;
+	border-top-left-radius: 18px;
+	border-top-right-radius: 18px;
+	padding: 1rem 1.2rem 1rem 1.8rem;
+}
+
+.p-checkbox:not(.p-checkbox-disabled) .p-checkbox-box:hover {
+  border-color: $checkbox-BGcolor-after;
+}
+
+.required::after {
+  content: "*";
+  color: $pim-asterisk-color;
+  font-size: $pim-font-ssm;
+}
+
+.confirmation-content{
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  overflow-wrap: anywhere;
+}
+
+.eye-icon{
+  display: none !important;
+}
+
+.p-listbox-item:hover{
+  .eye-icon{
+    display: flex !important;
+  }
+}
+
+.mb-6{
+  margin-bottom: 5rem !important;
+}
+
+.arrow-back{
+  font-size: 14px;
+  font-weight: bold !important;
+  cursor: pointer;
+  margin-left: 3px;
+  color: #000000;
+}
+
+.attr-search-box-autocomplete{
+    width: 300px;
+    padding: 10px;
+    padding-left: 34px;
+    font-size: $pim-font-sm;
+    font-family: $tablebody-fontfamily;
+    border-radius: 0px;
+    border: 1px solid #C3D5E4;
+    height: 24px;
+    outline: none;        
+    background: #ffffff;
+}
+
+.attr-search-box-autocomplete:focus{
+  border-width:1px;
+}
+
+.attr-search-box-autocomplete::-webkit-input-placeholder,
+.attr-search-box-autocomplete:-moz-placeholder,
+.attr-search-box-autocomplete::-moz-placeholder{
+  font-size: $pim-font-sm;
+}
+
+// .attr-search-box-autocomplete:-moz-placeholder{
+//   font-size: $pim-font-vsm;
+// }
+
+// .attr-search-box-autocomplete::-moz-placeholder{
+//   font-size: $pim-font-vsm;
+// }
+
+.attr-search-bar-boxing{
+  outline: none;
+}
+
+// multioption-dropdown css
+.attr-dropdown-btn{
+  background-color: #ffffff !important;
+  border: transparent !important;
+  color: black !important;
+  font-size: 14px;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  float: right;
+  font-family: Manrope-Bold;
+  margin-right: 15px !important;
+  padding: 5px 10px 5px !important;
+  min-width: -webkit-fill-available;
+}
+
+.attr-list.attr-group-list {
+  label.list-label.pim-font-property {
+    width: 100%;
+    margin: 0px;
+  }
+
+  label.list-label .list-checkbox {
+    vertical-align: top;
+  }
+}
+.attr-grp-attr-list{
+  .list-checkbox{
+    display: none;
+  }
+}
+
+// ____________________________________________________________________________________________
+
+/* PickListDemo.css */
+.p-picklist-buttons.p-picklist-transfer-buttons .p-button {
+  padding: 4px 4px;
+    background: #D9D9D9;
+    color: #000000;
+    font-weight: bold;
+    margin: 6px;
+    width: 34px;
+    border: none;
+}
+
+.pick-header-content{
+   background: #E4F3FF;
+   display: flex;
+   justify-content: center;
+   padding: 1rem 1rem 0.5rem;
+   border-bottom: 1px solid #C3D5E4;
+   border-top-right-radius: 5px;
+   border-top-left-radius: 5px;
+}
+
+.pick-react-select{
+  padding: 10px 20px;
+}
+
+.p-picklist .p-picklist-header {
+  background: #ffffff;
+  color: #212529;
+  border: 1px solid #C3D5E4;
+  padding: 0rem;
+  font-weight: 700;
+  text-align: center;
+  border-bottom: 0 none;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
+
+.picklist .product-item {
+  display: flex;
+  align-items: center;
+  padding: .5rem;
+  width: 100%;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.picklist .product-item .product-list-detail {
+  flex: 1 1 0;
+}
+
+.picklist .product-item .product-list-action {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.p-picklist .p-picklist-list {
+  max-width: 332px !important;
+  border: 1px solid #C3D5E4;
+  background: #ffffff;
+  color: #495057;
+  padding: 0px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.picklist .css-9gakcf-option {
+  background-color: #0E90E1;
+  font-weight: 400px;
+  font-size: 14px;
+}
+
+.picklist .css-o0o78j-option {
+  background-color: #0E90E1;
+  font-weight: 400px;
+  font-size: 14px;
+}
+
+.pick-select__control,.select__control{
+  min-height: 26px !important;
+  height: 26px !important;
+  border-radius: 0px !important;
+  font-size: 12px !important;
+}
+
+@media screen and (max-width: 576px) {
+  .picklist .product-item {
+      flex-wrap: wrap;
+  }
+
+  .picklist .product-item .image-container {
+      width: 100%;
+      text-align: center;
+  }
+
+  .picklist .product-item img {
+      margin: 0 0 1rem 0;
+      width: 100px;
+  }
+}
+
+.p-picklist .p-picklist-list .p-picklist-item.p-highlight{
+  background: #0E90E1;
+  color:#FFFFFF;
+}
+
+.pick-select{
+  color: #000000;
+  font-size: 12px;
+}
+
+.p-picklist .p-picklist-list .p-picklist-item {
+  padding: 0.2rem 0.9rem;
+  border: 0 none;
+  color: #495057;
+  background: transparent;
+  transition: transform 0.2s, 
+  box-shadow 0.2s;
+}
+// hide fourth button in pick list
+.picklist{
+  .p-picklist.p-component{
+     .p-picklist-buttons  > .p-button:nth-child(4){
+          display: none;
+      }
+  }
+}                
+
+.pick-select__menu.css-bwq904-menu{
+  border: 1px solid #C3D5E4;
+  top: 110%;
+}
+
+// .pick-select__menu-list.css-7unsf0 {
+//   max-height: 12.5em;
+// }
+
+.error-validation-attrNameWrap{
+    white-space: break-spaces;
+    line-height: 15px;
+    bottom: -22px !important;
+    padding: 0px;
+    position: static;
+    margin-top: 3px;
+}

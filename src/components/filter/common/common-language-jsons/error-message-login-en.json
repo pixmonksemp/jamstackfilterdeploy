@@ -1,0 +1,10 @@
+{
+	"status": {
+		"toastTitle": "Request failed"
+	},
+	"statusMessage": {
+		"networkError": "Please check your internet connection or try again later",
+		"loginFail": "You have entered an invalid username or password",
+		"loopingmessage": "Please Contact Admin"
+	}
+}

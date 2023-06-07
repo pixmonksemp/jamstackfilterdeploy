@@ -1,0 +1,72 @@
+@import "../../../styling/scss/variables";
+
+  .dock-download{
+  margin: 19px 0 0 15px;
+ } 
+
+ .dock-container{
+  height:60px;
+  box-shadow: -4px 0px 24px rgba(0, 0, 0, 0.1);
+  border:none;
+  overflow:hidden;
+  background-color: #fff;
+ }
+
+ .import-fail-close{
+  margin-top: 5%;
+  margin-bottom: 3%;
+  text-align: center;
+ }
+
+ .dock-import-percentage{
+  position:relative;
+  top:10px;
+  left:8px;
+  color:#2D3748;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+
+ }
+
+ .dock-arrow{
+  width: 30px;
+ }
+
+ .import-cancel{
+  width: 20px;
+  margin:28px 5px 0 0
+ }
+
+//  .table-title,
+// .importpopup .p-dialog-header 
+.p-dialog-title {
+  // font-family: Chivo;
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 10px;
+/* identical to box height, or 71% */
+color: #000000;
+}
+
+.dock-overlay{
+  background: rgba(0, 0, 0, 0.4);
+  width: 100%;
+  height: 100%;
+  min-height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10000;
+}
+
+.dock-import-title{
+  font-size:1.50rem;
+  font-weight:700;
+  padding:0 0 0 30px;
+  position:relative;
+  top:28px;
+  color:#343a40;
+}
+  

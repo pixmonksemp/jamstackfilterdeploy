@@ -1,0 +1,39 @@
+.first-step::before{
+    width: 50% !important;
+    left: 50% !important;
+}
+
+.last-step::before{
+    width: 50% !important;
+    right: 50% !important;
+}
+
+.p-steps .p-steps-item .p-menuitem-link{
+    background: transparent !important;
+}
+
+.p-steps .p-steps-item.p-highlight .p-steps-number {
+    background: #0E90E1 !important;
+    color: white !important;
+}
+
+.p-steps .p-steps-item .p-menuitem-link .p-steps-number {
+    min-width: 3rem !important;
+    height: 3rem !important;
+    font-size: 13px !important;
+    font-weight: bold;
+}
+
+.p-steps .p-steps-item:before {
+    border-top: 5px solid #0E90E1 !important;
+}
+
+.p-steps-title{
+    font-weight: bold !important;
+    color: black !important;
+    font-size: small !important;
+}
+
+.retailer-data-view-search::placeholder{
+    font-size: 15px;
+}

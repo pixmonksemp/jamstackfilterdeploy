@@ -1,0 +1,506 @@
+// =============================================================================
+// Settings
+// =============================================================================
+
+
+// sizes
+$size-lg: 42px;
+$size-std: 34px;
+$size-sm: 28px;
+$size-small: 26px;
+$size-xs: 22px;
+
+
+// Font Sizes
+$font-sm: 12px;
+$font-md: 18px;
+$font-lg: 35px;
+$font-xl: 42px;
+$page-header-font:24px;
+$pim-topsearch-font:14px;
+$pim-page-header-color:#050505;
+
+$dropdown-caret-size: 10px;
+
+$navbar-height-desktop: 58px;
+$navbar-height-mobile: 44px;
+
+$thumbnail-spacing: 5px;
+$thumbnail-min-width: 55px;
+
+// media queries
+$breakpoint-values: (
+	extraSmall: 480px,
+	small: 768px,
+	medium: 1024px,
+	large: 1280px
+);
+$media-queries: get-mq-map($breakpoint-values);
+$page-max-width: 1920px;
+
+$page-gutter-small: 30px;
+$page-gutter-large: 55px;
+
+// borders
+$border-radius-default: 4px;
+$border-radius-datatable : 1px solid #C2D5E5 !important;
+
+// spacing
+$spacing-0: 0;
+$spacing-0px: 0px;
+$spacing-1: 4px;
+$spacing-2: 6px;
+$spacing-3: 10px;
+$spacing-4: 20px;
+$spacing-5: 30px;
+$spacing-6: 45px;
+
+// font weight
+$font-weight-light: 300;
+$font-weight-regular: 400; // normal
+$font-weight-bold: 700; // bold
+
+//positions
+$relative : relative;
+$absolute : absolute;
+$fixed :fixed;
+
+//data-table padding 
+$paddingsize : 12px 30px 12px 0px; 
+
+// shadows
+$shadow-modal: 0 13px 24px 0 rgba(0, 0, 0, 0.15);
+$shadow-navmenu: 0 13px 24px 0 rgba(0, 0, 0, 0.05);
+$shadow-popover: 0 4px 28px 0 rgba(0, 0, 0, 0.2);
+$shadow-datatable: 0px 6px 76px rgba(0, 51, 83, 0.1);
+
+// animation
+// (loosely based on material design)
+$duration-long: 375ms;
+$duration-enter: 225ms;
+$duration-leave: 195ms;
+$duration-quick-enter: 165ms;
+$duration-quick-leave: 135ms;
+$ease-standard: cubic-bezier(0.4, 0, 0.2, 1);
+$ease-out: cubic-bezier(0, 0, 0.2, 1);
+$ease-in: cubic-bezier(0.4, 0, 1, 1);
+$ease-in-out: cubic-bezier(0.4, 0, 0.6, 1);
+
+// sliders
+$slider-rail-height: 6px;
+$slider-handle-height: 24px;
+$slider-mark-gap: 4px;
+$slider-mark-size: 10px;
+
+// =============================================================================
+// Colors
+// =============================================================================
+
+// Brand Colors
+$color-brand-navy: #1b205c;
+$color-brand-teal: #58a191;
+$color-brand-yolk: #f6b300;
+
+//pim font family
+$pim-font-helvetica: "Helvetica";
+
+// pim background color
+$pim-bg-color:linear-gradient(116.71deg, #E2EDFD -34.99%, #FFFFFF 77.78%, #DBFAFD 107.19%);
+
+// Pim tile title-heading color
+$pim-background-color:#FFFFFF;
+$pim-title-color:#A0AEC0;
+$pim-font-color:#585B5F;
+
+
+//pim title-heading for each component color
+$pim-header-color: #2D3748; 
+
+// Pim accordian bg-color
+$pim-accordian-bg-color:#f4f8f9;
+
+// Pim bar graph x and y axis font color
+$pim-bargraph-font-color: #CBD5E0;
+
+//Pim Font Size
+$pim-font-vsm: 10px;
+$pim-font-sm: 12px;
+$pim-font-smd: 16px;
+$pim-font-ssm: 14px;
+$pim-font-md: 18px;
+$pim-font-lg: 20px;
+$pim-font-xl: 48px;
+$pim-font-customsize : 22px;
+
+// Grayscale Colors
+$color-gray-1: #000;
+$color-gray-2: #556063;
+$color-gray-3: #8d979a;
+$color-gray-4: #b9c2c5;
+$color-gray-5: #e3e8e9;
+$color-gray-5-hover: #d8ddde;
+$color-gray-6: #f6f8f8;
+$color-gray-7: #4a4a4a;
+$color-gray-8: #abadad;
+$color-gray-normal: #808080;
+
+// Secondary Colors
+$color-secondary-teal: #6fcab6;
+$color-secondary-teal-dark: #58a191;
+$color-secondary-yellow: #d6c129;
+$color-secondary-yellow-dark: #ab9a20;
+$color-secondary-orange: #ea7e38;
+$color-secondary-orange-dark: #bf6524;
+$color-secondary-purple: #8959a8;
+$color-secondary-purple-dark: #5d3c72;
+$color-secondary-green: #7ab24d;
+$color-secondary-green-dark: #618e3d;
+$color-secondary-red: #f55f4e;
+$color-secondary-red-dark: #c54c3f;
+$color-secondary-pink: #f27eac;
+$color-secondary-pink-dark: #c16489;
+$color-secondary-blue: #4897be;
+$color-secondary-blue-medium: #46a69e;
+$color-secondary-blue-dark: #377a99;
+
+// Error / Warning / Success Colors
+$color-error: #f33154;
+$color-error-dark: #c42440;
+$color-error-bg: #feebee;
+$color-warning: #f6cf00;
+$color-warning-dark: #d2b100;
+$color-warning-bg: #fffbe6;
+$color-success: #2bcf40;
+$color-success-dark: #15a72a;
+$color-success-bg: #eafbec;
+$color-info: $color-secondary-teal;
+$color-info-dark: $color-secondary-teal-dark;
+$color-info-bg: mix(#3c6bcc, white, 5%);
+
+// Primary (button)
+$color-primary: #3c6bcc;
+$color-primary-hover: #335bc4;
+$color-primary-text: #154ec5;
+$color-primary-alt: mix(white, $color-brand-navy, 15%);
+$color-primary-alt-text: #578cff;
+$color-primary-alt-dark: mix(white, $color-brand-navy, 5%);
+$color-primary-alt-disabled: mix(white, $color-brand-navy, 10%);
+$color-primary-alt-disabled-text: mix(white, $color-primary-alt-disabled, 25%);
+$color-primary-alt-hover: mix(white, $color-brand-navy, 20%);
+
+// Default (button)
+$color-default: #e3e8e9;
+$color-default-hover: #cad1d2;
+$color-default-alt: #d6ddde;
+$color-default-alt-hover: #cfd6d7;
+
+// Backgrounds
+$color-bg-lightbox: #2f3233;
+$color-bg-dark: #004c5b;
+$color-bg-light: $color-info-bg;
+$color-bg-disabled: #d7dcdd;
+$color-bg-disabled-light: #ebeeef;
+$color-bg-nav-menu: #f4f8f7;
+$color-background-white: #ffffff;
+
+// Text
+$color-text: $color-gray-2;
+$color-text-dark: $color-gray-1;
+$color-text-disabled: $color-gray-4;
+
+// Input
+$color-border-light: #d1d5d7;
+$color-border: $color-gray-3;
+$color-border-dark: $color-gray-2;
+$color-border-lightbox: #171819;
+
+// focus
+$color-focus: #34c4f1;
+
+// border
+$color-border: #ffffff;
+$border-solid:#637280;
+
+
+// Pimerce Font Faces
+$barlow:Barlow;
+$barlow-regular: Chivo-Regular;
+$barlow-medium: Manrope-Bold;
+$barlow-medium-italic: Chivo-Italic;
+$barlow-semibold: Chivo-Bold;
+$barlow-semibold-italic: Chivo-SemiBold-Italic;
+$barlow-bold: Chivo-Bold;
+$barlow-bold-italic: Chivo-BoldItalic;
+$chivo-medium : Chivo-Medium;
+
+// Pimerce Font Sizes
+$font-md: 18px;
+
+// Pimerce Border Radius
+$border-radius-sm: 14px;
+
+// Pimerce Border Radius
+$box-shadow-default: 0 8px 1px 0 rgba(177, 186, 203, 0.1),
+	0 8px 1px 0 rgba(47, 83, 151, 0.1);
+
+
+
+//text
+$textColor: #495057;
+$primaryColor : #ea7e38;
+$textSecondaryColor: #6c757d;
+$highlightBg: $primaryColor;
+$highlightTextColor: $primaryColor;
+$errorColor : red;
+$primaryDarkerColor : #ea7e38;
+
+// Pimerce Font Sizes
+$font-sm: 12px;
+$font-smd: 14px; 
+$font-md: 18px;
+$font-lg: 35px;
+$font-xl: 42px;
+
+// Backgrounds
+$color-bg-lightbox: #2f3233;
+$color-bg-dark: #004c5b;
+$color-info-bg: mix(#3c6bcc, white, 5%);
+$color-bg-light: $color-info-bg;
+$color-bg-disabled: #d7dcdd;
+$color-bg-disabled-light: #ebeeef;
+$color-bg-nav-menu: #f4f8f7;
+$color-background-white: #ffffff;
+$color-background-orange: #ea7e38;
+
+
+// Data table
+$table-backgroundColor: #E4F3FF;
+$tableHeaderBg: #f8f9fa;
+$tableHeaderCellBg: #f8f9fa;
+$tableHeaderCellHighlightBg: #f8f9fa;
+
+$tableHeaderBorder: 1px solid #e9ecef;
+$tableHeaderCellBorder: 1px solid #e9ecef;
+$tableHeaderCellHoverBg: #e9ecef;
+$tableHeaderCellHighlightHoverBg: #e9ecef;
+
+$tableHeaderBorderWidth: 0 0 1px 0;
+$tableHeaderTextColor: $textColor;
+$tableHeaderCellTextColor: $textColor;
+$tableHeaderCellTextHoverColor: $textColor;
+
+$tableHeaderPadding: 1rem 1rem;
+$tableHeaderCellPadding: 1rem 1rem;
+
+$tableHeaderCellHighlightTextColor: $primaryColor;
+$tableHeaderCellHighlightTextHoverColor: $primaryColor;
+
+$tableHeaderCellIconColor: $textSecondaryColor;
+$tableHeaderCellIconHoverColor: $textSecondaryColor;
+
+// body
+$tableCellContentAlignment: left;
+
+$tableBodyRowBg: #ffffff;
+$tableBodyRowTextColor: $textColor;
+$tableBodyRowEvenBg: #ffffff;
+$tableBodyRowHoverBg: #e9ecef;
+$tableBodyRowTextHoverColor: $textColor;
+$tableBodyCellBorder: 1px solid rgba(0,0,0,0.08);
+
+$tableDragHelperBg: rgba($primaryColor, .16);
+
+// input
+$inputFocusBorderColor: $primaryColor;
+$inputHoverBorderColor: $primaryColor;
+$inputBorder: 1px solid #ced4da;
+$inputPlaceholderTextColor: #6c757d;
+$inputErrorBorderColor: #ced4da #ced4da #ced4da $errorColor;
+
+$inputFilledHoverBg: #f8f9fa;
+$inputFilledFocusBg: #f8f9fa;
+
+// checkbok
+$checkboxWidth: 20px;
+$checkboxHeight: 20px;
+$checkboxBorder: 2px solid #ced4da;
+$checkboxActiveBorderColor: $primaryColor;
+$checkboxActiveBg: $primaryColor;
+$checkboxActiveHoverBg: $primaryDarkerColor;
+$checkboxActiveHoverBorderColor: $primaryDarkerColor;
+
+
+// PrimeReact Table Style Start
+$row-oddcolor:white;
+$row-evencolor:#F8FCFF;
+$paginator-highlight-border:solid 1px #c6c6c6;
+$paginator-highlight-bgcolor:#ffffff;
+$paginator-width:18px;
+$paginator-height:18px;
+$paginator-minwidth:18px;
+$paginator-highlight-margin:2px 0px 0px 19px;
+$paginator-highlight-padding:3px 6px;
+$paginator-highlight-borderradius:10px;
+$data-tablewrapper-width:100%;
+$data-tablewrapper-margin:5px auto;
+$data-tablewrapper-padding:0px 3px 0px;
+$data-tablewrapper-borderradius:10px;
+$data-tablewrapper-border:3px solid #E3F3FF;
+$table-wrapperBGcolor:#E3F3FF;
+$table-headerwidth:30%;
+$top-search-paddingright:2rem;
+$top-search-paddingleft:8px !important;
+$top-search-borderradius:20px;
+$top-search-height:30px;
+$top-search-width:226px;
+$top-search-fontsize:x-small;
+$top-search-border:solid 1px #ffe0cc;
+$top-search-boxshadow:0 2px 0 0 rgba(0, 0, 0, 0.06);
+$top-search-enabledborder:solid 1px #ffe0cc;
+$top-search-enabledboxshadow:0 2px 0 0 rgba(0, 0, 0, 0.06);
+$top-search-enabledbordercolor:#ffe0cc;
+$datableheader-padding:1rem 2.5rem !important;
+$datableheader-width:100%;
+$datableheader-borderradius:7px;
+$datableheader-borderwidth:1px;
+$datableheader-margintop:5px;
+$datablesearch-sectionmargintop:10px;
+$datableheader-parentminheight:30px;
+$datablesearch-iconright:.5rem;
+$datablesearch-height:12px;
+$datablesearch-width:24px;
+$datablesearch-iconcolor:rgb(229, 113, 42) !important;
+$datablesearch-iconfontsize:14px;
+$datablepaginator-alignment:flex-end;
+$paginator-iconfontsize:12px;
+$paginator-buttonfontsize:10px;
+$paginator-pageBGcolor:transparent;
+$paginator-pageBGcolor-hover:transparent;
+$paginator-btn-border-color: #C2D5E5;
+$paginator-pagefirst-minwidth:20px;
+$paginator-pageheight:18px;
+$pagenator-pagelinkboxshadow:none;
+$tablebody-fontfamily:Chivo-Regular;
+$tablebody-fontsize:12px;
+$tablebody-fontstyle:normal;
+$tablefilter-bordercolor:transparent;
+$tablefilter-BGColor:transparent;
+$tablefilter-color:#495057;
+$checkbox-BGcolor-after: #0E90E1;
+$tablesort-iconstyle:invert(43%) sepia(37%) saturate(2829%) hue-rotate(178deg) brightness(94%) contrast(89%);
+$paginatorpage-minwidth: 1rem;
+$paginatorpage-height:2rem;
+$paginatorpage-margin:0.143rem;
+$paginatorpage-BGColor:transparent;
+$paginatorpage-color:#6c757d;
+$paginatorpage-activecolor:#0E90E1 !important;
+$paginatorpage-spanpadding:0.4rem !important;
+$paginatorpage-height: 2rem;
+$paginatorpage-fontsize:.8rem;
+$paginatorpage-paddingtop:0.5rem;
+$sortable-imageup: url('../../assets/sort_asc.png');
+$sortable-imagedown:url('../../assets/sort_des.png');
+$row-odd-BGColor: #e2eff9 !important;
+$row-oddcontent-color:#495057;
+$row-oddcell-BGcolor:rgba(90, 177, 135, 0.4);
+$row-oddcell-bordertop:2px solid rgb(90, 177, 135);
+$row-oddcell-borderleft:2px solid rgb(255, 235, 223);
+$filter-color:rgb(229, 113, 42);
+$fontfamily:FontAwesome;
+$custom-filter-flexflow:row;
+$custom-filter-flexwrap:wrap;
+$custom-filter-conationerwidth:75%;
+$custom-filter-conationerdisplay:flex;
+$custom-filter-conationerminheight:30px;
+$custom-filter-panelposition:relative;
+$custom-filter-panelpositiontop:0px !important;
+$custom-filter-panelpositionleft:0px !important;
+$custom-filter-boxshadow:none !important;
+$edit-pencil-iconcolor:#e5712a;
+$pim-edit-delete-icon-bg-color:transparent;
+$pim-edit-fontcolor:#e5712a;
+$pim-blackcolor:black !important;
+$pim-whitecolor: white;
+$pim-cancel-color:#F8F8F8;
+$pim-color:#F8F8F8;
+$popup-buttoncolor:black !important;
+$pim-button-bordercolor:#dddddd !important;
+$pim-border-color:#e2e8f0;
+$pim-lable-color:#212529;
+$pim-remove-button-bg-color:#0E90E1;
+$pim-export-button-BGColor:#F8F8F8 !important;
+$pim-export-button-bg-color:#EFEFF1 !important;
+$pim-action-button-BGColor: #F8FCFF !important;
+$pim-active-button-BGColor: #0E90E1 !important;
+$pim-close-button-BGColor:#F8F8F8 !important;
+$pim-checkbox-color : #0E90E1 !important;
+$pim-hover-button-bgColor:#0E90E1 !important;
+$pim-button-boxshadow:0 11px 11px 0 rgba(0, 0, 0,.2) !important;
+$pim-logout-background-color: #e3f3ff;
+$pim-textbox-border:1px solid #E2E8F0;
+$pim-scroll-bg-color:#c1e5ff;
+$pim-scroll-dropdown-role-bg-color:#D9D9D9;
+$pim-scroll-role-bg-color:#7dc7ff;
+$pim-indicator-color:#000000;
+$pim-errorMsg-color:#dc3545 !important;
+$pim-dialog-footer-bg-color:#ffffff;
+$pim-dialog-footer-color:#495057;
+$pim-dropdown-color:#e5712a;
+$pim-datatable-body-color:#d7e9f7;
+$pim-cancel-button-color:#F8F8F8;
+$pim-cancel-button-border-color:#c6cbd4;
+$pim-textbox-boxshadow:0px 3.5px 5.5px rgba(0, 0, 0, 0.02);
+$pim-Grid-boxshadow : 0px 2px 2px rgba(0, 0, 0, 0.05);
+$pim-buttons-boxshadow :0 11px 14px 0  #bbd5e9 !important;
+$pim-overlay-bg-color:rgba(255, 255, 255, 0.4);
+$pim-dropdown-hovercolor:rgb(222, 235, 255);
+$pim-logout-model-bgcolor:#30191900 !important;
+$pim-profile-button-color:#000000;
+$pim-inputfield-border-color:#ebebeb;
+$pim-profile-placeholder:#999999;
+$pim-app-version-color:#000000;
+$pim-footer-color:#6e6e6e;
+$pim-mandatory-color:#FF0004;
+$pim-support-card-color:1px solid rgba(0, 0, 0, 0.125);
+$pim-apply-btn-box-shadow:0 11px 11px 0 rgba(0, 0, 0, 0.11) !important;
+$pim-cancel-btn-box-shadow:0 11px 11px 0 rgba(0, 0, 0, 0.11) !important;
+$pim-apply-btn-bg-color:#fff2e8;
+$pim-reset-pageLink-color:#082056 !important;
+$pim-reset-link-text-color:darkgrey;
+$pim-submit-btn-color:#0e90e1;
+$pim-cancel-btn-color:#e5712a;
+$pim-submit-style-border-color:5px solid #ffebdf;
+$pim-submit-box-shadow:0 11px 11px 0 rgba(31, 96, 170, 0.11);
+$pim-cancel-btn-style:0 0 0 0.2rem transparent !important;
+$pim-save-btn-border-style:1px solid #ffebdf;
+$pim-cancel-btn-border-style:1px solid #ffebdf;
+$pim-profile-btn-border-style:solid 1px #ebebeb;
+$pim-card-box-shadow-style:0 1px 10px 0 rgba(0, 0, 0, 0.1),0 2px 15px 0 rgba(0, 0, 0, 0.05);
+$pim-checkbox-shadow-color:#e5712a !important;
+$pim-dropdown-text-color:rgb(51, 51, 51);
+$pim-asterisk-color:#f70505;
+$pim-datatable-none : none;
+$pim-datatable-checkbox-padding : 19px 13px 15px 10px !important;
+$pim-datatable-checkbox-color : #F8FCFF ;
+$pim-profile-bgColor: #edf1f4;
+$pim-alice-blue-color:#e3f3ff;
+$pim-border-radius-color : #EFEFEF;
+
+
+//pim-Uppy-style
+$pim-dashboard-content-bg-color:#1f1f1f;
+$pim-dashboard-border-bottom:1px solid #333;
+$pim-uppy-DashboardContent-save-bgcolor:White !important;
+$pim-uppy-DashboardContent-border:solid 1px #ffebdf !important;
+$pim-uppy-DashboardContent-boxshadow:0 11px 11px 0 rgba(0, 0, 0, 0.2) !important;
+$pim-uppy-result-box-bg:rgb(219, 217, 217);
+$pim-uppy-result-border:1px solid white;
+$pim-uppy-import-popup: 1px solid #E2E8F0;
+$pim-uppy-import-box-shadow:0px 5.5px 5.5px rgba(0, 0, 0, 0.1);
+$pim-uppy-download-btn-box-shadow:0 11px 11px 0 rgba(0 ,0, 0, 0.2) !important;
+$pim-uppy-dashboard-edit-name:1px dashed #E2E8F0;
+$pim-uppy-dashboard-content-bg:transparent !important;
+
+//pim-retailer-category-mapping
+
+$category-mapping-container-border : 1px solid #DEDFE0;

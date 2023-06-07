@@ -1,0 +1,59 @@
+@import "../src/styling/scss/variables";
+
+body *{
+	font-family: $barlow-regular;
+}
+
+.pim-btn {
+	border: none;
+	padding: 5px 22px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	cursor: pointer;
+	border-radius: 0px;
+	height: 24px;
+  }
+  
+  .pim-font-property{
+	font-weight: 400;
+	font-style: normal;
+	font-size: 12px;
+	line-height: 14px;
+  }
+
+  .pim-font-property-assign-group{
+	font-weight: 400;
+	font-style: normal;
+	font-size: 12px;
+	line-height: 14px;
+  }
+  
+  .pim-btn-primary {
+	font-family: $barlow-regular;
+	background-color: #F8F8F8;
+	color: #000000;
+  }
+  
+  .pim-btn-main {
+	font-family: $barlow-regular;
+	background-color: #0E90E1 !important;
+	color: white !important;
+  }
+
+  .disabledComponent {
+	// pointer-events: none;
+	z-index: 10;
+	cursor: not-allowed !important;
+	// opacity: 0.6;
+  }
+
+  .scroll-top-btn{
+	position: fixed;
+	right: 5px;
+    bottom: 5px;
+    padding: 5px 10px;
+	background-color: $pim-active-button-BGColor;
+	color: $pim-whitecolor !important;
+	z-index: 9;
+  }
