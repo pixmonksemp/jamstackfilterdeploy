@@ -5,7 +5,7 @@ import PimerceDataTable from "../../data-table/data-table"
 // import VIDEO_PREVIEW from "../../../assets/video_preview.png"
 import PREVIEW from "../../../assets/no_preview.png"
 import Nav from "../importdata/nav"
-import { TabView, TabPanel } from 'primereact/tabview'
+// import { TabView, TabPanel } from 'primereact/tabview'
 import { Row, Spinner } from "react-bootstrap"
 import HeaderContext from "../../../common/header-context"
 import { stepList } from "../../../common/master-data"
@@ -148,7 +148,7 @@ function SyndicationResults(props){
             Failed SKUs : 1
         </p>
       </div>
-      <TabView activeIndex={activeIndex} onTabChange={(e) => setActiveIndex(e.index)}>
+      {/* <TabView activeIndex={activeIndex} onTabChange={(e) => setActiveIndex(e.index)}>
     <TabPanel header="Passed SKUS">
     <PimerceDataTable
         columnData={gridColumn}
@@ -257,7 +257,7 @@ function SyndicationResults(props){
         pageDataReset={false}
       />
     </TabPanel>
-    </TabView>
+    </TabView> */}
         </div>}
             </>
     )

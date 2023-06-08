@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { Accordion, AccordionTab } from "primereact/accordion";
+// import { Accordion, AccordionTab } from "primereact/accordion";
 
 function ExpandCollapse(props) { 
     return (
@@ -7,7 +7,7 @@ function ExpandCollapse(props) {
         className="card accordian-bg-color p-col-12 p-md-12"
       >{props.removeButton}
         <div className="p-col-12 accordion-parent">  
-           <Accordion className="accordion-custom" multiple="true" activeIndex={[0]}>
+           {/* <Accordion className="accordion-custom" multiple="true" activeIndex={[0]}>
             <AccordionTab 
               header={
                   <span>{props.headers}</span>
@@ -15,7 +15,7 @@ function ExpandCollapse(props) {
             >
               <div className="p-fluid grid formgrid">{props.textArea}</div>
             </AccordionTab>
-          </Accordion>
+          </Accordion> */}
         </div>
       </div>
     );

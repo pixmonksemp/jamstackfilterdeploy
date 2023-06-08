@@ -26,8 +26,8 @@ import {
   statusTypeOfProudctSyndication,
 } from "../../../common/master-data"
 import "./style.scss"
-import { Toolbar } from "primereact/toolbar"
-import { Button } from "primereact/button"
+// import { Toolbar } from "primereact/toolbar"
+// import { Button } from "primereact/button"
 import ToastModal from "../../modal/ToastModal"
 import PREVIEW from "../../../assets/no_preview.png"
 import HeaderContext from "../../../common/header-context"
@@ -38,17 +38,17 @@ import Plusicon from "../../../common/icons/plusicon"
 import Deleteicon from "../../../common/icons/deleteicon"
 import FilterAndAppliedFilter from "../../filter/components/filter-appliedfilter-combine-component/filter-appliedfilter-component"
 import { connect } from "react-redux"
-import PimerceDataView from "../../data-view/dataview"
+// import PimerceDataView from "../../data-view/dataview"
 import "../asset-listing/style.scss"
 import { Col, DropdownButton, Row, Spinner } from "react-bootstrap"
-import { Toast } from 'primereact/toast';
+// import { Toast } from 'primereact/toast';
 import { removeArrayObjectDuplicates } from "../../filter/components/filter-component/filterdata-constant"
 import multiSelect from "../../../assets/multiSelect.svg"
 import { COMMON_URL } from "../../../common/common-api-constants"
 import axios from "axios"
 import moment from 'moment'
 import SearchableDropdown from "../../../components/filter/components/searchable-select/index";
-import { Tag } from 'primereact/tag';
+// import { Tag } from 'primereact/tag';
 import Catalog_Icon from "../../../common/icons/catalogicon";
 // import BackPageComponent from "../../../components/back-page-component/back-page-component"
 
@@ -668,7 +668,7 @@ function Skulist(props) {
 
   const deleteAttrDialogue = (
     <React.Fragment>
-      <Button
+      {/* <Button
         label={labelNo}
         // icon="pi pi-times"
         className="p-button-text custom-button cancel-button"
@@ -680,39 +680,39 @@ function Skulist(props) {
         disabled={isDeleteConfrmBtndisabled}
         className="p-button-text custom-button btn-yes"
         onClick={() => { deleteProductSku(storeCheckValue) }}
-      />
+      /> */}
     </React.Fragment>
   )
   const buttonTemplate = () => {
     return (
       <React.Fragment>
-        <PimerceAuth
+        {/* <PimerceAuth
           componentId={"40"}
           componentType="button"
           component={
-            <Button
-              label={"Add"}
-              className="p-button-success btn-active-17 catalog-btn pimbtn p-mr-1"
-              onClick={(event) => openDialog(event, "CREATE")}
-            >
-              <Plusicon svgLeftSpace="10px" width="12px" height="12px"/>
-            </Button>
+            // <Button
+            //   label={"Add"}
+            //   className="p-button-success btn-active-17 catalog-btn pimbtn p-mr-1"
+            //   onClick={(event) => openDialog(event, "CREATE")}
+            // >
+            //   <Plusicon svgLeftSpace="10px" width="12px" height="12px"/>
+            // </Button>
           }
         />
         <PimerceAuth
           componentId={"42"}
           componentType="button"
           component={
-            <Button
-              label={"Delete"}
-              className="p-button-danger btn-active-17  catalog-btn pimbtn"
-              onClick={() => confirmDeleteSelected(DELETE)}
-              disabled={isDisableDeleteButton}
-            >
-              <Deleteicon svgLeftSpace="10px" width="12px" height="12px" />
-            </Button>
+            // <Button
+            //   label={"Delete"}
+            //   className="p-button-danger btn-active-17  catalog-btn pimbtn"
+            //   onClick={() => confirmDeleteSelected(DELETE)}
+            //   disabled={isDisableDeleteButton}
+            // >
+            //   <Deleteicon svgLeftSpace="10px" width="12px" height="12px" />
+            // </Button>
           }
-        />
+        /> */}
         {/* <PimerceAuth
           componentId={"41"}
           componentType="button"
@@ -738,7 +738,7 @@ function Skulist(props) {
   const buttonTemplateForSyndicate = () => {
     return (
       <React.Fragment>
-            <Button
+            {/* <Button
               // label={deleteButtonLabel}
               className="p-button-danger btn-active-17  catalog-btn pimbtn"
               style={{ display: 'block' }}
@@ -760,7 +760,7 @@ function Skulist(props) {
               disabled={!exportProductSkuIds.length}
             >
              Validate Products
-            </Button>
+            </Button> */}
       </React.Fragment>
     )
   }
@@ -837,7 +837,7 @@ function Skulist(props) {
         <div className="dataview-mulitsort mr-3 export-product-sku">
           <DropdownButton title={<img src={multiSelect} className="dataview-mulitsort-icon" />}>
             <div className="dataview-multisort-effect-attributes">
-              <Button
+              {/* <Button
                 type="button"
                 label="Export Products"
                 icon=""
@@ -845,7 +845,7 @@ function Skulist(props) {
                 className="p-button-icon asset-dataview btn-active-17 attr-pimbtn exportexcel"
                 // onClick={() => { exportProductSku() }}
                 disabled={isExportProductSkuDisable}
-              />
+              /> */}
             </div>
           </DropdownButton>
         </div>
@@ -862,7 +862,7 @@ function Skulist(props) {
      <React.Fragment>
        {delistCheck ? (
          <div className="badge-container badge-flex-style">
-           <Tag value={status} severity={"danger"}/>
+           {/* <Tag value={status} severity={"danger"}/> */}
          </div>
        ) : null}
      </React.Fragment>
@@ -906,7 +906,7 @@ function Skulist(props) {
 
   return (
     <div>
-      <Toast ref={toast} />
+      {/* <Toast ref={toast} /> */}
       <ToastModal
         show={isToastMsg}
         title={toastHeading}

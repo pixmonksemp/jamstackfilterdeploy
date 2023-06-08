@@ -3,7 +3,7 @@ import PendingIcon from "../../../common/icons/pendingicon"
 import { COLUMN_RESIZE_MODE, GRID_SIZE, SCROLL_HEIGHT, SCROLL_WIDTH } from '../../../common/common-constants'
 import { getPendingApproval } from "../../../common/master-data"
 import { connect } from "react-redux"
-import PimerceDataTable from '../../data-table/data-table'
+// import PimerceDataTable from '../../data-table/data-table'
 import "./style.scss"
 import Plusicon from '../../../common/icons/plusicon'
 import Approveicon from '../../../common/icons/approveicon'
@@ -14,7 +14,7 @@ import CompareIcon from '../../../assets/compareIcon.svg'
 import DataTableRejectIcon from '../../../assets/dataTableRejectIcon.svg'
 import DataTableApproveIcon from '../../../assets/dataTableApproveIcon.svg'
 import WorkflowDetailsnavIcon from '../../../assets/workflowDetailsnavIcon.svg'
-import { Button } from "primereact/button"
+// import { Button } from "primereact/button"
 import { Card, Spinner } from 'react-bootstrap'
 
 const mapStateToProps = (state) => {
@@ -258,7 +258,7 @@ const mapStateToProps = (state) => {
         </Card>
       ):(
         <>
-      <PimerceDataTable
+      {/* <PimerceDataTable
         isHeaderButtonVisible={true}
         columnData={gridColumn}
         data={pendingApprovalWorkflowList}
@@ -297,7 +297,7 @@ const mapStateToProps = (state) => {
         gridSize={GRID_SIZE}
         isPopupCancelBtn={false}
         gridHeader="WorkFlow History"
-      />
+      /> */}
       </>)}
       </div>
       

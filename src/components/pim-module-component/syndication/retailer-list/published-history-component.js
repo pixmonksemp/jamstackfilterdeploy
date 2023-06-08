@@ -176,7 +176,7 @@ function PublishedHistory(props) {
          <PublishHistoryIcon/> {"Publishing History"}
         </h5>
       </div>
-      <PimerceDataTable
+      {/* <PimerceDataTable
         isHeaderButtonVisible={true}
         columnData={gridColumn}
         data={gridData}
@@ -196,7 +196,7 @@ function PublishedHistory(props) {
         isPopupCancelBtn={false}
         isLoader={isLoader}
         isGridCheckBox={true}
-      />
+      /> */}
 
       <ToastModal
         show={isToastMsg}

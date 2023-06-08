@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
-import { Button } from "primereact/button"
-import { Tooltip } from 'primereact/tooltip';
+// import { Button } from "primereact/button"
+// import { Tooltip } from 'primereact/tooltip';
 const ScrollButton = () =>{
 
 const [visible, setVisible] = useState(false)
@@ -27,15 +27,16 @@ const scrollToTop = () =>{
 window.addEventListener('scroll', toggleVisible);
 
 return (
-	<Button
-    className="p-button-text scroll-top-btn"
-    onClick={() => scrollToTop()}
-    style={{display: visible ? 'inline' : 'none'}}
-	tooltip="Go to top" 
-	placeholder="Left"  tooltipOptions={{position: 'left'}}
-    >
-     <i className="pi pi-arrow-up"></i>
-  </Button>
+	"hi"
+// 	<Button
+//     className="p-button-text scroll-top-btn"
+//     onClick={() => scrollToTop()}
+//     style={{display: visible ? 'inline' : 'none'}}
+// 	tooltip="Go to top" 
+// 	placeholder="Left"  tooltipOptions={{position: 'left'}}
+//     >
+//      <i className="pi pi-arrow-up"></i>
+//   </Button>
 );
 }
 

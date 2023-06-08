@@ -2,7 +2,7 @@
 
 import axios from 'axios'
 import { COMMON_URL } from '../common/common-api-constants'
-import { ToastContainer, toast } from 'react-toastify'
+// import { ToastContainer, toast } from 'react-toastify'
 import store from '../../store/index'
 
 export const GET_SEARCH_DASHBOARD = 'GET_SEARCH_DASHBOARD'

@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from "react"
 import { Col, Row } from "react-bootstrap"
-import { DataTable } from "primereact/datatable"
-import { Column } from "primereact/column"
-import { Button } from "primereact/button"
-import { Dropdown } from "primereact/dropdown"
+// import { DataTable } from "primereact/datatable"
+// import { Column } from "primereact/column"
+// import { Button } from "primereact/button"
+// import { Dropdown } from "primereact/dropdown"
 import "./style.scss"
 import i18n from "../../translate/i18n"
 
@@ -19,7 +19,7 @@ const AttributeMap = (props) => {
   const footer = (
     <>
       <div className="d-flex flex-row-reverse">
-        <div className="adjust-import-next-button">
+        {/* <div className="adjust-import-next-button">
           <Button
             label={i18n.t("importdata.next")}
             onClick={() => {
@@ -34,7 +34,7 @@ const AttributeMap = (props) => {
             }}
             label={i18n.t("importdata.cancel")}
           />
-        </div>
+        </div> */}
       </div>
     </>
   )
@@ -108,7 +108,7 @@ const AttributeMap = (props) => {
     <>
       <Row className="map-field-table-header">
         <Col className="px-4">
-          <DataTable
+          {/* <DataTable
             value={props.attrValue}
             header={header}
             footer={footer}
@@ -121,7 +121,7 @@ const AttributeMap = (props) => {
               header="Attribute (System)"
               body={attrSystemTemplate}
             ></Column>
-          </DataTable>
+          </DataTable> */}
         </Col>
       </Row>
     </>

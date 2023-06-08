@@ -159,7 +159,7 @@ function readinessHistory(props) {
           <ReadinessHistoryIcon/> {"Readiness History"}
         </h5>
       </div>
-      <PimerceDataTable
+      {/* <PimerceDataTable
         isHeaderButtonVisible={true}
         columnData={gridColumn}
         data={gridData}
@@ -178,7 +178,7 @@ function readinessHistory(props) {
         isPopupCancelBtn={false}
         isLoader={isLoader}
         isGridCheckBox={true}
-      />
+      /> */}
 
       <ToastModal
         show={isToastMsg}

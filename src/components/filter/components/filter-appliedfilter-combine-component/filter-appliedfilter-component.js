@@ -11,7 +11,7 @@ import {
    SUPPORT_LINK,
    SUPPORT_TEXT,
 } from '../../common/common-constants'
-import DatePickerController from '../date-picker/datePickerController'
+// import DatePickerController from '../date-picker/datePickerController'
 import ToolTip from '../tooltip/tooltip'
 
 let isLoggedIn
@@ -466,7 +466,7 @@ class FilterAndAppliedFilter extends Component {
                   </>
                ) : (
                   <div class="col align-self-end date-picker-div-style">
-                     <DatePickerController
+                     {/* <DatePickerController
                         className={this.props.className}
                         onChange={this.props.handleOnlyDateFilterChange}
                         selectTodayButton={CLOSE}
@@ -486,7 +486,7 @@ class FilterAndAppliedFilter extends Component {
                         isDateLabelNeeded = {true}
                         datePickerInputTextClassname = 'grid-date'
                         datePickerDropButton = {this.props.datePickerDropButton}
-                     />
+                     /> */}
                   </div>
                )}
             </Row>

@@ -4,7 +4,7 @@ import HeaderContext from "../common/header-context"
 import ProtectedRoute from '../protected-route'
 import Login from '../container/pim-module-container/login-container/login-container'
 import RetailersCategoryMapper from '../container/pim-module-container/retailers-category-mapper-container/retailers-category-mapper-container'
-
+import skulist  from  "../container/pim-module-container/skulist-container/skulist-container"
 import ResetPassword from '../container/pim-module-container/reset-password-container/reset-password-container'
 import ForgotPassword from '../container/pim-module-container/forgot-password-container/forgot-password-container'
 import PageBaseLayout from '../pages/pagelayout/page-base-layout'

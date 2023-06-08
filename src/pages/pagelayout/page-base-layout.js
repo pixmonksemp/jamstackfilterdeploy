@@ -7,17 +7,17 @@ import ImportCancel from "../../assets/import-cancel.svg"
 import { componentBaseStructure } from './page-layout-constant'
 import '../../components/top-menu/styles.scss'
 import IdleTimer from 'react-idle-timer'
-import { Dock } from 'react-dock'
+// import { Dock } from 'react-dock'
 import { Button, Col, Row, Modal } from 'react-bootstrap'
 import ModalComponent from '../../components/modal'
 import DashboardPage from '../../pages/pim-module-pages/skulist-page/skulist-page'
 import i18n from '../../translate/i18n'
-import AssetListPage from "../../pages/pim-module-pages/assetlist-page/assetlist-page";
+// import AssetListPage from "../../pages/pim-module-pages/assetlist-page/assetlist-page";
 // import DockImportData from '../../components/pim-module-component/dock-import-data/dock-import-data'
 // import DockAssetImportData from '../../components/pim-module-component/dock-import-data/dock-asset-import-data'
 import "./style.scss"
 // import { resetUppy } from '../../components/file-uploader/FileUploader'
-import ScrollButton from "../../common/scroll-to-top"
+// import ScrollButton from "../../common/scroll-to-top"
 class PageBaseLayout extends Component {
 	constructor(props) {
 		const userDetails = sessionStorage.getItem(
@@ -29,8 +29,8 @@ class PageBaseLayout extends Component {
 		this.state = {
 			isSideMenuToggle: false,
 			menuSlide: false,
-			componentName: props && props.location && props.location.pathname == '/assetList' ? 'assetList' : 'skulist',
-			component: props && props.location && props.location.pathname == '/assetList' ? AssetListPage : DashboardPage,
+			componentName: 'skulist',
+			component:  DashboardPage,
 			timeout: 1000 * 60 * 180,
 			showModal: false,
 			userLoggedIn: false,
@@ -381,7 +381,7 @@ class PageBaseLayout extends Component {
 						</div>
 					)} */}
 				</div>
-				<ScrollButton />
+				{/* <ScrollButton /> */}
 				<Footer />
 			</>
 		)

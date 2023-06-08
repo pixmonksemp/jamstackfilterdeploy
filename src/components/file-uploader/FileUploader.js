@@ -5,9 +5,9 @@ import './UppyCoreStyle.scss'
 // import '@uppy/core/dist/style.css'
 // import '@uppy/dashboard/dist/style.css'
 import React, { useEffect, useState } from 'react'
-import { Dialog } from 'primereact/dialog'
-import { InputText } from 'primereact/inputtext'
-import { Button } from 'primereact/button'
+// import { Dialog } from 'primereact/dialog'
+// import { InputText } from 'primereact/inputtext'
+// import { Button } from 'primereact/button'
 import i18n from '../../translate/i18n'
 import { COMPANION_URL, LOCAL_COMPUTER, XHR_UPLOAD_URL } from '../../common/common-constants'
 import ModalComponent from '../modal'
@@ -221,14 +221,14 @@ function FileUploader(props) {
         e.preventDefault()
     }}>
         <div className='p-field p-col-12 fileNameStyle'>
-            <InputText className={'p-col-12'} onChange={(e) => { setEditedName(e.target.value) }} value={editedName} type='text' />
+            {/* <InputText className={'p-col-12'} onChange={(e) => { setEditedName(e.target.value) }} value={editedName} type='text' />
             <div className='errorMsg'>
             {!editedName.trim() ? i18n.t('validationMessage.fieldIsRequired') : editedName.trim().length > 50 ? i18n.t('validationMessage.length') : null} </div>
             <Button 
             type='submit' 
             className='file-name-submit'
             disabled={!editedName.trim() || editedName.trim().length > 50} >
-                 {i18n.t('fileuploader.save')}</Button>
+                 {i18n.t('fileuploader.save')}</Button> */}
         </div>
     </form>
 
