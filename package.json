@@ -1,12 +1,12 @@
 {
-	"name": "pimerce",
+	"name": "filterjamstack",
 	"version": "1.0.0",
 	"description": "",
 	"main": "index.js",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1",
-		"start": "webpack-dev-server --open --mode development",
-		"build": "webpack --mode production",
+		"start": "react-scripts start",
+		"build": "set \"CI=false\" && react-scripts build",
 		"pre-commit": "lint-staged",
 		"lint": "eslint src/**/*.js"
 	},
